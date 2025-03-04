@@ -32,6 +32,9 @@
     <property name="scaledContents">
      <bool>true</bool>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -108,7 +111,7 @@ border-radius: 10;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="lineEditUsername">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -126,7 +129,7 @@ padding: 5px;</string>
      <string> Enter your username</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="lineEditPassword">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -147,7 +150,7 @@ padding: 5px;</string>
      <string>Enter your password</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButtonLogin">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -189,7 +192,7 @@ border-radius: 20</string>
      </font>
     </property>
     <property name="text">
-     <string>Admin</string>
+     <string>Employee</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -237,11 +240,11 @@ border-radius: 20</string>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>label_3</zorder>
-   <zorder>lineEdit</zorder>
+   <zorder>lineEditUsername</zorder>
    <zorder>label_4</zorder>
-   <zorder>lineEdit_2</zorder>
+   <zorder>lineEditPassword</zorder>
    <zorder>label_5</zorder>
-   <zorder>pushButton</zorder>
+   <zorder>pushButtonLogin</zorder>
    <zorder>label_6</zorder>
    <zorder>label_7</zorder>
    <zorder>label_9</zorder>
