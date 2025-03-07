@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1633</width>
+    <height>854</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Employee</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/Phuong Nhi/Downloads/teddy-bear.png</normaloff>C:/Users/Phuong Nhi/Downloads/teddy-bear.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(110, 88, 165);</string>
+    </property>
+    <property name="text">
+     <string>ADMIN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLogout">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(248, 207, 239);
+border-radius: 20</string>
+    </property>
+    <property name="text">
+     <string>Logout</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../images/log-out.png</normaloff>../images/log-out.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>50</y>
+      <width>611</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>30</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(247, 79, 164);</string>
+    </property>
+    <property name="text">
+     <string>Add Employee</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>1591</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20; background: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1631</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/profile.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timelabel">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>60</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditEmployeeName">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
+border-color: rgb(211, 211, 211);
+padding: 5px;</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>210</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string>Employee Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string>Contact No. :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>440</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string>Personal Identification No. :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditContactNo">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>370</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
+border-color: rgb(211, 211, 211);
+padding: 5px;</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditCCCDNo">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>500</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
+border-color: rgb(211, 211, 211);
+padding: 5px;</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonAdd">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>690</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(248, 207, 239);
+border-radius: 20</string>
+    </property>
+    <property name="text">
+     <string>ADD</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/Phuong Nhi/Downloads/add (2).png</normaloff>C:/Users/Phuong Nhi/Downloads/add (2).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonClear">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>690</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(248, 207, 239);
+border-radius: 20</string>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>320</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string>Adress:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>440</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string>Password:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>210</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string>Designation:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditAdress">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>370</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
+border-color: rgb(211, 211, 211);
+padding: 5px;</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPassword">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>500</y>
+      <width>641</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: none;
+border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
+border-color: rgb(211, 211, 211);
+padding: 5px;</string>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxDesignation">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>251</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Store Manager</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/profile.png</normaloff>../images/profile.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Accountant</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/profile.png</normaloff>../images/profile.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>System Administrator (IT Manager)</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/profile.png</normaloff>../images/profile.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Employee</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/profile.png</normaloff>../images/profile.png</iconset>
+     </property>
+    </item>
+   </widget>
+   <zorder>label_6</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>pushButtonLogout</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_7</zorder>
+   <zorder>timelabel</zorder>
+   <zorder>lineEditEmployeeName</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_8</zorder>
+   <zorder>lineEditContactNo</zorder>
+   <zorder>lineEditCCCDNo</zorder>
+   <zorder>pushButtonAdd</zorder>
+   <zorder>pushButtonClear</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>lineEditAdress</zorder>
+   <zorder>lineEditPassword</zorder>
+   <zorder>comboBoxDesignation</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

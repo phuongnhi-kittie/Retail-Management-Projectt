@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Login Admin</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/Phuong Nhi/Downloads/teddy-bear.png</normaloff>C:/Users/Phuong Nhi/Downloads/teddy-bear.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -68,6 +72,9 @@ border-radius: 10;</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(103, 97, 172);</string>
     </property>
     <property name="text">
      <string>Login</string>
@@ -154,22 +161,39 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>640</x>
-      <y>510</y>
+      <y>590</y>
       <width>411</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>18</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(248, 207, 239);
-border-radius: 20</string>
+     <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+    border-radius: 20px;
+	background-color: rgb(248, 207, 239);
+    padding: 10px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #ff85c0;
+}
+
+QPushButton:pressed {
+    background-color: #d14789;
+}
+
+QPushButton {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */
+}
+</string>
     </property>
     <property name="text">
      <string>LOGIN</string>
@@ -186,10 +210,14 @@ border-radius: 20</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
+      <italic>true</italic>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(98, 104, 177);</string>
     </property>
     <property name="text">
      <string>Admin</string>
@@ -240,7 +268,7 @@ border-radius: 20</string>
    <widget class="QPushButton" name="pushButtonBack">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>20</x>
       <y>20</y>
       <width>141</width>
       <height>71</height>
@@ -249,6 +277,11 @@ border-radius: 20</string>
     <property name="font">
      <font>
       <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+      <strikeout>false</strikeout>
      </font>
     </property>
     <property name="styleSheet">
@@ -258,11 +291,11 @@ border-radius: 10
 </string>
     </property>
     <property name="text">
-     <string/>
+     <string>BACK</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/Phuong Nhi/Downloads/next-button.png</normaloff>C:/Users/Phuong Nhi/Downloads/next-button.png</iconset>
+      <normaloff>C:/Users/Phuong Nhi/Downloads/back.png</normaloff>C:/Users/Phuong Nhi/Downloads/back.png</iconset>
     </property>
     <property name="iconSize">
      <size>
