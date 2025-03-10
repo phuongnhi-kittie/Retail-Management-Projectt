@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(10, 0, 1691, 841))
+        self.label.setGeometry(QtCore.QRect(0, 0, 1701, 841))
         font = QtGui.QFont()
         font.setBold(False)
         font.setItalic(False)
@@ -72,15 +72,32 @@ class Ui_MainWindow(object):
         self.lineEditPassword.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.lineEditPassword.setObjectName("lineEditPassword")
         self.pushButtonLogin = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonLogin.setGeometry(QtCore.QRect(640, 500, 411, 51))
+        self.pushButtonLogin.setGeometry(QtCore.QRect(640, 610, 411, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(18)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonLogin.setFont(font)
-        self.pushButtonLogin.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonLogin.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
         self.pushButtonLogin.setObjectName("pushButtonLogin")
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(760, 70, 161, 41))

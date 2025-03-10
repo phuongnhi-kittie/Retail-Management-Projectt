@@ -29,13 +29,30 @@ class Ui_MainWindow(object):
         self.pushButtonLogout = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButtonLogout.setGeometry(QtCore.QRect(70, 80, 121, 41))
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonLogout.setFont(font)
-        self.pushButtonLogout.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonLogout.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("D:\\Retail-Management-Project\\ui\\../images/log-out.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonLogout.setIcon(icon1)
@@ -148,9 +165,26 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonAdd.setFont(font)
-        self.pushButtonAdd.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonAdd.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
         icon2 = QtGui.QIcon()
         icon2.addPixmap(QtGui.QPixmap("C:/Users/Phuong Nhi/Downloads/add (2).png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonAdd.setIcon(icon2)
@@ -163,9 +197,26 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonClear.setFont(font)
-        self.pushButtonClear.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonClear.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
         icon3 = QtGui.QIcon()
         icon3.addPixmap(QtGui.QPixmap("C:/Users/Phuong Nhi/Downloads/eraser.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonClear.setIcon(icon3)

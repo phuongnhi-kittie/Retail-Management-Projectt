@@ -29,13 +29,30 @@ class Ui_MainWindow(object):
         self.pushButtonLogout = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButtonLogout.setGeometry(QtCore.QRect(70, 80, 121, 41))
         font = QtGui.QFont()
-        font.setPointSize(12)
+        font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonLogout.setFont(font)
-        self.pushButtonLogout.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonLogout.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap("D:\\Retail-Management-Project\\ui\\../images/log-out.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonLogout.setIcon(icon1)
@@ -60,25 +77,47 @@ class Ui_MainWindow(object):
         self.label_3.setGeometry(QtCore.QRect(20, 40, 131, 31))
         font = QtGui.QFont()
         font.setPointSize(10)
+        font.setUnderline(True)
         self.label_3.setFont(font)
         self.label_3.setStyleSheet("")
         self.label_3.setObjectName("label_3")
         self.pushButtonSearch = QtWidgets.QPushButton(parent=self.groupBoxMenu)
-        self.pushButtonSearch.setGeometry(QtCore.QRect(270, 70, 111, 41))
+        self.pushButtonSearch.setGeometry(QtCore.QRect(270, 70, 121, 41))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonSearch.setFont(font)
-        self.pushButtonSearch.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonSearch.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap("C:/Users/Phuong Nhi/Downloads/search (1).png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonSearch.setIcon(icon2)
+        self.pushButtonSearch.setIconSize(QtCore.QSize(25, 25))
         self.pushButtonSearch.setObjectName("pushButtonSearch")
         self.lineEditProductID = QtWidgets.QLineEdit(parent=self.groupBoxMenu)
         self.lineEditProductID.setGeometry(QtCore.QRect(30, 80, 231, 31))
         font = QtGui.QFont()
         font.setPointSize(10)
-        font.setItalic(True)
+        font.setItalic(False)
         self.lineEditProductID.setFont(font)
         self.lineEditProductID.setStyleSheet("border: none;\n"
 "border-bottom: 2px solid black; /* Điều chỉnh độ dày và màu của viền dưới */\n"
@@ -89,54 +128,136 @@ class Ui_MainWindow(object):
         self.label_4.setGeometry(QtCore.QRect(20, 140, 281, 31))
         font = QtGui.QFont()
         font.setPointSize(10)
+        font.setUnderline(True)
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
         self.pushButtonAddProduct = QtWidgets.QPushButton(parent=self.groupBoxMenu)
         self.pushButtonAddProduct.setGeometry(QtCore.QRect(30, 180, 331, 41))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonAddProduct.setFont(font)
-        self.pushButtonAddProduct.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonAddProduct.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"\n"
+"")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("C:/Users/Phuong Nhi/Downloads/add (2).png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonAddProduct.setIcon(icon3)
+        self.pushButtonAddProduct.setIconSize(QtCore.QSize(25, 25))
         self.pushButtonAddProduct.setObjectName("pushButtonAddProduct")
         self.pushButtonUpdateProduct = QtWidgets.QPushButton(parent=self.groupBoxMenu)
         self.pushButtonUpdateProduct.setGeometry(QtCore.QRect(30, 250, 331, 41))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonUpdateProduct.setFont(font)
-        self.pushButtonUpdateProduct.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonUpdateProduct.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("C:/Users/Phuong Nhi/Downloads/backup-data.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonUpdateProduct.setIcon(icon4)
+        self.pushButtonUpdateProduct.setIconSize(QtCore.QSize(25, 25))
         self.pushButtonUpdateProduct.setObjectName("pushButtonUpdateProduct")
         self.pushButtonDeleteProduct = QtWidgets.QPushButton(parent=self.groupBoxMenu)
         self.pushButtonDeleteProduct.setGeometry(QtCore.QRect(30, 320, 331, 41))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonDeleteProduct.setFont(font)
-        self.pushButtonDeleteProduct.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
+        self.pushButtonDeleteProduct.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap("C:/Users/Phuong Nhi/Downloads/eraser.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonDeleteProduct.setIcon(icon5)
+        self.pushButtonDeleteProduct.setIconSize(QtCore.QSize(25, 25))
         self.pushButtonDeleteProduct.setObjectName("pushButtonDeleteProduct")
         self.pushButtonExit = QtWidgets.QPushButton(parent=self.groupBoxMenu)
         self.pushButtonExit.setGeometry(QtCore.QRect(140, 550, 111, 41))
         font = QtGui.QFont()
-        font.setPointSize(14)
+        font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.pushButtonExit.setFont(font)
-        self.pushButtonExit.setStyleSheet("color: rgb(255, 255, 255);\n"
-"background-color: rgb(248, 207, 239);\n"
-"border-radius: 20")
-        icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("D:\\Retail-Management-Project\\ui\\../images/close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButtonExit.setIcon(icon2)
+        self.pushButtonExit.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap("D:\\Retail-Management-Project\\ui\\../images/close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonExit.setIcon(icon6)
         self.pushButtonExit.setIconSize(QtCore.QSize(25, 25))
         self.pushButtonExit.setObjectName("pushButtonExit")
         self.label_5 = QtWidgets.QLabel(parent=self.centralwidget)
