@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1691</width>
-    <height>863</height>
+    <width>1542</width>
+    <height>775</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,8 +26,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1691</width>
-      <height>861</height>
+      <width>1531</width>
+      <height>771</height>
      </rect>
     </property>
     <property name="text">
@@ -43,10 +43,10 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>40</x>
       <y>40</y>
-      <width>1541</width>
-      <height>781</height>
+      <width>1441</width>
+      <height>701</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -60,22 +60,23 @@ border-radius: 50</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>570</x>
+      <x>510</x>
       <y>120</y>
-      <width>621</width>
+      <width>501</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Imprint MT Shadow</family>
-      <pointsize>42</pointsize>
+      <pointsize>40</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color: rgb(255, 255, 255);
+font: bold 40pt &quot;Imprint MT Shadow&quot;;</string>
     </property>
     <property name="text">
      <string>ADMIN MODE</string>
@@ -84,8 +85,8 @@ border-radius: 50</string>
    <widget class="QPushButton" name="pushButtonInventory">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>370</y>
+      <x>190</x>
+      <y>340</y>
       <width>271</width>
       <height>231</height>
      </rect>
@@ -130,8 +131,8 @@ QPushButton {
    <widget class="QPushButton" name="pushButtonEmployees">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>370</y>
+      <x>630</x>
+      <y>340</y>
       <width>271</width>
       <height>231</height>
      </rect>
@@ -176,8 +177,8 @@ QPushButton {
    <widget class="QPushButton" name="pushButtonInvoices">
     <property name="geometry">
      <rect>
-      <x>1180</x>
-      <y>370</y>
+      <x>1070</x>
+      <y>340</y>
       <width>271</width>
       <height>231</height>
      </rect>
@@ -222,8 +223,8 @@ QPushButton {
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>520</y>
+      <x>250</x>
+      <y>490</y>
       <width>171</width>
       <height>41</height>
      </rect>
@@ -246,8 +247,8 @@ QPushButton {
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>520</y>
+      <x>690</x>
+      <y>490</y>
       <width>171</width>
       <height>41</height>
      </rect>
@@ -270,8 +271,8 @@ QPushButton {
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>1260</x>
-      <y>520</y>
+      <x>1150</x>
+      <y>490</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -294,8 +295,8 @@ QPushButton {
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>430</y>
+      <x>280</x>
+      <y>400</y>
       <width>91</width>
       <height>81</height>
      </rect>
@@ -313,8 +314,8 @@ QPushButton {
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>830</x>
-      <y>430</y>
+      <x>720</x>
+      <y>400</y>
       <width>91</width>
       <height>81</height>
      </rect>
@@ -332,8 +333,8 @@ QPushButton {
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>1280</x>
-      <y>410</y>
+      <x>1170</x>
+      <y>380</y>
       <width>91</width>
       <height>101</height>
      </rect>

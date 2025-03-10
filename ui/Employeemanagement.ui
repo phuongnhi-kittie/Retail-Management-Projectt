@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1632</width>
-    <height>841</height>
+    <width>1530</width>
+    <height>772</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -91,25 +91,29 @@ QPushButton {
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>430</x>
       <y>30</y>
-      <width>611</width>
+      <width>651</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>MS Shell Dlg 2</family>
-      <pointsize>30</pointsize>
+      <pointsize>28</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(104, 96, 171);</string>
+     <string notr="true">color: rgb(104, 96, 171);
+font: bold 28pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Employee Management</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBoxMenu">
@@ -118,12 +122,12 @@ QPushButton {
       <x>50</x>
       <y>160</y>
       <width>401</width>
-      <height>621</height>
+      <height>531</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="title">
@@ -154,15 +158,15 @@ QPushButton {
     <widget class="QPushButton" name="pushButtonSearch">
      <property name="geometry">
       <rect>
-       <x>270</x>
+       <x>230</x>
        <y>70</y>
-       <width>121</width>
+       <width>111</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -208,7 +212,7 @@ QPushButton {
       <rect>
        <x>30</x>
        <y>80</y>
-       <width>231</width>
+       <width>191</width>
        <height>31</height>
       </rect>
      </property>
@@ -257,7 +261,7 @@ padding: 5px;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -309,7 +313,7 @@ QPushButton {
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -361,7 +365,7 @@ QPushButton {
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -405,15 +409,15 @@ QPushButton {
     <widget class="QPushButton" name="pushButtonExit">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>550</y>
+       <x>130</x>
+       <y>440</y>
        <width>111</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -460,9 +464,14 @@ QPushButton {
      <rect>
       <x>500</x>
       <y>170</y>
-      <width>1081</width>
-      <height>601</height>
+      <width>991</width>
+      <height>521</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
     </property>
     <row>
      <property name="text">
@@ -595,8 +604,8 @@ QPushButton {
      <rect>
       <x>20</x>
       <y>30</y>
-      <width>1591</width>
-      <height>781</height>
+      <width>1491</width>
+      <height>701</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -611,8 +620,8 @@ QPushButton {
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1631</width>
-      <height>851</height>
+      <width>1531</width>
+      <height>771</height>
      </rect>
     </property>
     <property name="text">

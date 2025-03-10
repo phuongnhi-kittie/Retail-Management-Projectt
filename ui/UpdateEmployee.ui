@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1633</width>
-    <height>854</height>
+    <width>1487</width>
+    <height>772</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -92,22 +92,23 @@ QPushButton {
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>390</x>
       <y>50</y>
-      <width>611</width>
+      <width>651</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>MS Shell Dlg 2</family>
-      <pointsize>30</pointsize>
+      <pointsize>28</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(247, 79, 164);</string>
+     <string notr="true">color: rgb(247, 79, 164);
+font: bold 28pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Update Employee</string>
@@ -121,8 +122,8 @@ QPushButton {
      <rect>
       <x>20</x>
       <y>30</y>
-      <width>1591</width>
-      <height>791</height>
+      <width>1431</width>
+      <height>701</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -137,8 +138,8 @@ QPushButton {
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1631</width>
-      <height>861</height>
+      <width>1491</width>
+      <height>771</height>
      </rect>
     </property>
     <property name="text">
@@ -198,7 +199,7 @@ QPushButton {
      <rect>
       <x>80</x>
       <y>260</y>
-      <width>641</width>
+      <width>571</width>
       <height>31</height>
      </rect>
     </property>
@@ -292,7 +293,7 @@ padding: 5px;</string>
      <rect>
       <x>80</x>
       <y>370</y>
-      <width>641</width>
+      <width>571</width>
       <height>31</height>
      </rect>
     </property>
@@ -317,7 +318,7 @@ padding: 5px;</string>
      <rect>
       <x>80</x>
       <y>500</y>
-      <width>641</width>
+      <width>581</width>
       <height>31</height>
      </rect>
     </property>
@@ -340,9 +341,9 @@ padding: 5px;</string>
    <widget class="QPushButton" name="pushButtonAdd">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>690</y>
-      <width>151</width>
+      <x>510</x>
+      <y>590</y>
+      <width>171</width>
       <height>41</height>
      </rect>
     </property>
@@ -392,9 +393,9 @@ QPushButton {
    <widget class="QPushButton" name="pushButtonClear">
     <property name="geometry">
      <rect>
-      <x>850</x>
-      <y>690</y>
-      <width>131</width>
+      <x>770</x>
+      <y>590</y>
+      <width>161</width>
       <height>41</height>
      </rect>
     </property>
@@ -444,7 +445,7 @@ QPushButton {
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>770</x>
       <y>320</y>
       <width>211</width>
       <height>41</height>
@@ -466,7 +467,7 @@ QPushButton {
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>770</x>
       <y>440</y>
       <width>211</width>
       <height>41</height>
@@ -488,7 +489,7 @@ QPushButton {
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>770</x>
       <y>210</y>
       <width>211</width>
       <height>41</height>
@@ -510,9 +511,9 @@ QPushButton {
    <widget class="QLineEdit" name="lineEditAdress">
     <property name="geometry">
      <rect>
-      <x>890</x>
+      <x>790</x>
       <y>370</y>
-      <width>641</width>
+      <width>571</width>
       <height>31</height>
      </rect>
     </property>
@@ -535,9 +536,9 @@ padding: 5px;</string>
    <widget class="QLineEdit" name="lineEditPassword">
     <property name="geometry">
      <rect>
-      <x>890</x>
+      <x>790</x>
       <y>500</y>
-      <width>641</width>
+      <width>581</width>
       <height>31</height>
      </rect>
     </property>
@@ -560,9 +561,9 @@ padding: 5px;</string>
    <widget class="QComboBox" name="comboBoxDesignation">
     <property name="geometry">
      <rect>
-      <x>880</x>
+      <x>780</x>
       <y>251</y>
-      <width>651</width>
+      <width>571</width>
       <height>41</height>
      </rect>
     </property>

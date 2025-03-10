@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1679</width>
-    <height>835</height>
+    <width>1521</width>
+    <height>773</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1691</width>
-      <height>841</height>
+      <width>1521</width>
+      <height>771</height>
      </rect>
     </property>
     <property name="text">
@@ -40,10 +40,10 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>600</x>
-      <y>30</y>
+      <x>530</x>
+      <y>50</y>
       <width>481</width>
-      <height>781</height>
+      <height>671</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -60,21 +60,24 @@ border-radius: 10;</string>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>800</x>
-      <y>90</y>
-      <width>161</width>
+      <x>730</x>
+      <y>110</y>
+      <width>121</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
+      <family>22pt MS Shell Dlg 2</family>
       <pointsize>22</pointsize>
       <weight>75</weight>
+      <italic>false</italic>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(103, 97, 172);</string>
+     <string notr="true">color: rgb(103, 97, 172);
+font: bold  underline  22pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Login</string>
@@ -83,8 +86,8 @@ border-radius: 10;</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>240</y>
+      <x>550</x>
+      <y>260</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -102,8 +105,8 @@ border-radius: 10;</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>340</y>
+      <x>550</x>
+      <y>360</y>
       <width>31</width>
       <height>31</height>
      </rect>
@@ -121,8 +124,8 @@ border-radius: 10;</string>
    <widget class="QLineEdit" name="lineEditUsername">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>220</y>
+      <x>600</x>
+      <y>240</y>
       <width>371</width>
       <height>51</height>
      </rect>
@@ -139,8 +142,8 @@ padding: 5px;</string>
    <widget class="QLineEdit" name="lineEditPassword">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>330</y>
+      <x>600</x>
+      <y>350</y>
       <width>371</width>
       <height>51</height>
      </rect>
@@ -160,8 +163,8 @@ padding: 5px;</string>
    <widget class="QPushButton" name="pushButtonLogin">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>590</y>
+      <x>570</x>
+      <y>550</y>
       <width>411</width>
       <height>51</height>
      </rect>
@@ -202,8 +205,8 @@ QPushButton {
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>60</y>
+      <x>700</x>
+      <y>80</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -217,7 +220,8 @@ QPushButton {
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(98, 104, 177);</string>
+     <string notr="true">color: rgb(98, 104, 177);
+font: bold italic  11pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Admin</string>
@@ -226,8 +230,8 @@ QPushButton {
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>200</y>
+      <x>590</x>
+      <y>220</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -247,8 +251,8 @@ QPushButton {
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>300</y>
+      <x>590</x>
+      <y>320</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -276,16 +280,17 @@ QPushButton {
     </property>
     <property name="font">
      <font>
+      <family>10pt MS Shell Dlg 2</family>
       <pointsize>10</pointsize>
       <weight>75</weight>
       <italic>true</italic>
       <bold>true</bold>
       <underline>true</underline>
-      <strikeout>false</strikeout>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
+font: bold italic underline  10pt &quot;MS Shell Dlg 2&quot;;
 background-color: rgba(248, 207, 239,0);
 border-radius: 10
 </string>

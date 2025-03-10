@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1631</width>
-    <height>854</height>
+    <width>1478</width>
+    <height>795</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -91,16 +91,16 @@ QPushButton {
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>50</y>
-      <width>611</width>
+      <x>400</x>
+      <y>60</y>
+      <width>641</width>
       <height>101</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>MS Shell Dlg 2</family>
-      <pointsize>30</pointsize>
+      <pointsize>28</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -120,8 +120,8 @@ QPushButton {
      <rect>
       <x>20</x>
       <y>30</y>
-      <width>1591</width>
-      <height>791</height>
+      <width>1431</width>
+      <height>731</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -136,8 +136,8 @@ QPushButton {
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1631</width>
-      <height>861</height>
+      <width>1481</width>
+      <height>801</height>
      </rect>
     </property>
     <property name="text">
@@ -196,8 +196,8 @@ QPushButton {
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>260</y>
-      <width>1451</width>
+      <y>230</y>
+      <width>1311</width>
       <height>31</height>
      </rect>
     </property>
@@ -221,7 +221,7 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>210</y>
+      <y>180</y>
       <width>211</width>
       <height>41</height>
      </rect>
@@ -246,7 +246,7 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>320</y>
+      <y>280</y>
       <width>211</width>
       <height>41</height>
      </rect>
@@ -268,7 +268,7 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>440</y>
+      <y>390</y>
       <width>211</width>
       <height>41</height>
      </rect>
@@ -290,7 +290,7 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>560</y>
+      <y>510</y>
       <width>211</width>
       <height>41</height>
      </rect>
@@ -312,8 +312,8 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>370</y>
-      <width>641</width>
+      <y>340</y>
+      <width>551</width>
       <height>31</height>
      </rect>
     </property>
@@ -337,8 +337,8 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>500</y>
-      <width>641</width>
+      <y>450</y>
+      <width>551</width>
       <height>31</height>
      </rect>
     </property>
@@ -362,8 +362,8 @@ padding: 5px;</string>
     <property name="geometry">
      <rect>
       <x>80</x>
-      <y>620</y>
-      <width>641</width>
+      <y>580</y>
+      <width>561</width>
       <height>31</height>
      </rect>
     </property>
@@ -386,8 +386,8 @@ padding: 5px;</string>
    <widget class="QPushButton" name="pushButtonAdd">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>720</y>
+      <x>550</x>
+      <y>650</y>
       <width>141</width>
       <height>41</height>
      </rect>
@@ -438,8 +438,8 @@ QPushButton {
    <widget class="QPushButton" name="pushButtonClear">
     <property name="geometry">
      <rect>
-      <x>840</x>
-      <y>720</y>
+      <x>770</x>
+      <y>650</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -490,9 +490,9 @@ QPushButton {
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>320</y>
-      <width>211</width>
+      <x>810</x>
+      <y>280</y>
+      <width>141</width>
       <height>41</height>
      </rect>
     </property>
@@ -512,9 +512,9 @@ QPushButton {
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>440</y>
-      <width>211</width>
+      <x>810</x>
+      <y>390</y>
+      <width>121</width>
       <height>41</height>
      </rect>
     </property>
@@ -534,9 +534,9 @@ QPushButton {
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>870</x>
-      <y>560</y>
-      <width>211</width>
+      <x>810</x>
+      <y>510</y>
+      <width>181</width>
       <height>41</height>
      </rect>
     </property>
@@ -556,9 +556,9 @@ QPushButton {
    <widget class="QLineEdit" name="lineEditSubCategory">
     <property name="geometry">
      <rect>
-      <x>890</x>
-      <y>370</y>
-      <width>641</width>
+      <x>810</x>
+      <y>340</y>
+      <width>581</width>
       <height>31</height>
      </rect>
     </property>
@@ -581,9 +581,9 @@ padding: 5px;</string>
    <widget class="QLineEdit" name="lineEditCostPrice">
     <property name="geometry">
      <rect>
-      <x>890</x>
-      <y>500</y>
-      <width>641</width>
+      <x>820</x>
+      <y>450</y>
+      <width>581</width>
       <height>31</height>
      </rect>
     </property>
@@ -606,9 +606,9 @@ padding: 5px;</string>
    <widget class="QLineEdit" name="lineEditVendorPhoneNo">
     <property name="geometry">
      <rect>
-      <x>890</x>
-      <y>620</y>
-      <width>641</width>
+      <x>820</x>
+      <y>580</y>
+      <width>591</width>
       <height>31</height>
      </rect>
     </property>
