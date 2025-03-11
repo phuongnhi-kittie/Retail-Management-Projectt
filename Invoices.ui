@@ -113,7 +113,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bill No. :</string>
+      <string>Bill No.:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_15">
@@ -131,7 +131,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Phone No. :</string>
+      <string>Phone No.:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_16">
@@ -358,167 +358,11 @@
       <string> Total:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="label_18">
-     <property name="geometry">
-      <rect>
-       <x>520</x>
-       <y>470</y>
-       <width>131</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Payment:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_19">
-     <property name="geometry">
-      <rect>
-       <x>520</x>
-       <y>440</y>
-       <width>141</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Discount:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_20">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>500</y>
-       <width>131</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Rest:</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEditTotal">
      <property name="geometry">
       <rect>
        <x>600</x>
        <y>400</y>
-       <width>251</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <italic>false</italic>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border: none;
-border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
-border-color: rgb(211, 211, 211);
-padding: 5px;
-color: rgb(247, 79, 164);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-     <property name="placeholderText">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEditDiscount">
-     <property name="geometry">
-      <rect>
-       <x>600</x>
-       <y>430</y>
-       <width>251</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <italic>false</italic>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border: none;
-border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
-border-color: rgb(211, 211, 211);
-padding: 5px;
-color: rgb(247, 79, 164);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-     <property name="placeholderText">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEditPayment">
-     <property name="geometry">
-      <rect>
-       <x>600</x>
-       <y>460</y>
-       <width>251</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <italic>false</italic>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">border: none;
-border-bottom: 2px solid grey; /* Điều chỉnh độ dày và màu của viền dưới */
-border-color: rgb(211, 211, 211);
-padding: 5px;
-color: rgb(247, 79, 164);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-     <property name="placeholderText">
-      <string/>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEditRest">
-     <property name="geometry">
-      <rect>
-       <x>600</x>
-       <y>490</y>
        <width>251</width>
        <height>31</height>
       </rect>
