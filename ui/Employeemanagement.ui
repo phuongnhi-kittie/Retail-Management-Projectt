@@ -158,7 +158,7 @@ font: bold 28pt &quot;MS Shell Dlg 2&quot;;</string>
     <widget class="QPushButton" name="pushButtonSearch">
      <property name="geometry">
       <rect>
-       <x>230</x>
+       <x>270</x>
        <y>70</y>
        <width>111</width>
        <height>41</height>
@@ -212,7 +212,7 @@ QPushButton {
       <rect>
        <x>30</x>
        <y>80</y>
-       <width>191</width>
+       <width>231</width>
        <height>31</height>
       </rect>
      </property>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1629</width>
-    <height>856</height>
+    <width>1518</width>
+    <height>792</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,25 +21,23 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>50</y>
-      <width>91</width>
-      <height>21</height>
+      <x>-10</x>
+      <y>0</y>
+      <width>1531</width>
+      <height>801</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(110, 88, 165);</string>
-    </property>
     <property name="text">
-     <string>EMP00</string>
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonLogout">
@@ -92,7 +90,7 @@ QPushButton {
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>450</x>
       <y>50</y>
       <width>611</width>
       <height>101</height>
@@ -101,13 +99,15 @@ QPushButton {
     <property name="font">
      <font>
       <family>MS Shell Dlg 2</family>
-      <pointsize>30</pointsize>
+      <pointsize>28</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(247, 79, 164);</string>
+     <string notr="true">color: rgb(247, 79, 164);
+color: rgb(104, 96, 171);
+font: bold 28pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Invoices</string>
@@ -116,71 +116,13 @@ QPushButton {
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>1591</width>
-      <height>801</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border-radius: 20; background: rgb(255, 255, 255)</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_7">
-    <property name="geometry">
-     <rect>
-      <x>80</x>
-      <y>50</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>C:/Users/Phuong Nhi/Downloads/account.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLabel" name="timelabel">
-    <property name="geometry">
-     <rect>
-      <x>1280</x>
-      <y>60</y>
-      <width>191</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-      <italic>true</italic>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(72, 72, 72);
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
       <x>70</x>
       <y>160</y>
-      <width>541</width>
-      <height>641</height>
+      <width>501</width>
+      <height>561</height>
      </rect>
     </property>
     <property name="font">
@@ -218,7 +160,7 @@ QPushButton {
       <rect>
        <x>100</x>
        <y>30</y>
-       <width>281</width>
+       <width>261</width>
        <height>31</height>
       </rect>
      </property>
@@ -241,7 +183,7 @@ padding: 5px;</string>
     <widget class="QPushButton" name="pushButtonSearch">
      <property name="geometry">
       <rect>
-       <x>410</x>
+       <x>360</x>
        <y>20</y>
        <width>121</width>
        <height>41</height>
@@ -313,18 +255,18 @@ QPushButton {
       <string>Bill Options</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButtonSearch_2">
+    <widget class="QPushButton" name="pushButtonDeleteEmployee">
      <property name="geometry">
       <rect>
-       <x>140</x>
-       <y>170</y>
-       <width>231</width>
+       <x>80</x>
+       <y>160</y>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>-1</pointsize>
+       <pointsize>10</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -335,7 +277,6 @@ QPushButton {
     border-radius: 20px;
 	background-color: rgb(248, 207, 239);
     padding: 10px;
-    font-size: 16px;
     font-weight: bold;
 }
 
@@ -353,11 +294,11 @@ QPushButton {
 </string>
      </property>
      <property name="text">
-      <string>DELETE INVOICE</string>
+      <string>DELETE EMPLOYEE</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>C:/Users/Phuong Nhi/Downloads/search (1).png</normaloff>C:/Users/Phuong Nhi/Downloads/search (1).png</iconset>
+       <normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -367,12 +308,50 @@ QPushButton {
      </property>
     </widget>
    </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1521</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>50</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/profile.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
    <widget class="QGroupBox" name="groupBoxBillWindow">
     <property name="geometry">
      <rect>
       <x>650</x>
       <y>190</y>
-      <width>691</width>
+      <width>801</width>
       <height>441</height>
      </rect>
     </property>
@@ -477,7 +456,7 @@ QPushButton {
       <rect>
        <x>10</x>
        <y>40</y>
-       <width>651</width>
+       <width>771</width>
        <height>371</height>
       </rect>
      </property>
@@ -591,14 +570,76 @@ QPushButton {
      </item>
     </widget>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>1471</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20; background: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(104, 96, 171);</string>
+    </property>
+    <property name="text">
+     <string>ADMIN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timelabel">
+    <property name="geometry">
+     <rect>
+      <x>1280</x>
+      <y>60</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(72, 72, 72);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_7</zorder>
    <zorder>label_5</zorder>
-   <zorder>label</zorder>
+   <zorder>label_6</zorder>
+   <zorder>groupBoxBillWindow</zorder>
+   <zorder>groupBox</zorder>
+   <zorder>timelabel</zorder>
+   <zorder>label_9</zorder>
    <zorder>pushButtonLogout</zorder>
    <zorder>label_2</zorder>
-   <zorder>label_7</zorder>
-   <zorder>timelabel</zorder>
-   <zorder>groupBox</zorder>
-   <zorder>groupBoxBillWindow</zorder>
+   <zorder>label_8</zorder>
   </widget>
  </widget>
  <resources/>

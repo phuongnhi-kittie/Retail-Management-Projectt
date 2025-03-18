@@ -1,0 +1,118 @@
+[
+    {
+        "bill_no": "bill1",
+        "date": "13/03/2025",
+        "customer_name": "Nguyen Phuong Nhi",
+        "phone": "0348403449",
+        "list_product": [
+            [
+                "prod1",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill2",
+        "date": "13/03/2025",
+        "customer_name": "Nguyen Phuong Nhi",
+        "phone": "034546353",
+        "list_product": [
+            [
+                "prod4",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill3",
+        "date": "18/03/2025",
+        "customer_name": "Nguyen Phuong Nhi ",
+        "phone": "0121343412",
+        "list_product": [
+            [
+                "prod5",
+                10
+            ],
+            [
+                "prod4",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill4",
+        "date": "18/03/2025",
+        "customer_name": "Nguyen Phuong Nhi ",
+        "phone": "0231243134",
+        "list_product": [
+            [
+                "prod5",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill5",
+        "date": "18/03/2025",
+        "customer_name": "Nguyen Nhi ",
+        "phone": "0123213347",
+        "list_product": [
+            [
+                "prod5",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill6",
+        "date": "18/03/2025",
+        "customer_name": "Punnie",
+        "phone": "025678912",
+        "list_product": [
+            [
+                "prod5",
+                2
+            ],
+            [
+                "prod3",
+                10
+            ],
+            [
+                "prod3",
+                10
+            ],
+            [
+                "prod3",
+                10
+            ],
+            [
+                "prod3",
+                10
+            ],
+            [
+                "prod3",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill7",
+        "date": "18/03/2025",
+        "customer_name": "Huy",
+        "phone": "0256123456",
+        "list_product": [
+            [
+                "prod4",
+                2
+            ],
+            [
+                "prod2",
+                20
+            ],
+            [
+                "prod2",
+                30
+            ]
+        ]
+    }
+]

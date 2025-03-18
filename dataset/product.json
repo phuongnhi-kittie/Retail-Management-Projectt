@@ -1,0 +1,52 @@
+[
+    {
+        "id": "prod1",
+        "name": "Đồ chơi xếp hình phát triển trí tuệ cho trẻ loại 100, 256, 520 chi tiết. Đồ chơi xếp hình phát triển trí tuệ cho trẻ em.",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "dcxh1",
+        "quantity": 55,
+        "cost_price": 40000,
+        "selling_price": 55000,
+        "vendor_phone": "0342323434"
+    },
+    {
+        "id": "prod2",
+        "name": "Hộp xếp hình 520 chi tiết cho bé sáng tạo",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "dcxh2",
+        "quantity": 16,
+        "cost_price": 70000,
+        "selling_price": 103000,
+        "vendor_phone": "0344534329"
+    },
+    {
+        "id": "prod3",
+        "name": "Cửa hàng bách hóa Đồ chơi cho trẻ em Bảng gỗ Xếp hình Bảng chữ cái ABC Xếp hình kỹ thuật số Đồ chơi bằng gỗ Khối giáo dục",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "dcxh3",
+        "quantity": 50,
+        "cost_price": 25000.0,
+        "selling_price": 45000.0,
+        "vendor_phone": "0344534329"
+    },
+    {
+        "id": "prod4",
+        "name": "Ô tô điều khiển biến hình xe điều khiển biến hình robot đa dạng chức năng chạy siêu tốc độ thiết kế bắt mắt",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "dcdktx1",
+        "quantity": 57,
+        "cost_price": 140000,
+        "selling_price": 200000,
+        "vendor_phone": "0344524329"
+    },
+    {
+        "id": "prod5",
+        "name": "Đồ chơi cầu trượt Vịt vàng leo cầu thang với âm thanh vui nhộn + Đèn nháy đẹp mắt",
+        "category": "Đồ chơi trẻ em",
+        "sub_category": "ĐT123",
+        "quantity": 242,
+        "cost_price": 40000.0,
+        "selling_price": 50000.0,
+        "vendor_phone": "0123456789"
+    }
+]

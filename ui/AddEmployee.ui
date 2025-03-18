@@ -284,7 +284,7 @@ padding: 5px;</string>
 </string>
     </property>
     <property name="text">
-     <string>Personal Identification No. :</string>
+     <string>User Name: </string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEditContactNo">
@@ -312,7 +312,7 @@ padding: 5px;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEditCCCDNo">
+   <widget class="QLineEdit" name="lineEditUserName">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -460,7 +460,7 @@ QPushButton {
 </string>
     </property>
     <property name="text">
-     <string>Adress:</string>
+     <string>Address:</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -624,7 +624,7 @@ padding: 5px;</string>
    <zorder>label_4</zorder>
    <zorder>label_8</zorder>
    <zorder>lineEditContactNo</zorder>
-   <zorder>lineEditCCCDNo</zorder>
+   <zorder>lineEditUserName</zorder>
    <zorder>pushButtonAdd</zorder>
    <zorder>pushButtonClear</zorder>
    <zorder>label_10</zorder>

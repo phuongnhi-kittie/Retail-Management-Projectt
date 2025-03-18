@@ -1,0 +1,47 @@
+[
+    {
+        "id": "emp1",
+        "name": "Nguyen Phuong Nhi",
+        "phone": "0342345453",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "phuongnhi23",
+        "password": "123456789"
+    },
+    {
+        "id": "emp2",
+        "name": "Nguyen Phuong Thao",
+        "phone": "0342345453",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "phuongnhi123",
+        "password": "123456"
+    },
+    {
+        "id": "emp3",
+        "name": "Le Anh Tai",
+        "phone": "0342345453",
+        "designation": "Accountant",
+        "address": "Binh Duong",
+        "username": "anhtai23",
+        "password": "123456"
+    },
+    {
+        "id": "emp4",
+        "name": "Nguyen Phuong Thao Nhi",
+        "phone": "0342345453",
+        "designation": "Employee",
+        "address": "Binh Duong",
+        "username": "thaonhi45",
+        "password": "123456"
+    },
+    {
+        "id": "emp5",
+        "name": "Nguyen Nhi",
+        "phone": "0345246456",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Tp. Ho Chi Minh",
+        "username": "nhi123",
+        "password": "123456"
+    }
+]
