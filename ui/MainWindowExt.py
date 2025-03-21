@@ -2,7 +2,7 @@ from ui.login_adminExt  import login_adminExt
 from ui.MainWindow import Ui_MainWindow
 from PyQt6.QtWidgets import QMainWindow
 from ui.login_employeeExt import login_employeeExt
-class MainWindowExt(Ui_MainWindow):
+class MainWindowExt(QMainWindow,Ui_MainWindow):
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow=MainWindow

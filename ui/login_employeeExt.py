@@ -5,8 +5,9 @@ from PyQt6.QtWidgets import QMainWindow, QMessageBox
 from DAL.UserDAL import EmployeeDAL
 from ui.BillingSystemExt import BillingSystemExt
 from ui.login_employee import Ui_MainWindow
-class login_employeeExt(Ui_MainWindow):
+class login_employeeExt(QMainWindow, Ui_MainWindow):
     def __init__(self):
+        super().__init__()
         self.emp_dal = EmployeeDAL()
         self.billing_system_window = None
     def setupUi(self, MainWindow):
@@ -35,13 +36,16 @@ class login_employeeExt(Ui_MainWindow):
                 msg.setIcon(QMessageBox.Icon.Information)
                 msg.setStandardButtons(QMessageBox.StandardButton.Ok)
                 button = msg.exec()
+
                 if button == QMessageBox.StandardButton.Ok:
-                    AdminWindow = QMainWindow()
-                    self.billing_system_window = BillingSystemExt()
-                    self.billing_system_window.setupUi(AdminWindow)
-                    self.billing_system_window.current_emp = login_emp
-                    self.billing_system_window.showWindow()
+                    # Tạo cửa sổ bán hàng
+                    self.billing_system_window = QMainWindow()
+                    self.billing_ui = BillingSystemExt(self)  # Truyền login_employeeExt vào BillingSystemExt
+                    self.billing_ui.setupUi(self.billing_system_window)
+                    self.billing_ui.current_emp = login_emp
+                    self.billing_ui.showWindow()
                     self.MainWindow.close()
+
                 else:
                     msg = QMessageBox()
                     msg.setWindowTitle("Error")
@@ -52,8 +56,10 @@ class login_employeeExt(Ui_MainWindow):
                 msg.setWindowTitle("Error")
                 msg.setText("Login failed")
                 msg.exec()
-        except:
+        except Exception as e:
             traceback.print_exc()
+            QMessageBox.critical(self, "Error", f"An error occurred: {e}")
+
     def process_back(self):
         from ui.MainWindowExt import MainWindowExt  # Import ở đây để tránh vòng lặp
         self.MainWindow.close()

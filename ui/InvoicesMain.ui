@@ -258,9 +258,62 @@ QPushButton {
     <widget class="QPushButton" name="pushButtonDeleteEmployee">
      <property name="geometry">
       <rect>
-       <x>80</x>
+       <x>50</x>
        <y>160</y>
-       <width>331</width>
+       <width>391</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+    border-radius: 20px;
+	background-color: rgb(248, 207, 239);
+    padding: 10px;
+    font-weight: bold;
+	font: bold 10pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover {
+    background-color: #ff85c0;
+}
+
+QPushButton:pressed {
+    background-color: #d14789;
+}
+
+QPushButton {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */
+}
+</string>
+     </property>
+     <property name="text">
+      <string>DELETE INVOICE</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonExit">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>440</y>
+       <width>111</width>
        <height>41</height>
       </rect>
      </property>
@@ -294,11 +347,11 @@ QPushButton {
 </string>
      </property>
      <property name="text">
-      <string>DELETE EMPLOYEE</string>
+      <string>EXIT</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</normaloff>C:/Users/Phuong Nhi/Downloads/eraser.png</iconset>
+       <normaloff>../images/close.png</normaloff>../images/close.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -550,6 +603,11 @@ QPushButton {
       </property>
       <property name="textAlignment">
        <set>AlignCenter</set>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Total</string>
       </property>
      </column>
      <item row="0" column="0">

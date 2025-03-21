@@ -12,34 +12,6 @@
         ]
     },
     {
-        "bill_no": "bill2",
-        "date": "13/03/2025",
-        "customer_name": "Nguyen Phuong Nhi",
-        "phone": "034546353",
-        "list_product": [
-            [
-                "prod4",
-                2
-            ]
-        ]
-    },
-    {
-        "bill_no": "bill3",
-        "date": "18/03/2025",
-        "customer_name": "Nguyen Phuong Nhi ",
-        "phone": "0121343412",
-        "list_product": [
-            [
-                "prod5",
-                10
-            ],
-            [
-                "prod4",
-                20
-            ]
-        ]
-    },
-    {
         "bill_no": "bill4",
         "date": "18/03/2025",
         "customer_name": "Nguyen Phuong Nhi ",
@@ -112,6 +84,266 @@
             [
                 "prod2",
                 30
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill8",
+        "date": "21/03/2025",
+        "customer_name": "Minh Nhi",
+        "phone": "02156897121",
+        "list_product": [
+            [
+                "prod4",
+                2
+            ],
+            [
+                "prod2",
+                20
+            ],
+            [
+                "prod2",
+                30
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod1",
+                50
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill9",
+        "date": "21/03/2025",
+        "customer_name": "Kim Han",
+        "phone": "0989231123",
+        "list_product": [
+            [
+                "prod4",
+                2
+            ],
+            [
+                "prod2",
+                20
+            ],
+            [
+                "prod2",
+                30
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod5",
+                66
+            ],
+            [
+                "prod3",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill10",
+        "date": "21/03/2025",
+        "customer_name": "Bui Truong Linh",
+        "phone": "0775011155",
+        "list_product": [
+            [
+                "prod4",
+                2
+            ],
+            [
+                "prod2",
+                20
+            ],
+            [
+                "prod2",
+                30
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod1",
+                50
+            ],
+            [
+                "prod2",
+                5
+            ],
+            [
+                "prod1",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill11",
+        "date": "21/03/2025",
+        "customer_name": "Ngoc Thuy",
+        "phone": "0256799222",
+        "list_product": [
+            [
+                "prod4",
+                2
+            ],
+            [
+                "prod2",
+                20
+            ],
+            [
+                "prod2",
+                30
+            ],
+            [
+                "prod3",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill12",
+        "date": "21/03/2025",
+        "customer_name": "Kim Chau",
+        "phone": "0989256788",
+        "list_product": [
+            [
+                "prod5",
+                16
+            ],
+            [
+                "prod4",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill13",
+        "date": "21/03/2025",
+        "customer_name": "Thao My",
+        "phone": "0222569789",
+        "list_product": [
+            [
+                "prod4",
+                7
+            ],
+            [
+                "prod3",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill14",
+        "date": "21/03/2025",
+        "customer_name": "Kim Han",
+        "phone": "0222122222",
+        "list_product": [
+            [
+                "prod5",
+                26
+            ],
+            [
+                "prod4",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill15",
+        "date": "21/03/2025",
+        "customer_name": "Kun Da",
+        "phone": "0222555666",
+        "list_product": [
+            [
+                "prod4",
+                10
+            ],
+            [
+                "prod5",
+                20
+            ],
+            [
+                "prod2",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill16",
+        "date": "21/03/2025",
+        "customer_name": "Ngoc Kem",
+        "phone": "0989111556",
+        "list_product": [
+            [
+                "prod4",
+                3
+            ],
+            [
+                "prod5",
+                30
+            ],
+            [
+                "prod3",
+                30
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill15",
+        "date": "22/03/2025",
+        "customer_name": "Ngoc Anh",
+        "phone": "0775123111",
+        "list_product": [
+            [
+                "prod3",
+                100
+            ],
+            [
+                "prod2",
+                100
+            ],
+            [
+                "prod5",
+                100
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill16",
+        "date": "22/03/2025",
+        "customer_name": "Tuong Vy",
+        "phone": "0986011222",
+        "list_product": [
+            [
+                "prod2",
+                50
+            ],
+            [
+                "prod2",
+                50
             ]
         ]
     }

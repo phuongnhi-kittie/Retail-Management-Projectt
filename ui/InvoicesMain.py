@@ -138,7 +138,7 @@ class Ui_MainWindow(object):
 "")
         self.label_4.setObjectName("label_4")
         self.pushButtonDeleteEmployee = QtWidgets.QPushButton(parent=self.groupBox)
-        self.pushButtonDeleteEmployee.setGeometry(QtCore.QRect(80, 160, 331, 41))
+        self.pushButtonDeleteEmployee.setGeometry(QtCore.QRect(50, 160, 391, 41))
         font = QtGui.QFont()
         font.setPointSize(10)
         font.setBold(True)
@@ -150,6 +150,7 @@ class Ui_MainWindow(object):
 "    background-color: rgb(248, 207, 239);\n"
 "    padding: 10px;\n"
 "    font-weight: bold;\n"
+"    font: bold 10pt \"MS Shell Dlg 2\";\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
@@ -169,6 +170,38 @@ class Ui_MainWindow(object):
         self.pushButtonDeleteEmployee.setIcon(icon3)
         self.pushButtonDeleteEmployee.setIconSize(QtCore.QSize(25, 25))
         self.pushButtonDeleteEmployee.setObjectName("pushButtonDeleteEmployee")
+        self.pushButtonExit = QtWidgets.QPushButton(parent=self.groupBox)
+        self.pushButtonExit.setGeometry(QtCore.QRect(160, 440, 111, 41))
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButtonExit.setFont(font)
+        self.pushButtonExit.setStyleSheet("QPushButton {\n"
+"    color: rgb(255, 255, 255);\n"
+"    border-radius: 20px;\n"
+"    background-color: rgb(248, 207, 239);\n"
+"    padding: 10px;\n"
+"    font-weight: bold;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #ff85c0;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #d14789;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Bóng đổ */\n"
+"}\n"
+"")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("D:\\Retail-Management-Project\\ui\\../images/close.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonExit.setIcon(icon4)
+        self.pushButtonExit.setIconSize(QtCore.QSize(25, 25))
+        self.pushButtonExit.setObjectName("pushButtonExit")
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(0, 0, 1521, 791))
         self.label_6.setText("")
@@ -229,7 +262,7 @@ class Ui_MainWindow(object):
         font.setPointSize(10)
         self.tableWidget.setFont(font)
         self.tableWidget.setObjectName("tableWidget")
-        self.tableWidget.setColumnCount(4)
+        self.tableWidget.setColumnCount(5)
         self.tableWidget.setRowCount(10)
         item = QtWidgets.QTableWidgetItem()
         self.tableWidget.setVerticalHeaderItem(0, item)
@@ -266,6 +299,8 @@ class Ui_MainWindow(object):
         item = QtWidgets.QTableWidgetItem()
         item.setTextAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.tableWidget.setHorizontalHeaderItem(3, item)
+        item = QtWidgets.QTableWidgetItem()
+        self.tableWidget.setHorizontalHeaderItem(4, item)
         item = QtWidgets.QTableWidgetItem()
         item.setTextAlignment(QtCore.Qt.AlignmentFlag.AlignLeading|QtCore.Qt.AlignmentFlag.AlignVCenter)
         self.tableWidget.setItem(0, 0, item)
@@ -318,7 +353,8 @@ class Ui_MainWindow(object):
         self.label_3.setText(_translate("MainWindow", "Bill No.: "))
         self.pushButtonSearch.setText(_translate("MainWindow", "Search"))
         self.label_4.setText(_translate("MainWindow", "Bill Options"))
-        self.pushButtonDeleteEmployee.setText(_translate("MainWindow", "DELETE EMPLOYEE"))
+        self.pushButtonDeleteEmployee.setText(_translate("MainWindow", "DELETE INVOICE"))
+        self.pushButtonExit.setText(_translate("MainWindow", "EXIT"))
         self.groupBoxBillWindow.setTitle(_translate("MainWindow", "Invoices"))
         item = self.tableWidget.horizontalHeaderItem(0)
         item.setText(_translate("MainWindow", "Bill No."))
@@ -328,6 +364,8 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "Customer Name"))
         item = self.tableWidget.horizontalHeaderItem(3)
         item.setText(_translate("MainWindow", "Phone No."))
+        item = self.tableWidget.horizontalHeaderItem(4)
+        item.setText(_translate("MainWindow", "Total"))
         __sortingEnabled = self.tableWidget.isSortingEnabled()
         self.tableWidget.setSortingEnabled(False)
         self.tableWidget.setSortingEnabled(__sortingEnabled)

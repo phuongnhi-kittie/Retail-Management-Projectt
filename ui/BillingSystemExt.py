@@ -1,28 +1,31 @@
 import traceback
 
 from PyQt6.QtCore import QDate
-
+from PyQt6.QtWidgets import QMainWindow
 from DAL.InvoiceDAL import InvoiceDAL
 from DAL.ProductDAL import ProductDAL
 from model.Invoice import Invoice
 from ui.BillingSystem import Ui_MainWindow
 from PyQt6.QtWidgets import  QMessageBox, QTableWidgetItem
-
 class BillingSystemExt(Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, login_window):
+        self.login_window = login_window
         self.current_user = None
         self.product_dal = ProductDAL()
+        self.invoice_dal = InvoiceDAL()
         self.count_row = 0
         self.chosen_product = None
-        self.invoice_dal = InvoiceDAL()
         self.list_product_sell = []
         self.list_quantity = []
+
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow=MainWindow
         self.setupSignalAndSlot()
+
     def showWindow(self):
         self.MainWindow.show()
+
     def setupSignalAndSlot(self):
         self.pushButtonLogout.clicked.connect(self.process_logout) #back to login_emp
         self.pushButtonAddToCart.clicked.connect(self.add_to_cart)
@@ -35,115 +38,154 @@ class BillingSystemExt(Ui_MainWindow):
         self.pushButtonSearch.clicked.connect(self.search_bill)
         self.pushButtonExit.clicked.connect(self.exit_window)
     def exit_window(self):
-        self.MainWindow.close()
-    def search_bill(self):
-        bill_no = self.lineEditBillNo.text()
+        """Quay lại màn hình chính MainWindowExt"""
+        from ui.MainWindowExt import MainWindowExt  # Import tránh lỗi vòng lặp
+        self.MainWindow.close()  # Đóng cửa sổ hiện tại
+        self.main_window = QMainWindow()
+        self.main_ui = MainWindowExt()
+        self.main_ui.setupUi(self.main_window)
+        self.main_ui.showWindow()  # Dùng showWindow() thay vì show()
+
+    def show_message(self, text, title="Thông báo"):
+        """Hiển thị hộp thoại thông báo."""
+        msg = QMessageBox()
+        msg.setText(text)
+        msg.setWindowTitle(title)
+        msg.exec()
+
+    def load_bill_data(self, bill_no):
+        """Load dữ liệu hóa đơn dựa vào Bill No."""
         bill_search = self.invoice_dal.get_invoice_by_id(bill_no)
-        self.list_quantity = []
-        self.list_product_sell = []
-        if bill_search is None:
-            msg = QMessageBox()
-            msg.setText("Not found")
-            msg.setWindowTitle("Error!!!")
-            msg.exec()
-        else:
-            self.labelBillNo.setText(bill_search.bill_no)
-            self.labelCustomerName.setText(bill_search.customer_name)
-            self.labelPhone.setText(bill_search.phone)
-            self.labelDate.setText(bill_search.date)
-            self.tableWidget.setRowCount(self.count_row)
-            list_all_product = self.product_dal.get_all_products()
-            for product in bill_search.list_product:
-                product_need = self.product_dal.get_product_by_id(list_all_product,product[0])
-                self.tableWidget.insertRow(self.count_row)
-                column_id = QTableWidgetItem(product_need.id)
-                column_name = QTableWidgetItem(product_need.name)
-                column_quantity = QTableWidgetItem(str(product[1]))
-                column_price = QTableWidgetItem(str(product_need.selling_price))
-                column_amount = QTableWidgetItem(str(product_need.selling_price*product[1]))
-                self.tableWidget.setItem(self.count_row, 0, column_id)
-                self.tableWidget.setItem(self.count_row, 1, column_name)
-                self.tableWidget.setItem(self.count_row, 2, column_quantity)
-                self.tableWidget.setItem(self.count_row, 3, column_price)
-                self.tableWidget.setItem(self.count_row, 4, column_amount)
-                self.count_row += 1
-                self.list_product_sell.append(product_need)
-                self.list_quantity.append(product[1])
+        self.list_quantity.clear()
+        self.list_product_sell.clear()
+
+        if not bill_search:
+            self.show_message("Cannot find your Bill? Please enter the correct Bill number ^^", "Search Error!")
+            return
+
+        self.labelBillNo.setText(bill_search.bill_no)
+        self.labelCustomerName.setText(bill_search.customer_name)
+        self.labelPhone.setText(bill_search.phone)
+        self.labelDate.setText(bill_search.date)
+
+
+        self.tableWidget.setRowCount(0)  # Xóa dữ liệu cũ trước khi hiển thị mới
+        list_all_product = self.product_dal.get_all_products()
+
+        for product_id, quantity in bill_search.list_product:
+            product = self.product_dal.get_product_by_id(list_all_product, product_id)
+            if not product:
+                continue
+
+            row = self.tableWidget.rowCount()
+            self.tableWidget.insertRow(row)
+            self.tableWidget.setItem(row, 0, QTableWidgetItem(product.id))
+            self.tableWidget.setItem(row, 1, QTableWidgetItem(product.name))
+            self.tableWidget.setItem(row, 2, QTableWidgetItem(str(quantity)))
+            self.tableWidget.setItem(row, 3, QTableWidgetItem(str(product.selling_price)))
+            self.tableWidget.setItem(row, 4, QTableWidgetItem(str(product.selling_price * quantity)))
+
+            self.list_product_sell.append(product)
+            self.list_quantity.append(quantity)
+
+    def search_bill(self):
+        """Tìm kiếm hóa đơn và hiển thị dữ liệu."""
+        bill_no = self.lineEditBillNo.text().strip()
+        self.load_bill_data(bill_no)  # Gọi hàm load_bill_data để tránh lặp code
+
     def store_new_bill(self):
         try:
-            customer_name = self.lineEditCustomerName.text()
-            contact_no = self.lineEditContactNo.text()
-            if customer_name == "" or contact_no == "":
-                msg = QMessageBox()
-                msg.setText("Empty value")
-                msg.setWindowTitle("Error!!!")
-                msg.exec()
+            customer_name = self.lineEditCustomerName.text().strip()
+            contact_no = self.lineEditContactNo.text().strip()
+
+            if not customer_name or not contact_no:
+                self.show_message("Customer information cannot be left blank!", "Missing Information Error ?!")
                 return
+
             list_invoice = self.invoice_dal.get_all_invoices()
-            bill_no = f"bill{len(list_invoice)+1}"
+            bill_no = f"bill{len(list_invoice) + 1}"
             date_invoice = QDate.currentDate().toString("dd/MM/yyyy")
-            list_product_sell = [product.id for product in self.list_product_sell]
-            list_product = []
-            for i in range(len(self.list_quantity)):
-                list_product.append([list_product_sell[i], self.list_quantity[i]])
-            new_bill = Invoice(bill_no=bill_no,date=date_invoice, customer_name=customer_name, phone=contact_no, list_product=list_product)
+
+            list_product = [[product.id, quantity] for product, quantity in zip(self.list_product_sell, self.list_quantity)]
+            new_bill = Invoice(bill_no, date_invoice, customer_name, contact_no, list_product)
+
             self.invoice_dal.store_new_bill(new_bill)
-            msg = QMessageBox()
-            msg.setText("Create new bill successfully")
-            msg.setWindowTitle("Announcement")
-            msg.exec()
-            self.list_product_sell = []
-            self.list_quantity = []
-        except:
+            self.show_message("New invoice saved successfully!!!")
+
+            # Cập nhật giao diện với thông tin hóa đơn mới
+            self.labelBillNo.setText(bill_no)
+            self.labelCustomerName.setText(customer_name)
+            self.labelPhone.setText(contact_no)
+            self.labelDate.setText(date_invoice)
+
+            self.list_product_sell.clear()
+            self.list_quantity.clear()
+        except Exception as e:
             traceback.print_exc()
+            self.show_message(f"Something went wrong? Please retry ^^ : {e}", "Saving Invoice Error !! ")
+
     def clear_all(self):
         try:
             self.clear()
+            self.tableWidget.setRowCount(0)
             self.count_row = 0
-            self.tableWidget.setRowCount(self.count_row)
             # self.list_quantity = []
             # self.list_product_sell = []
-            self.lineEditTotal.setText("")
-            self.lineEditRest.setText("")
-            self.lineEditPayment.setText("")
-            self.lineEditDiscount.setText("")
-        except:
+            self.list_product_sell.clear()  # Xóa danh sách sản phẩm
+            self.list_quantity.clear()  # Xóa danh sách số lượng
+            self.lineEditTotal.clear()
+            self.lineEditRest.clear()
+            self.lineEditPayment.clear()
+            self.lineEditDiscount.clear()
+            self.lineEditBillNo.clear()
+            self.lineEditCustomerName.clear()
+            self.lineEditContactNo.clear()
+            self.labelCustomerName.clear()
+            self.labelBillNo.clear()
+            self.labelDate.clear()
+            self.labelPhone.clear()
+            self.lineEditCustomerName.setFocus()
+
+
+        except Exception as e:
             traceback.print_exc()
+            self.show_message(f"Opps, something when wrong!!Please retry ^^ : {e}", "ERROR !!!")
+
     def cal_total(self):
-        list_amount_product = []
-        list_cost_product = []
-        column_index = 4
-        list_product = self.product_dal.get_all_products()
-        for row in range(self.tableWidget.rowCount()):
-            item_amount = self.tableWidget.item(row, column_index)
-            list_amount_product.append(float(item_amount.text()))
-            item_id = self.tableWidget.item(row, 0)
-            quantity = self.tableWidget.item(row, 2)
-            product_i = self.product_dal.get_product_by_id(list_product, item_id.text())
-            cost_price = float(product_i.cost_price)*int(quantity.text())
-            list_cost_product.append(cost_price)
-        total = 0
-        payment = 0
-        for amount in list_amount_product:
-            total += amount
-        for cp in list_cost_product:
-            payment += cp
-        rest = total - 0 - payment
-        self.lineEditTotal.setText(str(total))
-        self.lineEditDiscount.setText(str(0))
-        self.lineEditPayment.setText(str(payment))
-        self.lineEditRest.setText(str(rest))
-    def clear(self):
         try:
-            self.lineEditProduct.setText("")
-            self.lineEditCategory.setText("")
-            self.lineEditSubCategory.setText("")
-            self.lineEditQuantity.setText("")
-        except:
+            total = 0
+            payment = 0
+            list_product = self.product_dal.get_all_products()
+
+            for row in range(self.tableWidget.rowCount()):
+                amount_item = self.tableWidget.item(row, 4)
+                item_id = self.tableWidget.item(row, 0)
+                quantity = self.tableWidget.item(row, 2)
+
+                if amount_item and item_id and quantity:
+                    total += float(amount_item.text())
+                    product = self.product_dal.get_product_by_id(list_product, item_id.text())
+                    if product:
+                        payment += float(product.cost_price) * int(quantity.text())
+
+            rest = total - payment
+            self.lineEditTotal.setText(str(total))
+            self.lineEditDiscount.setText("0")
+            self.lineEditPayment.setText(str(payment))
+            self.lineEditRest.setText(str(rest))
+        except Exception as e:
             traceback.print_exc()
+            self.show_message(f"Lỗi khi tính tổng: {e}", "Lỗi")
+
+    def clear(self):
+        self.lineEditProduct.clear()
+        self.lineEditCategory.clear()
+        self.lineEditSubCategory.clear()
+        self.lineEditQuantity.clear()
+
     def index_pro(self, id):
         temp_index = 0
-        if self.list_product_sell != None:
+        if self.list_product_sell is not None:
             for i in range(len(self.list_product_sell)):
                 if self.list_product_sell[i].id == id:
                     temp_index = i
@@ -151,28 +193,30 @@ class BillingSystemExt(Ui_MainWindow):
         return temp_index
     def remove_product(self):
         try:
-            list_product = self.product_dal.get_all_products()
             current_row = self.tableWidget.currentRow()
-            column_id = self.chosen_product.id
-            quantity = self.lineEditQuantity.text()
-            need_product = self.product_dal.get_product_by_id(list_product, column_id)
-            index_need_product = self.index_pro(need_product.id)
-            if index_need_product != 0:
-                self.list_product_sell.pop(index_need_product)
-            self.list_quantity.remove(int(quantity))
-            self.product_dal.update_quantity_recover(int(quantity), need_product)
-            print(current_row)
-            if current_row != -1:
-                self.tableWidget.removeRow(current_row)
-                self.count_row -= 1
-                self.tableWidget.repaint()
-            msg = QMessageBox()
-            msg.setText("Remove successfully !!!")
-            msg.setWindowTitle("Announcement")
-            msg.exec()
-        except:
-            traceback.print_exc()
+            if current_row == -1:
+                self.show_message("Chưa chọn sản phẩm để xóa!", "Lỗi")
+                return
 
+            product_id = self.tableWidget.item(current_row, 0).text()
+            quantity = int(self.tableWidget.item(current_row, 2).text())
+            need_product = self.product_dal.get_product_by_id(self.product_dal.get_all_products(), product_id)
+
+            if need_product:
+                index = next((i for i, p in enumerate(self.list_product_sell) if p.id == product_id), None)
+                if index is not None:
+                    self.list_product_sell.pop(index)
+                    self.list_quantity.pop(index)
+
+                self.product_dal.update_quantity_recover(quantity, need_product)
+
+            self.tableWidget.removeRow(current_row)
+            self.count_row -= 1
+            self.show_message("Đã xóa sản phẩm khỏi giỏ hàng!")
+
+        except Exception as e:
+            traceback.print_exc()
+            self.show_message(f"Lỗi khi xóa sản phẩm: {e}", "Lỗi")
     def choose_product(self):
         row = self.tableWidget.currentRow()
         column_id =self.tableWidget.item(row, 0)
@@ -223,5 +267,6 @@ class BillingSystemExt(Ui_MainWindow):
         except:
             traceback.print_exc()
     def process_logout(self):
-        self.MainWindow.close()
+        self.MainWindow.close()  # Đóng cửa sổ hiện tại
+        self.login_window.showWindow()  # Dùng showWindow() thay vì show()
 

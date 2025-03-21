@@ -1,5 +1,5 @@
 import traceback
-
+from PyQt6.QtGui import QColor
 from PyQt6.QtWidgets import QMainWindow, QTableWidgetItem, QMessageBox
 
 from DAL.ProductDAL import ProductDAL
@@ -25,11 +25,33 @@ class InventoryManagement(Ui_MainWindow):
         self.MainWindow.show()
     def setupSignalAndSlot(self):
         self.pushButtonLogout.clicked.connect(self.logout)
-        self.pushButtonExit.clicked.connect(self.logout)
+        self.pushButtonSearch.clicked.connect(self.search_product)
+        self.pushButtonExit.clicked.connect(self.exit)
         self.pushButtonAddProduct.clicked.connect(self.add_product)
         self.pushButtonUpdateProduct.clicked.connect(self.update_product)
         self.pushButtonDeleteProduct.clicked.connect(self.delete_product)
         self.tableWidgetProduct.itemSelectionChanged.connect(self.choose_product)
+    def search_product(self):
+        search_text = self.lineEditProductID.text().strip().lower()
+
+        if not search_text:
+            return  # Nếu ô tìm kiếm rỗng, không làm gì cả
+
+        for row in range(self.tableWidgetProduct.rowCount()):
+            match_found = False  # Đánh dấu nếu tìm thấy kết quả
+
+            item_id = self.tableWidgetProduct.item(row, 0)  # Lấy cột Product ID
+            if item_id and search_text in item_id.text().strip().lower():
+                match_found = True
+
+            for col in range(self.tableWidgetProduct.columnCount()):
+                item = self.tableWidgetProduct.item(row, col)
+                if item:
+                    if match_found:
+                        item.setBackground(QColor(255, 200, 200))  # Đổi màu hồng nhạt
+                    else:
+                        item.setBackground(QColor(255, 255, 255))  # Trở lại màu trắng mặc định
+
     def choose_product(self):
         if self.is_completed==False:
             return
@@ -97,4 +119,12 @@ class InventoryManagement(Ui_MainWindow):
         except:
             traceback.print_exc()
     def logout(self):
+        from ui.login_adminExt import login_adminExt  # Import giao diện đăng nhập
+        self.MainWindow.close()  # Đóng cửa sổ hiện tại
+        self.main_window = QMainWindow()
+        self.main_ui = login_adminExt()
+        self.main_ui.setupUi(self.main_window)
+        self.main_ui.showWindow()  # Dùng showWindow() thay vì show()
+
+    def exit(self):
         self.MainWindow.close()

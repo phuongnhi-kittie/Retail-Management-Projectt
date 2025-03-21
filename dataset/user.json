@@ -1,12 +1,12 @@
 [
     {
         "id": "emp1",
-        "name": "Nguyen Phuong Nhi",
+        "name": "Nguyen Van Sang",
         "phone": "0342345453",
         "designation": "System Administrator (IT Manager)",
         "address": "Binh Duong",
-        "username": "phuongnhi23",
-        "password": "123456789"
+        "username": "sangteddy123",
+        "password": "123456"
     },
     {
         "id": "emp2",
@@ -28,20 +28,11 @@
     },
     {
         "id": "emp4",
-        "name": "Nguyen Phuong Thao Nhi",
+        "name": "Ngo Ngoc Anh Thu",
         "phone": "0342345453",
         "designation": "Employee",
         "address": "Binh Duong",
-        "username": "thaonhi45",
-        "password": "123456"
-    },
-    {
-        "id": "emp5",
-        "name": "Nguyen Nhi",
-        "phone": "0345246456",
-        "designation": "System Administrator (IT Manager)",
-        "address": "Tp. Ho Chi Minh",
-        "username": "nhi123",
+        "username": "anhthuteddy123",
         "password": "123456"
     }
 ]
