@@ -33,8 +33,7 @@ class InvoiceMainExt(Ui_MainWindow):
             QMessageBox.information(self.MainWindow, "Success", f"Deleted Bill No. {bill_no} successfully.")
             self.display()  # Cập nhật lại bảng
         else:
-            QMessageBox.warning(self.MainWindow, "Error", "Failed to delete invoice.")
-
+            return
 
     def logout(self):
         from ui.login_adminExt import login_adminExt  # Import giao diện đăng nhập

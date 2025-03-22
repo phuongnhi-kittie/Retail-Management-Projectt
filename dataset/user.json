@@ -1,38 +1,1118 @@
 [
     {
         "id": "emp1",
-        "name": "Nguyen Van Sang",
-        "phone": "0342345453",
-        "designation": "System Administrator (IT Manager)",
-        "address": "Binh Duong",
-        "username": "sangteddy123",
-        "password": "123456"
+        "name": "Tran Phuong Thao",
+        "phone": "0979380988",
+        "designation": "Accountant",
+        "address": "Tp. Ho Chi Minh",
+        "username": "tranthao123",
+        "password": "hellokitty"
     },
     {
         "id": "emp2",
-        "name": "Nguyen Phuong Thao",
-        "phone": "0342345453",
-        "designation": "Store Manager",
-        "address": "Tp. Ho Chi Minh",
-        "username": "phuongnhi123",
-        "password": "123456"
+        "name": "Le Anh Tai",
+        "phone": "0987913612",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Da Nang",
+        "username": "letai123",
+        "password": "hellokitty"
     },
     {
         "id": "emp3",
-        "name": "Le Anh Tai",
-        "phone": "0342345453",
-        "designation": "Accountant",
-        "address": "Binh Duong",
-        "username": "anhtai23",
-        "password": "123456"
+        "name": "Pham Ngoc Thu",
+        "phone": "0732060808",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "phamthu3",
+        "password": "hellokitty"
     },
     {
         "id": "emp4",
-        "name": "Ngo Ngoc Anh Thu",
-        "phone": "0342345453",
+        "name": "Hoang Quoc Linh",
+        "phone": "0217048902",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "hoanglinh4",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp5",
+        "name": "Bui Thanh Duc",
+        "phone": "0153652891",
+        "designation": "Accountant",
+        "address": "Can Tho",
+        "username": "buiduc5",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp6",
+        "name": "Dang Duy Hieu",
+        "phone": "0610129161",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "danghieu6",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp7",
+        "name": "Do Minh Nhi",
+        "phone": "0636910589",
         "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "donhi7",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp8",
+        "name": "Ngo Bao Khoa",
+        "phone": "0254970159",
+        "designation": "System Administrator (IT Manager)",
         "address": "Binh Duong",
-        "username": "anhthuteddy123",
-        "password": "123456"
+        "username": "ngokhoa8",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp9",
+        "name": "Vu Thi Trang",
+        "phone": "0602067692",
+        "designation": "Accountant",
+        "address": "Tp. Ho Chi Minh",
+        "username": "vutrang9",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp10",
+        "name": "Nguyen Van Sang",
+        "phone": "0802176067",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "nguyensang10",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp11",
+        "name": "Tran Phuong Thao",
+        "phone": "0592060849",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "tranthao11",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp12",
+        "name": "Le Anh Tai",
+        "phone": "0120729084",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "letai12",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp13",
+        "name": "Pham Ngoc Thu",
+        "phone": "0610606825",
+        "designation": "Employee",
+        "address": "Can Tho",
+        "username": "phamthu13",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp14",
+        "name": "Hoang Quoc Linh",
+        "phone": "0456665771",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "hoanglinh14",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp15",
+        "name": "Bui Thanh Duc",
+        "phone": "0752330677",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "buiduc15",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp16",
+        "name": "Dang Duy Hieu",
+        "phone": "0173369039",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "danghieu16",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp17",
+        "name": "Do Minh Nhi",
+        "phone": "0248597199",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "donhi17",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp18",
+        "name": "Ngo Bao Khoa",
+        "phone": "0403082703",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "ngokhoa18",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp19",
+        "name": "Vu Thi Trang",
+        "phone": "0264101758",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "vutrang19",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp20",
+        "name": "Nguyen Van Sang",
+        "phone": "0636021611",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "nguyensang20",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp21",
+        "name": "Tran Phuong Thao",
+        "phone": "0348563744",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Can Tho",
+        "username": "tranthao21",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp22",
+        "name": "Le Anh Tai",
+        "phone": "0906551515",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "letai22",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp23",
+        "name": "Pham Ngoc Thu",
+        "phone": "0970778406",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "phamthu23",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp24",
+        "name": "Hoang Quoc Linh",
+        "phone": "0900213525",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "hoanglinh24",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp25",
+        "name": "Bui Thanh Duc",
+        "phone": "0643926925",
+        "designation": "Accountant",
+        "address": "Tp. Ho Chi Minh",
+        "username": "buiduc25",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp26",
+        "name": "Dang Duy Hieu",
+        "phone": "0433043572",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "danghieu26",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp27",
+        "name": "Do Minh Nhi",
+        "phone": "0226826941",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "donhi27",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp28",
+        "name": "Ngo Bao Khoa",
+        "phone": "0871885481",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "ngokhoa28",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp29",
+        "name": "Vu Thi Trang",
+        "phone": "0162637339",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Can Tho",
+        "username": "vutrang29",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp30",
+        "name": "Nguyen Van Sang",
+        "phone": "0242550779",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "nguyensang30",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp31",
+        "name": "Tran Phuong Thao",
+        "phone": "0580379954",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "tranthao31",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp32",
+        "name": "Le Anh Tai",
+        "phone": "0838262129",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "letai32",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp33",
+        "name": "Pham Ngoc Thu",
+        "phone": "0223048242",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Tp. Ho Chi Minh",
+        "username": "phamthu33",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp34",
+        "name": "Hoang Quoc Linh",
+        "phone": "0319168145",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "hoanglinh34",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp35",
+        "name": "Bui Thanh Duc",
+        "phone": "0361757246",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "buiduc35",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp36",
+        "name": "Dang Duy Hieu",
+        "phone": "0405428325",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "danghieu36",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp37",
+        "name": "Do Minh Nhi",
+        "phone": "0757520117",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Can Tho",
+        "username": "donhi37",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp38",
+        "name": "Ngo Bao Khoa",
+        "phone": "0403654009",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "ngokhoa38",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp39",
+        "name": "Vu Thi Trang",
+        "phone": "0948561167",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "vutrang39",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp40",
+        "name": "Nguyen Van Sang",
+        "phone": "0395172861",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "nguyensang40",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp41",
+        "name": "Tran Phuong Thao",
+        "phone": "0360915228",
+        "designation": "Accountant",
+        "address": "Tp. Ho Chi Minh",
+        "username": "tranthao41",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp42",
+        "name": "Le Anh Tai",
+        "phone": "0981290235",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "letai42",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp43",
+        "name": "Pham Ngoc Thu",
+        "phone": "0851511097",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "phamthu43",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp44",
+        "name": "Hoang Quoc Linh",
+        "phone": "0547604731",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "hoanglinh44",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp45",
+        "name": "Bui Thanh Duc",
+        "phone": "0287602061",
+        "designation": "Employee",
+        "address": "Can Tho",
+        "username": "buiduc45",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp46",
+        "name": "Dang Duy Hieu",
+        "phone": "0152379622",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "danghieu46",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp47",
+        "name": "Do Minh Nhi",
+        "phone": "0884722505",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "donhi47",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp48",
+        "name": "Ngo Bao Khoa",
+        "phone": "0826049811",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "ngokhoa48",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp49",
+        "name": "Vu Thi Trang",
+        "phone": "0502761151",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "vutrang49",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp50",
+        "name": "Nguyen Van Sang",
+        "phone": "0378629630",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "nguyensang50",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp51",
+        "name": "Tran Phuong Thao",
+        "phone": "0241379894",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "tranthao51",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp52",
+        "name": "Le Anh Tai",
+        "phone": "0433733812",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "letai52",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp53",
+        "name": "Pham Ngoc Thu",
+        "phone": "0643715655",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "phamthu53",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp54",
+        "name": "Hoang Quoc Linh",
+        "phone": "0670637047",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "hoanglinh54",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp55",
+        "name": "Bui Thanh Duc",
+        "phone": "0905244846",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "buiduc55",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp56",
+        "name": "Dang Duy Hieu",
+        "phone": "0962328081",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "danghieu56",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp57",
+        "name": "Do Minh Nhi",
+        "phone": "0441379833",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "donhi57",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp58",
+        "name": "Ngo Bao Khoa",
+        "phone": "0587533893",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "ngokhoa58",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp59",
+        "name": "Vu Thi Trang",
+        "phone": "0159911612",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "vutrang59",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp60",
+        "name": "Nguyen Van Sang",
+        "phone": "0948394362",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "nguyensang60",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp61",
+        "name": "Tran Phuong Thao",
+        "phone": "0587158839",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "tranthao61",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp62",
+        "name": "Le Anh Tai",
+        "phone": "0755250485",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "letai62",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp63",
+        "name": "Pham Ngoc Thu",
+        "phone": "0401067290",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "phamthu63",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp64",
+        "name": "Hoang Quoc Linh",
+        "phone": "0682359165",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "hoanglinh64",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp65",
+        "name": "Bui Thanh Duc",
+        "phone": "0388726209",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "buiduc65",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp66",
+        "name": "Dang Duy Hieu",
+        "phone": "0355554983",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "danghieu66",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp67",
+        "name": "Do Minh Nhi",
+        "phone": "0902390239",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "donhi67",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp68",
+        "name": "Ngo Bao Khoa",
+        "phone": "0284001777",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "ngokhoa68",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp69",
+        "name": "Vu Thi Trang",
+        "phone": "0938542418",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "vutrang69",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp70",
+        "name": "Nguyen Van Sang",
+        "phone": "0513387626",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "nguyensang70",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp71",
+        "name": "Tran Phuong Thao",
+        "phone": "0344778499",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "tranthao71",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp72",
+        "name": "Le Anh Tai",
+        "phone": "0437125324",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "letai72",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp74",
+        "name": "Hoang Quoc Linh",
+        "phone": "0280725706",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "hoanglinh74",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp75",
+        "name": "Bui Thanh Duc",
+        "phone": "0585212076",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "buiduc75",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp76",
+        "name": "Dang Duy Hieu",
+        "phone": "0956720829",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "danghieu76",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp77",
+        "name": "Do Minh Nhi",
+        "phone": "0954256809",
+        "designation": "Accountant",
+        "address": "Can Tho",
+        "username": "donhi77",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp78",
+        "name": "Ngo Bao Khoa",
+        "phone": "0974566636",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "ngokhoa78",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp79",
+        "name": "Vu Thi Trang",
+        "phone": "0552703098",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "vutrang79",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp80",
+        "name": "Nguyen Van Sang",
+        "phone": "0150912033",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "nguyensang80",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp81",
+        "name": "Tran Phuong Thao",
+        "phone": "0671887466",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "tranthao81",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp82",
+        "name": "Le Anh Tai",
+        "phone": "0424199648",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "letai82",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp83",
+        "name": "Pham Ngoc Thu",
+        "phone": "0200065212",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "phamthu83",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp84",
+        "name": "Hoang Quoc Linh",
+        "phone": "0587369256",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "hoanglinh84",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp85",
+        "name": "Bui Thanh Duc",
+        "phone": "0780814177",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "buiduc85",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp86",
+        "name": "Dang Duy Hieu",
+        "phone": "0589159211",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "danghieu86",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp87",
+        "name": "Do Minh Nhi",
+        "phone": "0939914286",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "donhi87",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp88",
+        "name": "Ngo Bao Khoa",
+        "phone": "0196189627",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "ngokhoa88",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp89",
+        "name": "Vu Thi Trang",
+        "phone": "0211764879",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "vutrang89",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp90",
+        "name": "Nguyen Van Sang",
+        "phone": "0882130585",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "nguyensang90",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp91",
+        "name": "Tran Phuong Thao",
+        "phone": "0696866997",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "tranthao91",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp92",
+        "name": "Le Anh Tai",
+        "phone": "0644587596",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "letai92",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp93",
+        "name": "Pham Ngoc Thu",
+        "phone": "0980273904",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "phamthu93",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp94",
+        "name": "Hoang Quoc Linh",
+        "phone": "0316091581",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "hoanglinh94",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp95",
+        "name": "Bui Thanh Duc",
+        "phone": "0117380256",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "buiduc95",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp96",
+        "name": "Dang Duy Hieu",
+        "phone": "0781882310",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "danghieu96",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp98",
+        "name": "Ngo Bao Khoa",
+        "phone": "0181301123",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "ngokhoa98",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp99",
+        "name": "Vu Thi Trang",
+        "phone": "0675578051",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "vutrang99",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp100",
+        "name": "Nguyen Van Sang",
+        "phone": "0678210783",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "nguyensang100",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp101",
+        "name": "Tran Phuong Thao",
+        "phone": "0183839568",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "tranthao101",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp102",
+        "name": "Le Anh Tai",
+        "phone": "0846157877",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "letai102",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp103",
+        "name": "Pham Ngoc Thu",
+        "phone": "0903598242",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "phamthu103",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp104",
+        "name": "Hoang Quoc Linh",
+        "phone": "0925085261",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "hoanglinh104",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp105",
+        "name": "Bui Thanh Duc",
+        "phone": "0388907208",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "buiduc105",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp106",
+        "name": "Dang Duy Hieu",
+        "phone": "0549601492",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "danghieu106",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp107",
+        "name": "Do Minh Nhi",
+        "phone": "0765941477",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "donhi107",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp108",
+        "name": "Ngo Bao Khoa",
+        "phone": "0804819176",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "ngokhoa108",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp109",
+        "name": "Vu Thi Trang",
+        "phone": "0123017781",
+        "designation": "Accountant",
+        "address": "Can Tho",
+        "username": "vutrang109",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp110",
+        "name": "Nguyen Van Sang",
+        "phone": "0333335157",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "nguyensang110",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp111",
+        "name": "Tran Phuong Thao",
+        "phone": "0748616753",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "tranthao111",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp112",
+        "name": "Le Anh Tai",
+        "phone": "0219571495",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "letai112",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp113",
+        "name": "Pham Ngoc Thu",
+        "phone": "0606682541",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "phamthu113",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp114",
+        "name": "Hoang Quoc Linh",
+        "phone": "0753633324",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "hoanglinh114",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp115",
+        "name": "Bui Thanh Duc",
+        "phone": "0328013341",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "buiduc115",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp116",
+        "name": "Dang Duy Hieu",
+        "phone": "0611584555",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "danghieu116",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp117",
+        "name": "Do Minh Nhi",
+        "phone": "0571303070",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "donhi117",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp118",
+        "name": "Ngo Bao Khoa",
+        "phone": "0344583901",
+        "designation": "Accountant",
+        "address": "Nha Trang",
+        "username": "ngokhoa118",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp119",
+        "name": "Vu Thi Trang",
+        "phone": "0337098429",
+        "designation": "Employee",
+        "address": "Vung Tau",
+        "username": "vutrang119",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp120",
+        "name": "Nguyen Van Sang",
+        "phone": "0813636248",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Binh Duong",
+        "username": "nguyensang120",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp121",
+        "name": "Tran Phuong Thao",
+        "phone": "0597101303",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "tranthao121",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp122",
+        "name": "Le Anh Tai",
+        "phone": "0738729502",
+        "designation": "Accountant",
+        "address": "Da Nang",
+        "username": "letai122",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp123",
+        "name": "Pham Ngoc Thu",
+        "phone": "0114456385",
+        "designation": "Employee",
+        "address": "Hai Phong",
+        "username": "phamthu123",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp124",
+        "name": "Hoang Quoc Linh",
+        "phone": "0332137529",
+        "designation": "System Administrator (IT Manager)",
+        "address": "Ha Noi",
+        "username": "hoanglinh124",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp125",
+        "name": "Bui Thanh Duc",
+        "phone": "0374813323",
+        "designation": "Store Manager",
+        "address": "Can Tho",
+        "username": "buiduc125",
+        "password": "hellokitty"
+    },
+    {
+        "id": "emp126",
+        "name": "Phuong Nhi ",
+        "phone": "0775600429",
+        "designation": "Store Manager",
+        "address": "Tp. Ho Chi Minh",
+        "username": "phuongnhi123",
+        "password": "hellokitty"
     }
 ]

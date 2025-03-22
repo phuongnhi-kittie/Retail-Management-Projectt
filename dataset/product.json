@@ -1,32 +1,3682 @@
 [
     {
+        "id": "prod1",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8594,
+        "cost_price": 122999.07,
+        "selling_price": 150998.98,
+        "vendor_phone": "0938050448"
+    },
+    {
         "id": "prod2",
-        "name": "Hộp xếp hình 520 chi tiết cho bé sáng tạo",
-        "category": "Đồ chơi xếp hình",
-        "sub_category": "dcxh2",
-        "quantity": 9600,
-        "cost_price": 70000.0,
-        "selling_price": 103000.0,
-        "vendor_phone": "0344534329"
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 9592,
+        "cost_price": 140779.96,
+        "selling_price": 170258.61,
+        "vendor_phone": "0808369642"
     },
     {
         "id": "prod3",
-        "name": "Cửa hàng bách hóa Đồ chơi cho trẻ em Bảng gỗ Xếp hình Bảng chữ cái ABC Xếp hình kỹ thuật số Đồ chơi bằng gỗ Khối giáo dục",
-        "category": "Đồ chơi xếp hình",
-        "sub_category": "dcxh3",
-        "quantity": 9860,
-        "cost_price": 25000.0,
-        "selling_price": 45000.0,
-        "vendor_phone": "0344534329"
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11075,
+        "cost_price": 154528.42,
+        "selling_price": 188236.89,
+        "vendor_phone": "0641691820"
+    },
+    {
+        "id": "prod4",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11467,
+        "cost_price": 153842.01,
+        "selling_price": 187033.64,
+        "vendor_phone": "0219048997"
     },
     {
         "id": "prod5",
-        "name": "Đồ chơi cầu trượt Vịt vàng leo cầu thang với âm thanh vui nhộn + Đèn nháy đẹp mắt",
-        "category": "Đồ chơi trẻ em",
-        "sub_category": "ĐT123",
-        "quantity": 9900,
-        "cost_price": 40000.0,
-        "selling_price": 50000.0,
-        "vendor_phone": "0123456789"
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8031,
+        "cost_price": 99096.84,
+        "selling_price": 119094.73,
+        "vendor_phone": "0917942589"
+    },
+    {
+        "id": "prod6",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9807,
+        "cost_price": 149042.15,
+        "selling_price": 196337.0,
+        "vendor_phone": "0588771094"
+    },
+    {
+        "id": "prod7",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10699,
+        "cost_price": 171023.59,
+        "selling_price": 233303.37,
+        "vendor_phone": "0105376292"
+    },
+    {
+        "id": "prod8",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8502,
+        "cost_price": 107084.76,
+        "selling_price": 128685.12,
+        "vendor_phone": "0580425109"
+    },
+    {
+        "id": "prod9",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11796,
+        "cost_price": 114866.41,
+        "selling_price": 145829.16,
+        "vendor_phone": "0504673249"
+    },
+    {
+        "id": "prod10",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8246,
+        "cost_price": 77268.9,
+        "selling_price": 109803.58,
+        "vendor_phone": "0126688652"
+    },
+    {
+        "id": "prod11",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11851,
+        "cost_price": 179585.11,
+        "selling_price": 251956.21,
+        "vendor_phone": "0655635960"
+    },
+    {
+        "id": "prod12",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10169,
+        "cost_price": 150718.96,
+        "selling_price": 187660.04,
+        "vendor_phone": "0195241320"
+    },
+    {
+        "id": "prod13",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9134,
+        "cost_price": 87018.09,
+        "selling_price": 115243.92,
+        "vendor_phone": "0173136211"
+    },
+    {
+        "id": "prod14",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8393,
+        "cost_price": 128477.58,
+        "selling_price": 176915.69,
+        "vendor_phone": "0806180033"
+    },
+    {
+        "id": "prod15",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8046,
+        "cost_price": 60429.23,
+        "selling_price": 76387.58,
+        "vendor_phone": "0872809439"
+    },
+    {
+        "id": "prod16",
+        "name": "Ô tô địa hình điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11805,
+        "cost_price": 71119.67,
+        "selling_price": 92137.83,
+        "vendor_phone": "0618774550"
+    },
+    {
+        "id": "prod17",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10000,
+        "cost_price": 148340.41,
+        "selling_price": 192193.82,
+        "vendor_phone": "0716246009"
+    },
+    {
+        "id": "prod18",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11924,
+        "cost_price": 63934.33,
+        "selling_price": 80073.38,
+        "vendor_phone": "0626421839"
+    },
+    {
+        "id": "prod19",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10158,
+        "cost_price": 107316.74,
+        "selling_price": 154521.1,
+        "vendor_phone": "0481983281"
+    },
+    {
+        "id": "prod20",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8534,
+        "cost_price": 128541.32,
+        "selling_price": 182633.0,
+        "vendor_phone": "0745593169"
+    },
+    {
+        "id": "prod21",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8900,
+        "cost_price": 187182.84,
+        "selling_price": 266458.04,
+        "vendor_phone": "0851714458"
+    },
+    {
+        "id": "prod22",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11624,
+        "cost_price": 184615.23,
+        "selling_price": 265170.67,
+        "vendor_phone": "0717424923"
+    },
+    {
+        "id": "prod23",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8691,
+        "cost_price": 167024.47,
+        "selling_price": 228581.17,
+        "vendor_phone": "0683440470"
+    },
+    {
+        "id": "prod24",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9970,
+        "cost_price": 80194.89,
+        "selling_price": 115847.37,
+        "vendor_phone": "0647055080"
+    },
+    {
+        "id": "prod25",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8511,
+        "cost_price": 186802.37,
+        "selling_price": 245259.65,
+        "vendor_phone": "0677202019"
+    },
+    {
+        "id": "prod26",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10113,
+        "cost_price": 152455.0,
+        "selling_price": 217516.98,
+        "vendor_phone": "0520901540"
+    },
+    {
+        "id": "prod27",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10157,
+        "cost_price": 154275.47,
+        "selling_price": 207489.15,
+        "vendor_phone": "0951777223"
+    },
+    {
+        "id": "prod28",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9925,
+        "cost_price": 165787.6,
+        "selling_price": 210573.87,
+        "vendor_phone": "0827250475"
+    },
+    {
+        "id": "prod29",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10880,
+        "cost_price": 194924.27,
+        "selling_price": 290786.32,
+        "vendor_phone": "0317096152"
+    },
+    {
+        "id": "prod30",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11276,
+        "cost_price": 121840.82,
+        "selling_price": 156983.12,
+        "vendor_phone": "0125336327"
+    },
+    {
+        "id": "prod31",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11810,
+        "cost_price": 196054.44,
+        "selling_price": 251371.45,
+        "vendor_phone": "0999163524"
+    },
+    {
+        "id": "prod32",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8289,
+        "cost_price": 84668.09,
+        "selling_price": 120953.18,
+        "vendor_phone": "0659609959"
+    },
+    {
+        "id": "prod33",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9600,
+        "cost_price": 65250.09,
+        "selling_price": 88361.31,
+        "vendor_phone": "0479172218"
+    },
+    {
+        "id": "prod34",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11655,
+        "cost_price": 162822.18,
+        "selling_price": 220954.71,
+        "vendor_phone": "0314840904"
+    },
+    {
+        "id": "prod35",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11620,
+        "cost_price": 177439.34,
+        "selling_price": 233422.1,
+        "vendor_phone": "0727785552"
+    },
+    {
+        "id": "prod36",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9670,
+        "cost_price": 86649.26,
+        "selling_price": 106321.38,
+        "vendor_phone": "0883743183"
+    },
+    {
+        "id": "prod37",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8529,
+        "cost_price": 134628.8,
+        "selling_price": 180713.01,
+        "vendor_phone": "0942505624"
+    },
+    {
+        "id": "prod38",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10504,
+        "cost_price": 69259.27,
+        "selling_price": 91129.19,
+        "vendor_phone": "0647965127"
+    },
+    {
+        "id": "prod39",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9861,
+        "cost_price": 124792.58,
+        "selling_price": 183060.02,
+        "vendor_phone": "0495342454"
+    },
+    {
+        "id": "prod40",
+        "name": "Ô tô địa hình điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10568,
+        "cost_price": 95940.32,
+        "selling_price": 122132.07,
+        "vendor_phone": "0316352966"
+    },
+    {
+        "id": "prod41",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9923,
+        "cost_price": 115680.35,
+        "selling_price": 173469.3,
+        "vendor_phone": "0863795083"
+    },
+    {
+        "id": "prod42",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10765,
+        "cost_price": 192191.71,
+        "selling_price": 250777.13,
+        "vendor_phone": "0368334993"
+    },
+    {
+        "id": "prod43",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10323,
+        "cost_price": 161165.71,
+        "selling_price": 229007.91,
+        "vendor_phone": "0243874756"
+    },
+    {
+        "id": "prod44",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11138,
+        "cost_price": 186880.78,
+        "selling_price": 239266.2,
+        "vendor_phone": "0694577953"
+    },
+    {
+        "id": "prod45",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11119,
+        "cost_price": 94429.74,
+        "selling_price": 125728.78,
+        "vendor_phone": "0183541239"
+    },
+    {
+        "id": "prod46",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10052,
+        "cost_price": 65820.52,
+        "selling_price": 87087.78,
+        "vendor_phone": "0703085321"
+    },
+    {
+        "id": "prod47",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11881,
+        "cost_price": 163045.66,
+        "selling_price": 241575.86,
+        "vendor_phone": "0187452160"
+    },
+    {
+        "id": "prod48",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8397,
+        "cost_price": 199527.9,
+        "selling_price": 257303.75,
+        "vendor_phone": "0365435179"
+    },
+    {
+        "id": "prod49",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11607,
+        "cost_price": 122148.45,
+        "selling_price": 161495.21,
+        "vendor_phone": "0312435946"
+    },
+    {
+        "id": "prod50",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10181,
+        "cost_price": 125325.76,
+        "selling_price": 164974.06,
+        "vendor_phone": "0154033813"
+    },
+    {
+        "id": "prod51",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11552,
+        "cost_price": 72045.38,
+        "selling_price": 101407.13,
+        "vendor_phone": "0651572934"
+    },
+    {
+        "id": "prod52",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9876,
+        "cost_price": 117176.67,
+        "selling_price": 148644.76,
+        "vendor_phone": "0811289550"
+    },
+    {
+        "id": "prod53",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9582,
+        "cost_price": 138664.68,
+        "selling_price": 189685.23,
+        "vendor_phone": "0996173235"
+    },
+    {
+        "id": "prod54",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11090,
+        "cost_price": 110934.25,
+        "selling_price": 152183.01,
+        "vendor_phone": "0721148515"
+    },
+    {
+        "id": "prod55",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9278,
+        "cost_price": 134173.2,
+        "selling_price": 172794.26,
+        "vendor_phone": "0795932460"
+    },
+    {
+        "id": "prod56",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11057,
+        "cost_price": 104663.47,
+        "selling_price": 128280.33,
+        "vendor_phone": "0991110622"
+    },
+    {
+        "id": "prod57",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8457,
+        "cost_price": 94881.33,
+        "selling_price": 132050.79,
+        "vendor_phone": "0709725353"
+    },
+    {
+        "id": "prod58",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9007,
+        "cost_price": 104720.31,
+        "selling_price": 133340.77,
+        "vendor_phone": "0807464486"
+    },
+    {
+        "id": "prod59",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10786,
+        "cost_price": 114852.76,
+        "selling_price": 140644.05,
+        "vendor_phone": "0696818651"
+    },
+    {
+        "id": "prod60",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10772,
+        "cost_price": 193652.21,
+        "selling_price": 274472.26,
+        "vendor_phone": "0502122001"
+    },
+    {
+        "id": "prod61",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10232,
+        "cost_price": 59159.64,
+        "selling_price": 72716.1,
+        "vendor_phone": "0786488046"
+    },
+    {
+        "id": "prod62",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11952,
+        "cost_price": 90255.75,
+        "selling_price": 133120.57,
+        "vendor_phone": "0913978867"
+    },
+    {
+        "id": "prod63",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11486,
+        "cost_price": 104452.06,
+        "selling_price": 148944.69,
+        "vendor_phone": "0706320757"
+    },
+    {
+        "id": "prod64",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10166,
+        "cost_price": 73157.4,
+        "selling_price": 98395.46,
+        "vendor_phone": "0830473776"
+    },
+    {
+        "id": "prod65",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10078,
+        "cost_price": 165222.96,
+        "selling_price": 246837.52,
+        "vendor_phone": "0328310574"
+    },
+    {
+        "id": "prod66",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11963,
+        "cost_price": 157678.8,
+        "selling_price": 198102.67,
+        "vendor_phone": "0104654719"
+    },
+    {
+        "id": "prod67",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10756,
+        "cost_price": 100424.47,
+        "selling_price": 137880.07,
+        "vendor_phone": "0130334304"
+    },
+    {
+        "id": "prod68",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10176,
+        "cost_price": 152378.23,
+        "selling_price": 219723.97,
+        "vendor_phone": "0552682936"
+    },
+    {
+        "id": "prod69",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11046,
+        "cost_price": 101506.86,
+        "selling_price": 126409.48,
+        "vendor_phone": "0653866482"
+    },
+    {
+        "id": "prod70",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11328,
+        "cost_price": 70487.41,
+        "selling_price": 94789.2,
+        "vendor_phone": "0796011292"
+    },
+    {
+        "id": "prod71",
+        "name": "Cầu trượt cho bé 2m",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8673,
+        "cost_price": 185816.28,
+        "selling_price": 255881.09,
+        "vendor_phone": "0951659392"
+    },
+    {
+        "id": "prod72",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9342,
+        "cost_price": 110459.87,
+        "selling_price": 155263.89,
+        "vendor_phone": "0261193824"
+    },
+    {
+        "id": "prod73",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8022,
+        "cost_price": 109280.83,
+        "selling_price": 146567.2,
+        "vendor_phone": "0386147061"
+    },
+    {
+        "id": "prod74",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8885,
+        "cost_price": 168198.27,
+        "selling_price": 204025.63,
+        "vendor_phone": "0860577372"
+    },
+    {
+        "id": "prod75",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8185,
+        "cost_price": 68963.96,
+        "selling_price": 84893.12,
+        "vendor_phone": "0729082865"
+    },
+    {
+        "id": "prod76",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9410,
+        "cost_price": 198628.97,
+        "selling_price": 246339.05,
+        "vendor_phone": "0322882061"
+    },
+    {
+        "id": "prod77",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11977,
+        "cost_price": 78738.09,
+        "selling_price": 95083.03,
+        "vendor_phone": "0651710190"
+    },
+    {
+        "id": "prod78",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11102,
+        "cost_price": 156834.8,
+        "selling_price": 227994.72,
+        "vendor_phone": "0371399238"
+    },
+    {
+        "id": "prod79",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10467,
+        "cost_price": 185725.6,
+        "selling_price": 235181.79,
+        "vendor_phone": "0710265508"
+    },
+    {
+        "id": "prod80",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8811,
+        "cost_price": 61424.16,
+        "selling_price": 85403.1,
+        "vendor_phone": "0368277701"
+    },
+    {
+        "id": "prod81",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8843,
+        "cost_price": 173368.62,
+        "selling_price": 221643.0,
+        "vendor_phone": "0264898240"
+    },
+    {
+        "id": "prod82",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10739,
+        "cost_price": 173876.8,
+        "selling_price": 241489.31,
+        "vendor_phone": "0677927334"
+    },
+    {
+        "id": "prod83",
+        "name": "Xếp hình 3D mô hình thành phố",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8107,
+        "cost_price": 108951.83,
+        "selling_price": 139759.49,
+        "vendor_phone": "0306221084"
+    },
+    {
+        "id": "prod84",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11614,
+        "cost_price": 193413.79,
+        "selling_price": 271948.71,
+        "vendor_phone": "0205645777"
+    },
+    {
+        "id": "prod85",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10850,
+        "cost_price": 183188.38,
+        "selling_price": 258119.87,
+        "vendor_phone": "0393465838"
+    },
+    {
+        "id": "prod86",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10977,
+        "cost_price": 187856.67,
+        "selling_price": 277636.59,
+        "vendor_phone": "0970532559"
+    },
+    {
+        "id": "prod87",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10886,
+        "cost_price": 54706.6,
+        "selling_price": 70920.65,
+        "vendor_phone": "0761582409"
+    },
+    {
+        "id": "prod88",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10703,
+        "cost_price": 84885.52,
+        "selling_price": 114687.59,
+        "vendor_phone": "0203622010"
+    },
+    {
+        "id": "prod89",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9241,
+        "cost_price": 59966.51,
+        "selling_price": 86020.72,
+        "vendor_phone": "0541191123"
+    },
+    {
+        "id": "prod90",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9149,
+        "cost_price": 114708.25,
+        "selling_price": 160932.88,
+        "vendor_phone": "0734487377"
+    },
+    {
+        "id": "prod91",
+        "name": "Ô tô địa hình điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11436,
+        "cost_price": 88267.67,
+        "selling_price": 109523.53,
+        "vendor_phone": "0401907341"
+    },
+    {
+        "id": "prod92",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10455,
+        "cost_price": 173627.94,
+        "selling_price": 238508.41,
+        "vendor_phone": "0590721768"
+    },
+    {
+        "id": "prod93",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9992,
+        "cost_price": 172250.45,
+        "selling_price": 242984.71,
+        "vendor_phone": "0598883281"
+    },
+    {
+        "id": "prod94",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10908,
+        "cost_price": 194131.31,
+        "selling_price": 267723.89,
+        "vendor_phone": "0890082933"
+    },
+    {
+        "id": "prod95",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8640,
+        "cost_price": 102981.87,
+        "selling_price": 152345.93,
+        "vendor_phone": "0911416675"
+    },
+    {
+        "id": "prod96",
+        "name": "Bảng học vẽ cho bé yêu ",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9959,
+        "cost_price": 92123.0,
+        "selling_price": 121675.0,
+        "vendor_phone": "0498452827"
+    },
+    {
+        "id": "prod97",
+        "name": "Xếp hình 3D mô hình thành phố",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11751,
+        "cost_price": 60955.37,
+        "selling_price": 75827.55,
+        "vendor_phone": "0625764531"
+    },
+    {
+        "id": "prod98",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10860,
+        "cost_price": 119574.35,
+        "selling_price": 156762.52,
+        "vendor_phone": "0427606682"
+    },
+    {
+        "id": "prod99",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11349,
+        "cost_price": 94827.5,
+        "selling_price": 119805.35,
+        "vendor_phone": "0643195213"
+    },
+    {
+        "id": "prod100",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8266,
+        "cost_price": 63787.84,
+        "selling_price": 77525.29,
+        "vendor_phone": "0121590508"
+    },
+    {
+        "id": "prod101",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10710,
+        "cost_price": 67378.2,
+        "selling_price": 81702.09,
+        "vendor_phone": "0922680427"
+    },
+    {
+        "id": "prod102",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9761,
+        "cost_price": 108591.14,
+        "selling_price": 140573.2,
+        "vendor_phone": "0413953368"
+    },
+    {
+        "id": "prod103",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11817,
+        "cost_price": 124218.34,
+        "selling_price": 178370.62,
+        "vendor_phone": "0180423124"
+    },
+    {
+        "id": "prod104",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9549,
+        "cost_price": 81284.21,
+        "selling_price": 107500.67,
+        "vendor_phone": "0293234227"
+    },
+    {
+        "id": "prod105",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10047,
+        "cost_price": 169398.24,
+        "selling_price": 209958.25,
+        "vendor_phone": "0582911406"
+    },
+    {
+        "id": "prod106",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10612,
+        "cost_price": 197733.88,
+        "selling_price": 238123.44,
+        "vendor_phone": "0261296756"
+    },
+    {
+        "id": "prod107",
+        "name": "Xếp hình 3D mô hình thành phố",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8902,
+        "cost_price": 54317.95,
+        "selling_price": 65768.57,
+        "vendor_phone": "0142985392"
+    },
+    {
+        "id": "prod108",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8704,
+        "cost_price": 51649.87,
+        "selling_price": 76074.86,
+        "vendor_phone": "0225449552"
+    },
+    {
+        "id": "prod109",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9397,
+        "cost_price": 98645.53,
+        "selling_price": 127198.19,
+        "vendor_phone": "0975440466"
+    },
+    {
+        "id": "prod110",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10510,
+        "cost_price": 102874.54,
+        "selling_price": 141762.05,
+        "vendor_phone": "0630210863"
+    },
+    {
+        "id": "prod111",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10533,
+        "cost_price": 55257.16,
+        "selling_price": 81707.67,
+        "vendor_phone": "0815138753"
+    },
+    {
+        "id": "prod112",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10539,
+        "cost_price": 160091.55,
+        "selling_price": 216889.79,
+        "vendor_phone": "0723276575"
+    },
+    {
+        "id": "prod113",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10390,
+        "cost_price": 167311.27,
+        "selling_price": 213264.02,
+        "vendor_phone": "0503883219"
+    },
+    {
+        "id": "prod114",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8249,
+        "cost_price": 147033.86,
+        "selling_price": 179360.03,
+        "vendor_phone": "0255803360"
+    },
+    {
+        "id": "prod115",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11046,
+        "cost_price": 136666.32,
+        "selling_price": 192230.99,
+        "vendor_phone": "0427239258"
+    },
+    {
+        "id": "prod116",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9216,
+        "cost_price": 99483.99,
+        "selling_price": 142515.34,
+        "vendor_phone": "0120342804"
+    },
+    {
+        "id": "prod117",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8614,
+        "cost_price": 146856.9,
+        "selling_price": 180175.93,
+        "vendor_phone": "0671870827"
+    },
+    {
+        "id": "prod118",
+        "name": "Ô tô địa hình điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11835,
+        "cost_price": 183916.41,
+        "selling_price": 242105.16,
+        "vendor_phone": "0358420116"
+    },
+    {
+        "id": "prod119",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11102,
+        "cost_price": 83309.27,
+        "selling_price": 115521.82,
+        "vendor_phone": "0690040253"
+    },
+    {
+        "id": "prod120",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11918,
+        "cost_price": 135273.78,
+        "selling_price": 179993.25,
+        "vendor_phone": "0262030880"
+    },
+    {
+        "id": "prod121",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9916,
+        "cost_price": 106441.76,
+        "selling_price": 150613.85,
+        "vendor_phone": "0148592185"
+    },
+    {
+        "id": "prod122",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10886,
+        "cost_price": 133586.74,
+        "selling_price": 179684.11,
+        "vendor_phone": "0291210044"
+    },
+    {
+        "id": "prod123",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8501,
+        "cost_price": 150704.84,
+        "selling_price": 189176.89,
+        "vendor_phone": "0577214787"
+    },
+    {
+        "id": "prod124",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11237,
+        "cost_price": 60975.19,
+        "selling_price": 88966.8,
+        "vendor_phone": "0416559679"
+    },
+    {
+        "id": "prod125",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11637,
+        "cost_price": 54031.44,
+        "selling_price": 66467.63,
+        "vendor_phone": "0659740493"
+    },
+    {
+        "id": "prod126",
+        "name": "Cầu trượt cho bé 2m",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10483,
+        "cost_price": 195566.6,
+        "selling_price": 245571.32,
+        "vendor_phone": "0449225062"
+    },
+    {
+        "id": "prod127",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9267,
+        "cost_price": 79666.47,
+        "selling_price": 111522.55,
+        "vendor_phone": "0263197743"
+    },
+    {
+        "id": "prod128",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9442,
+        "cost_price": 188148.59,
+        "selling_price": 256075.94,
+        "vendor_phone": "0469766595"
+    },
+    {
+        "id": "prod129",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10876,
+        "cost_price": 100718.37,
+        "selling_price": 137233.4,
+        "vendor_phone": "0866747820"
+    },
+    {
+        "id": "prod130",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10173,
+        "cost_price": 63429.76,
+        "selling_price": 81159.98,
+        "vendor_phone": "0138253893"
+    },
+    {
+        "id": "prod131",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10986,
+        "cost_price": 124205.34,
+        "selling_price": 163721.59,
+        "vendor_phone": "0810441092"
+    },
+    {
+        "id": "prod132",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8343,
+        "cost_price": 157449.16,
+        "selling_price": 198029.23,
+        "vendor_phone": "0412553583"
+    },
+    {
+        "id": "prod133",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11487,
+        "cost_price": 82736.81,
+        "selling_price": 116805.51,
+        "vendor_phone": "0840870648"
+    },
+    {
+        "id": "prod134",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11143,
+        "cost_price": 187585.92,
+        "selling_price": 235323.4,
+        "vendor_phone": "0835608521"
+    },
+    {
+        "id": "prod135",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8000,
+        "cost_price": 105487.97,
+        "selling_price": 142119.28,
+        "vendor_phone": "0511535412"
+    },
+    {
+        "id": "prod136",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9228,
+        "cost_price": 134548.22,
+        "selling_price": 180902.87,
+        "vendor_phone": "0533289700"
+    },
+    {
+        "id": "prod137",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9166,
+        "cost_price": 184195.23,
+        "selling_price": 225739.58,
+        "vendor_phone": "0425518608"
+    },
+    {
+        "id": "prod138",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8306,
+        "cost_price": 178094.88,
+        "selling_price": 222131.28,
+        "vendor_phone": "0895725997"
+    },
+    {
+        "id": "prod139",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11289,
+        "cost_price": 199289.79,
+        "selling_price": 282009.27,
+        "vendor_phone": "0649683082"
+    },
+    {
+        "id": "prod140",
+        "name": "Bộ đồ chơi treo nôi phát nhạc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11248,
+        "cost_price": 72429.95,
+        "selling_price": 106023.52,
+        "vendor_phone": "0619308130"
+    },
+    {
+        "id": "prod141",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11777,
+        "cost_price": 95786.87,
+        "selling_price": 115387.11,
+        "vendor_phone": "0359487382"
+    },
+    {
+        "id": "prod142",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8348,
+        "cost_price": 173764.78,
+        "selling_price": 252779.46,
+        "vendor_phone": "0462772415"
+    },
+    {
+        "id": "prod143",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9960,
+        "cost_price": 138682.27,
+        "selling_price": 185531.74,
+        "vendor_phone": "0714275042"
+    },
+    {
+        "id": "prod144",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10052,
+        "cost_price": 57802.19,
+        "selling_price": 74651.75,
+        "vendor_phone": "0744344708"
+    },
+    {
+        "id": "prod145",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 9151,
+        "cost_price": 118261.6,
+        "selling_price": 169004.98,
+        "vendor_phone": "0875328912"
+    },
+    {
+        "id": "prod146",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9991,
+        "cost_price": 111506.34,
+        "selling_price": 141399.4,
+        "vendor_phone": "0731456531"
+    },
+    {
+        "id": "prod147",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11002,
+        "cost_price": 57454.13,
+        "selling_price": 72165.02,
+        "vendor_phone": "0931220336"
+    },
+    {
+        "id": "prod148",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8779,
+        "cost_price": 64611.81,
+        "selling_price": 86622.85,
+        "vendor_phone": "0323504202"
+    },
+    {
+        "id": "prod149",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8297,
+        "cost_price": 76657.95,
+        "selling_price": 100979.56,
+        "vendor_phone": "0633254403"
+    },
+    {
+        "id": "prod150",
+        "name": "Bộ đồ chơi treo nôi phát nhạc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10315,
+        "cost_price": 61478.86,
+        "selling_price": 88982.47,
+        "vendor_phone": "0659887913"
+    },
+    {
+        "id": "prod151",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11840,
+        "cost_price": 83188.67,
+        "selling_price": 114084.22,
+        "vendor_phone": "0714885937"
+    },
+    {
+        "id": "prod152",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8443,
+        "cost_price": 143881.12,
+        "selling_price": 200578.34,
+        "vendor_phone": "0784720982"
+    },
+    {
+        "id": "prod153",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10527,
+        "cost_price": 141046.27,
+        "selling_price": 199783.87,
+        "vendor_phone": "0217132324"
+    },
+    {
+        "id": "prod154",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10466,
+        "cost_price": 182894.29,
+        "selling_price": 255599.16,
+        "vendor_phone": "0224419845"
+    },
+    {
+        "id": "prod155",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10255,
+        "cost_price": 98670.28,
+        "selling_price": 121238.84,
+        "vendor_phone": "0846194117"
+    },
+    {
+        "id": "prod156",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11025,
+        "cost_price": 90342.32,
+        "selling_price": 128864.17,
+        "vendor_phone": "0948511046"
+    },
+    {
+        "id": "prod157",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8882,
+        "cost_price": 134634.51,
+        "selling_price": 171546.6,
+        "vendor_phone": "0806982325"
+    },
+    {
+        "id": "prod158",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9329,
+        "cost_price": 197888.97,
+        "selling_price": 274136.97,
+        "vendor_phone": "0707322887"
+    },
+    {
+        "id": "prod159",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11200,
+        "cost_price": 123123.47,
+        "selling_price": 172765.09,
+        "vendor_phone": "0187315520"
+    },
+    {
+        "id": "prod160",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9135,
+        "cost_price": 188003.77,
+        "selling_price": 241298.26,
+        "vendor_phone": "0973513874"
+    },
+    {
+        "id": "prod161",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10758,
+        "cost_price": 175129.45,
+        "selling_price": 216640.42,
+        "vendor_phone": "0507056125"
+    },
+    {
+        "id": "prod162",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9909,
+        "cost_price": 78246.47,
+        "selling_price": 99291.85,
+        "vendor_phone": "0666742616"
+    },
+    {
+        "id": "prod163",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11019,
+        "cost_price": 61259.86,
+        "selling_price": 89287.37,
+        "vendor_phone": "0683010684"
+    },
+    {
+        "id": "prod164",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11912,
+        "cost_price": 116920.08,
+        "selling_price": 175041.67,
+        "vendor_phone": "0473207908"
+    },
+    {
+        "id": "prod165",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10909,
+        "cost_price": 101007.2,
+        "selling_price": 134329.58,
+        "vendor_phone": "0564897697"
+    },
+    {
+        "id": "prod166",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8189,
+        "cost_price": 96356.89,
+        "selling_price": 120351.68,
+        "vendor_phone": "0961387374"
+    },
+    {
+        "id": "prod167",
+        "name": "Cầu trượt cho bé 2m",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11845,
+        "cost_price": 66781.04,
+        "selling_price": 94645.79,
+        "vendor_phone": "0485599733"
+    },
+    {
+        "id": "prod168",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9229,
+        "cost_price": 115236.51,
+        "selling_price": 165886.06,
+        "vendor_phone": "0214073785"
+    },
+    {
+        "id": "prod169",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 9501,
+        "cost_price": 116881.05,
+        "selling_price": 165906.78,
+        "vendor_phone": "0249838299"
+    },
+    {
+        "id": "prod170",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11311,
+        "cost_price": 64383.44,
+        "selling_price": 88873.2,
+        "vendor_phone": "0223320434"
+    },
+    {
+        "id": "prod171",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10331,
+        "cost_price": 138923.96,
+        "selling_price": 198497.97,
+        "vendor_phone": "0398492050"
+    },
+    {
+        "id": "prod172",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10587,
+        "cost_price": 73759.65,
+        "selling_price": 98062.58,
+        "vendor_phone": "0680830192"
+    },
+    {
+        "id": "prod173",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9637,
+        "cost_price": 182767.7,
+        "selling_price": 255298.91,
+        "vendor_phone": "0831994964"
+    },
+    {
+        "id": "prod174",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9499,
+        "cost_price": 74936.27,
+        "selling_price": 96454.49,
+        "vendor_phone": "0785970873"
+    },
+    {
+        "id": "prod175",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10045,
+        "cost_price": 168929.97,
+        "selling_price": 240797.18,
+        "vendor_phone": "0674675862"
+    },
+    {
+        "id": "prod176",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11372,
+        "cost_price": 63701.47,
+        "selling_price": 89653.87,
+        "vendor_phone": "0907529417"
+    },
+    {
+        "id": "prod177",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11237,
+        "cost_price": 169584.81,
+        "selling_price": 233018.67,
+        "vendor_phone": "0569682206"
+    },
+    {
+        "id": "prod178",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11911,
+        "cost_price": 107438.68,
+        "selling_price": 143842.63,
+        "vendor_phone": "0540197820"
+    },
+    {
+        "id": "prod179",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10277,
+        "cost_price": 161036.7,
+        "selling_price": 237032.31,
+        "vendor_phone": "0778218654"
+    },
+    {
+        "id": "prod180",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8310,
+        "cost_price": 144336.13,
+        "selling_price": 205407.52,
+        "vendor_phone": "0997432803"
+    },
+    {
+        "id": "prod181",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11758,
+        "cost_price": 194795.97,
+        "selling_price": 271945.15,
+        "vendor_phone": "0702644230"
+    },
+    {
+        "id": "prod182",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10844,
+        "cost_price": 68039.86,
+        "selling_price": 96710.12,
+        "vendor_phone": "0667877791"
+    },
+    {
+        "id": "prod183",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11479,
+        "cost_price": 178304.78,
+        "selling_price": 219811.63,
+        "vendor_phone": "0374975596"
+    },
+    {
+        "id": "prod184",
+        "name": "Xếp hình 3D mô hình thành phố",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8246,
+        "cost_price": 56557.64,
+        "selling_price": 78518.8,
+        "vendor_phone": "0987296641"
+    },
+    {
+        "id": "prod185",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10015,
+        "cost_price": 66461.21,
+        "selling_price": 87115.52,
+        "vendor_phone": "0411364748"
+    },
+    {
+        "id": "prod186",
+        "name": "Xếp hình 3D mô hình thành phố",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11342,
+        "cost_price": 65107.57,
+        "selling_price": 89649.34,
+        "vendor_phone": "0152469883"
+    },
+    {
+        "id": "prod187",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11819,
+        "cost_price": 64960.98,
+        "selling_price": 82059.66,
+        "vendor_phone": "0624947581"
+    },
+    {
+        "id": "prod188",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11051,
+        "cost_price": 112635.75,
+        "selling_price": 151126.75,
+        "vendor_phone": "0509833627"
+    },
+    {
+        "id": "prod189",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9504,
+        "cost_price": 130588.04,
+        "selling_price": 164502.78,
+        "vendor_phone": "0562495005"
+    },
+    {
+        "id": "prod190",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9504,
+        "cost_price": 101881.68,
+        "selling_price": 135151.6,
+        "vendor_phone": "0777894968"
+    },
+    {
+        "id": "prod191",
+        "name": "Bộ đồ chơi treo nôi phát nhạc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9904,
+        "cost_price": 98411.37,
+        "selling_price": 132507.56,
+        "vendor_phone": "0997806954"
+    },
+    {
+        "id": "prod192",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9428,
+        "cost_price": 72159.55,
+        "selling_price": 101996.63,
+        "vendor_phone": "0320709376"
+    },
+    {
+        "id": "prod193",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9938,
+        "cost_price": 129762.76,
+        "selling_price": 184206.65,
+        "vendor_phone": "0838479962"
+    },
+    {
+        "id": "prod194",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11795,
+        "cost_price": 153100.34,
+        "selling_price": 208817.71,
+        "vendor_phone": "0360279202"
+    },
+    {
+        "id": "prod195",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11567,
+        "cost_price": 157575.11,
+        "selling_price": 208822.43,
+        "vendor_phone": "0658126575"
+    },
+    {
+        "id": "prod196",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9714,
+        "cost_price": 65678.53,
+        "selling_price": 87640.85,
+        "vendor_phone": "0461722116"
+    },
+    {
+        "id": "prod197",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8915,
+        "cost_price": 189116.28,
+        "selling_price": 274244.34,
+        "vendor_phone": "0980776041"
+    },
+    {
+        "id": "prod198",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9680,
+        "cost_price": 83109.86,
+        "selling_price": 107893.85,
+        "vendor_phone": "0901352056"
+    },
+    {
+        "id": "prod199",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10878,
+        "cost_price": 92712.75,
+        "selling_price": 129528.11,
+        "vendor_phone": "0886258829"
+    },
+    {
+        "id": "prod200",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11052,
+        "cost_price": 190013.49,
+        "selling_price": 265436.65,
+        "vendor_phone": "0489720221"
+    },
+    {
+        "id": "prod201",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8357,
+        "cost_price": 183704.34,
+        "selling_price": 268074.7,
+        "vendor_phone": "0176389776"
+    },
+    {
+        "id": "prod202",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10677,
+        "cost_price": 186669.5,
+        "selling_price": 251093.88,
+        "vendor_phone": "0765157016"
+    },
+    {
+        "id": "prod203",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11243,
+        "cost_price": 111588.73,
+        "selling_price": 138742.2,
+        "vendor_phone": "0228049600"
+    },
+    {
+        "id": "prod204",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8345,
+        "cost_price": 115774.97,
+        "selling_price": 173549.66,
+        "vendor_phone": "0866734719"
+    },
+    {
+        "id": "prod205",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10193,
+        "cost_price": 57161.95,
+        "selling_price": 82179.79,
+        "vendor_phone": "0986204633"
+    },
+    {
+        "id": "prod206",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11011,
+        "cost_price": 85221.33,
+        "selling_price": 106806.75,
+        "vendor_phone": "0620515918"
+    },
+    {
+        "id": "prod207",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11415,
+        "cost_price": 89671.31,
+        "selling_price": 112953.17,
+        "vendor_phone": "0947923235"
+    },
+    {
+        "id": "prod208",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9545,
+        "cost_price": 119274.77,
+        "selling_price": 163386.95,
+        "vendor_phone": "0490175873"
+    },
+    {
+        "id": "prod209",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10472,
+        "cost_price": 177555.07,
+        "selling_price": 264445.06,
+        "vendor_phone": "0711480831"
+    },
+    {
+        "id": "prod210",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9930,
+        "cost_price": 115746.88,
+        "selling_price": 146183.8,
+        "vendor_phone": "0436714551"
+    },
+    {
+        "id": "prod211",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11258,
+        "cost_price": 162153.05,
+        "selling_price": 225853.7,
+        "vendor_phone": "0202551723"
+    },
+    {
+        "id": "prod212",
+        "name": "Cầu trượt cho bé 2m",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8149,
+        "cost_price": 74042.82,
+        "selling_price": 104469.84,
+        "vendor_phone": "0933929482"
+    },
+    {
+        "id": "prod213",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10647,
+        "cost_price": 93539.59,
+        "selling_price": 116172.83,
+        "vendor_phone": "0650569123"
+    },
+    {
+        "id": "prod214",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9397,
+        "cost_price": 154832.19,
+        "selling_price": 223423.62,
+        "vendor_phone": "0722388942"
+    },
+    {
+        "id": "prod215",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11760,
+        "cost_price": 184337.46,
+        "selling_price": 234979.91,
+        "vendor_phone": "0986346550"
+    },
+    {
+        "id": "prod216",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10378,
+        "cost_price": 187381.63,
+        "selling_price": 248137.98,
+        "vendor_phone": "0762930320"
+    },
+    {
+        "id": "prod217",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11210,
+        "cost_price": 123969.48,
+        "selling_price": 175051.45,
+        "vendor_phone": "0278699975"
+    },
+    {
+        "id": "prod218",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9939,
+        "cost_price": 73039.53,
+        "selling_price": 101345.98,
+        "vendor_phone": "0528961721"
+    },
+    {
+        "id": "prod219",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11755,
+        "cost_price": 62283.17,
+        "selling_price": 82661.61,
+        "vendor_phone": "0532652805"
+    },
+    {
+        "id": "prod220",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8458,
+        "cost_price": 153905.0,
+        "selling_price": 204968.96,
+        "vendor_phone": "0659336176"
+    },
+    {
+        "id": "prod221",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10291,
+        "cost_price": 100667.3,
+        "selling_price": 121968.46,
+        "vendor_phone": "0112413872"
+    },
+    {
+        "id": "prod222",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11323,
+        "cost_price": 102470.96,
+        "selling_price": 139278.24,
+        "vendor_phone": "0222932872"
+    },
+    {
+        "id": "prod223",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8473,
+        "cost_price": 98142.56,
+        "selling_price": 121847.11,
+        "vendor_phone": "0593689689"
+    },
+    {
+        "id": "prod224",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8219,
+        "cost_price": 120154.52,
+        "selling_price": 179273.0,
+        "vendor_phone": "0673053311"
+    },
+    {
+        "id": "prod225",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11032,
+        "cost_price": 103863.67,
+        "selling_price": 152929.31,
+        "vendor_phone": "0483123708"
+    },
+    {
+        "id": "prod226",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10528,
+        "cost_price": 157424.44,
+        "selling_price": 214742.57,
+        "vendor_phone": "0793408084"
+    },
+    {
+        "id": "prod227",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10062,
+        "cost_price": 90712.78,
+        "selling_price": 134638.27,
+        "vendor_phone": "0886052052"
+    },
+    {
+        "id": "prod228",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10394,
+        "cost_price": 157627.28,
+        "selling_price": 228166.33,
+        "vendor_phone": "0550944244"
+    },
+    {
+        "id": "prod229",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10662,
+        "cost_price": 106627.03,
+        "selling_price": 151754.36,
+        "vendor_phone": "0974382894"
+    },
+    {
+        "id": "prod230",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10358,
+        "cost_price": 124695.73,
+        "selling_price": 168370.72,
+        "vendor_phone": "0818449118"
+    },
+    {
+        "id": "prod231",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11378,
+        "cost_price": 101242.28,
+        "selling_price": 147116.9,
+        "vendor_phone": "0823740045"
+    },
+    {
+        "id": "prod232",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11289,
+        "cost_price": 199051.07,
+        "selling_price": 246234.79,
+        "vendor_phone": "0358602787"
+    },
+    {
+        "id": "prod233",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10158,
+        "cost_price": 139387.93,
+        "selling_price": 179351.89,
+        "vendor_phone": "0920211630"
+    },
+    {
+        "id": "prod234",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9841,
+        "cost_price": 139127.17,
+        "selling_price": 193403.26,
+        "vendor_phone": "0286046278"
+    },
+    {
+        "id": "prod235",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11944,
+        "cost_price": 163570.77,
+        "selling_price": 223535.62,
+        "vendor_phone": "0168199246"
+    },
+    {
+        "id": "prod236",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8731,
+        "cost_price": 51020.59,
+        "selling_price": 73143.68,
+        "vendor_phone": "0142442918"
+    },
+    {
+        "id": "prod237",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9721,
+        "cost_price": 122504.99,
+        "selling_price": 183075.52,
+        "vendor_phone": "0454831639"
+    },
+    {
+        "id": "prod238",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8072,
+        "cost_price": 117982.48,
+        "selling_price": 147384.71,
+        "vendor_phone": "0598868096"
+    },
+    {
+        "id": "prod239",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8116,
+        "cost_price": 158311.1,
+        "selling_price": 206401.38,
+        "vendor_phone": "0398511475"
+    },
+    {
+        "id": "prod240",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11406,
+        "cost_price": 177144.73,
+        "selling_price": 215541.78,
+        "vendor_phone": "0906952577"
+    },
+    {
+        "id": "prod241",
+        "name": "Bộ đồ chơi treo nôi phát nhạc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9758,
+        "cost_price": 149826.8,
+        "selling_price": 213488.68,
+        "vendor_phone": "0190453803"
+    },
+    {
+        "id": "prod242",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8300,
+        "cost_price": 187485.56,
+        "selling_price": 279852.62,
+        "vendor_phone": "0961093187"
+    },
+    {
+        "id": "prod243",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10220,
+        "cost_price": 116219.28,
+        "selling_price": 155399.17,
+        "vendor_phone": "0659222228"
+    },
+    {
+        "id": "prod244",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11244,
+        "cost_price": 97632.17,
+        "selling_price": 129376.5,
+        "vendor_phone": "0655648843"
+    },
+    {
+        "id": "prod245",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8408,
+        "cost_price": 144081.94,
+        "selling_price": 185746.17,
+        "vendor_phone": "0306835492"
+    },
+    {
+        "id": "prod246",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11583,
+        "cost_price": 74474.83,
+        "selling_price": 93523.97,
+        "vendor_phone": "0246841152"
+    },
+    {
+        "id": "prod247",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10234,
+        "cost_price": 73301.9,
+        "selling_price": 88113.26,
+        "vendor_phone": "0677054287"
+    },
+    {
+        "id": "prod248",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8191,
+        "cost_price": 120635.29,
+        "selling_price": 169058.79,
+        "vendor_phone": "0142625849"
+    },
+    {
+        "id": "prod249",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8339,
+        "cost_price": 54407.85,
+        "selling_price": 74085.15,
+        "vendor_phone": "0923733736"
+    },
+    {
+        "id": "prod250",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8897,
+        "cost_price": 50678.85,
+        "selling_price": 62151.28,
+        "vendor_phone": "0795404811"
+    },
+    {
+        "id": "prod251",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10088,
+        "cost_price": 127768.35,
+        "selling_price": 172109.98,
+        "vendor_phone": "0440632452"
+    },
+    {
+        "id": "prod252",
+        "name": "Đàn piano điện tử mini",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10629,
+        "cost_price": 127392.06,
+        "selling_price": 154789.75,
+        "vendor_phone": "0588752368"
+    },
+    {
+        "id": "prod253",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10910,
+        "cost_price": 63052.59,
+        "selling_price": 77562.11,
+        "vendor_phone": "0655980304"
+    },
+    {
+        "id": "prod254",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8375,
+        "cost_price": 93403.26,
+        "selling_price": 119523.21,
+        "vendor_phone": "0610077397"
+    },
+    {
+        "id": "prod255",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9877,
+        "cost_price": 186535.85,
+        "selling_price": 278925.17,
+        "vendor_phone": "0997760784"
+    },
+    {
+        "id": "prod256",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8092,
+        "cost_price": 88455.83,
+        "selling_price": 124285.81,
+        "vendor_phone": "0541481608"
+    },
+    {
+        "id": "prod257",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11418,
+        "cost_price": 137644.63,
+        "selling_price": 200253.32,
+        "vendor_phone": "0325042350"
+    },
+    {
+        "id": "prod258",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9664,
+        "cost_price": 96564.43,
+        "selling_price": 138152.29,
+        "vendor_phone": "0503746745"
+    },
+    {
+        "id": "prod259",
+        "name": "Bộ đồ chơi treo nôi phát nhạc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9312,
+        "cost_price": 135218.78,
+        "selling_price": 195730.42,
+        "vendor_phone": "0476699153"
+    },
+    {
+        "id": "prod260",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8588,
+        "cost_price": 90936.0,
+        "selling_price": 127677.19,
+        "vendor_phone": "0709826085"
+    },
+    {
+        "id": "prod261",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11930,
+        "cost_price": 71549.38,
+        "selling_price": 89027.94,
+        "vendor_phone": "0602405495"
+    },
+    {
+        "id": "prod262",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10815,
+        "cost_price": 188145.0,
+        "selling_price": 263197.93,
+        "vendor_phone": "0924171405"
+    },
+    {
+        "id": "prod263",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8312,
+        "cost_price": 115704.68,
+        "selling_price": 144167.94,
+        "vendor_phone": "0540321949"
+    },
+    {
+        "id": "prod264",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9957,
+        "cost_price": 90502.15,
+        "selling_price": 126016.43,
+        "vendor_phone": "0839061292"
+    },
+    {
+        "id": "prod265",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11514,
+        "cost_price": 151776.98,
+        "selling_price": 222828.62,
+        "vendor_phone": "0161500580"
+    },
+    {
+        "id": "prod266",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9615,
+        "cost_price": 149693.22,
+        "selling_price": 212534.99,
+        "vendor_phone": "0242474421"
+    },
+    {
+        "id": "prod267",
+        "name": "Xếp hình 3D mô hình thành phố",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10486,
+        "cost_price": 110949.67,
+        "selling_price": 133954.02,
+        "vendor_phone": "0813954441"
+    },
+    {
+        "id": "prod268",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8435,
+        "cost_price": 179088.24,
+        "selling_price": 254077.49,
+        "vendor_phone": "0771279627"
+    },
+    {
+        "id": "prod269",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10342,
+        "cost_price": 92769.51,
+        "selling_price": 134883.44,
+        "vendor_phone": "0488952640"
+    },
+    {
+        "id": "prod270",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10741,
+        "cost_price": 151848.81,
+        "selling_price": 209825.5,
+        "vendor_phone": "0410064521"
+    },
+    {
+        "id": "prod271",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10713,
+        "cost_price": 142452.92,
+        "selling_price": 198300.62,
+        "vendor_phone": "0123618694"
+    },
+    {
+        "id": "prod272",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11504,
+        "cost_price": 80238.37,
+        "selling_price": 104549.61,
+        "vendor_phone": "0595116257"
+    },
+    {
+        "id": "prod273",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11997,
+        "cost_price": 62085.13,
+        "selling_price": 82903.9,
+        "vendor_phone": "0359363500"
+    },
+    {
+        "id": "prod274",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 9186,
+        "cost_price": 197222.89,
+        "selling_price": 245788.95,
+        "vendor_phone": "0185516521"
+    },
+    {
+        "id": "prod275",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9623,
+        "cost_price": 94912.56,
+        "selling_price": 128478.34,
+        "vendor_phone": "0451217936"
+    },
+    {
+        "id": "prod276",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11504,
+        "cost_price": 130704.67,
+        "selling_price": 169395.32,
+        "vendor_phone": "0601059630"
+    },
+    {
+        "id": "prod277",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10920,
+        "cost_price": 105892.54,
+        "selling_price": 153907.14,
+        "vendor_phone": "0867577876"
+    },
+    {
+        "id": "prod278",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 8511,
+        "cost_price": 50850.46,
+        "selling_price": 72188.59,
+        "vendor_phone": "0174090399"
+    },
+    {
+        "id": "prod279",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11724,
+        "cost_price": 188818.27,
+        "selling_price": 282496.05,
+        "vendor_phone": "0178499937"
+    },
+    {
+        "id": "prod280",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11628,
+        "cost_price": 128574.46,
+        "selling_price": 165145.32,
+        "vendor_phone": "0169950062"
+    },
+    {
+        "id": "prod281",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10072,
+        "cost_price": 155198.13,
+        "selling_price": 209935.55,
+        "vendor_phone": "0869845885"
+    },
+    {
+        "id": "prod282",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10437,
+        "cost_price": 118043.96,
+        "selling_price": 148179.81,
+        "vendor_phone": "0974959678"
+    },
+    {
+        "id": "prod283",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11948,
+        "cost_price": 194200.12,
+        "selling_price": 241438.44,
+        "vendor_phone": "0917451557"
+    },
+    {
+        "id": "prod284",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 9968,
+        "cost_price": 164164.4,
+        "selling_price": 227609.5,
+        "vendor_phone": "0304478676"
+    },
+    {
+        "id": "prod285",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11066,
+        "cost_price": 197506.05,
+        "selling_price": 273617.59,
+        "vendor_phone": "0446057124"
+    },
+    {
+        "id": "prod286",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9494,
+        "cost_price": 172984.6,
+        "selling_price": 235340.9,
+        "vendor_phone": "0666109849"
+    },
+    {
+        "id": "prod287",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8097,
+        "cost_price": 60152.21,
+        "selling_price": 87056.22,
+        "vendor_phone": "0875387869"
+    },
+    {
+        "id": "prod288",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10055,
+        "cost_price": 63091.93,
+        "selling_price": 78703.55,
+        "vendor_phone": "0739880884"
+    },
+    {
+        "id": "prod289",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11553,
+        "cost_price": 143437.01,
+        "selling_price": 193268.4,
+        "vendor_phone": "0673115039"
+    },
+    {
+        "id": "prod290",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9898,
+        "cost_price": 147186.75,
+        "selling_price": 208045.84,
+        "vendor_phone": "0169722317"
+    },
+    {
+        "id": "prod291",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10685,
+        "cost_price": 118927.96,
+        "selling_price": 147611.73,
+        "vendor_phone": "0194624963"
+    },
+    {
+        "id": "prod292",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10935,
+        "cost_price": 118879.21,
+        "selling_price": 168337.17,
+        "vendor_phone": "0133857976"
+    },
+    {
+        "id": "prod293",
+        "name": "Bộ cờ vua nam châm cao cấp",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9454,
+        "cost_price": 157836.89,
+        "selling_price": 221445.48,
+        "vendor_phone": "0331944583"
+    },
+    {
+        "id": "prod294",
+        "name": "Bộ xếp hình xe hơi thông minh",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9266,
+        "cost_price": 110979.34,
+        "selling_price": 138148.11,
+        "vendor_phone": "0196307047"
+    },
+    {
+        "id": "prod295",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9423,
+        "cost_price": 92846.54,
+        "selling_price": 113253.37,
+        "vendor_phone": "0578231512"
+    },
+    {
+        "id": "prod296",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10081,
+        "cost_price": 108660.88,
+        "selling_price": 134041.57,
+        "vendor_phone": "0440317212"
+    },
+    {
+        "id": "prod297",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9808,
+        "cost_price": 116485.26,
+        "selling_price": 160798.62,
+        "vendor_phone": "0156045104"
+    },
+    {
+        "id": "prod298",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8748,
+        "cost_price": 188001.26,
+        "selling_price": 268803.44,
+        "vendor_phone": "0137519282"
+    },
+    {
+        "id": "prod299",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10202,
+        "cost_price": 55037.28,
+        "selling_price": 81897.16,
+        "vendor_phone": "0513156245"
+    },
+    {
+        "id": "prod300",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9934,
+        "cost_price": 127164.76,
+        "selling_price": 172814.28,
+        "vendor_phone": "0980890286"
+    },
+    {
+        "id": "prod301",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8728,
+        "cost_price": 53148.35,
+        "selling_price": 76799.54,
+        "vendor_phone": "0418956241"
+    },
+    {
+        "id": "prod302",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9318,
+        "cost_price": 174033.24,
+        "selling_price": 239619.74,
+        "vendor_phone": "0306479379"
+    },
+    {
+        "id": "prod303",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9014,
+        "cost_price": 92177.66,
+        "selling_price": 123857.82,
+        "vendor_phone": "0642326644"
+    },
+    {
+        "id": "prod304",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8900,
+        "cost_price": 192112.39,
+        "selling_price": 255061.54,
+        "vendor_phone": "0614519819"
+    },
+    {
+        "id": "prod305",
+        "name": "Bộ sưu tập mô hình khủng long",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8309,
+        "cost_price": 160896.56,
+        "selling_price": 227948.16,
+        "vendor_phone": "0793223673"
+    },
+    {
+        "id": "prod306",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11935,
+        "cost_price": 176085.8,
+        "selling_price": 254936.17,
+        "vendor_phone": "0750301127"
+    },
+    {
+        "id": "prod307",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8307,
+        "cost_price": 113035.86,
+        "selling_price": 162101.07,
+        "vendor_phone": "0713522213"
+    },
+    {
+        "id": "prod308",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 10751,
+        "cost_price": 196729.27,
+        "selling_price": 290690.74,
+        "vendor_phone": "0502866070"
+    },
+    {
+        "id": "prod309",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10395,
+        "cost_price": 61403.97,
+        "selling_price": 84693.19,
+        "vendor_phone": "0804180699"
+    },
+    {
+        "id": "prod310",
+        "name": "Bảng chữ cái điện tử",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9586,
+        "cost_price": 90602.32,
+        "selling_price": 110244.81,
+        "vendor_phone": "0670728386"
+    },
+    {
+        "id": "prod311",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8990,
+        "cost_price": 90391.62,
+        "selling_price": 109718.8,
+        "vendor_phone": "0963959959"
+    },
+    {
+        "id": "prod312",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9133,
+        "cost_price": 170457.22,
+        "selling_price": 213564.46,
+        "vendor_phone": "0698620391"
+    },
+    {
+        "id": "prod313",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8382,
+        "cost_price": 110333.6,
+        "selling_price": 144748.84,
+        "vendor_phone": "0611634379"
+    },
+    {
+        "id": "prod314",
+        "name": "Xúc xắc nhiều màu sắc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11125,
+        "cost_price": 62329.36,
+        "selling_price": 87920.79,
+        "vendor_phone": "0816696942"
+    },
+    {
+        "id": "prod315",
+        "name": "Bộ đồ chơi treo nôi phát nhạc",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10261,
+        "cost_price": 59255.74,
+        "selling_price": 80833.23,
+        "vendor_phone": "0780610611"
+    },
+    {
+        "id": "prod316",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11137,
+        "cost_price": 107127.11,
+        "selling_price": 158633.35,
+        "vendor_phone": "0276096784"
+    },
+    {
+        "id": "prod317",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8651,
+        "cost_price": 68788.32,
+        "selling_price": 90061.32,
+        "vendor_phone": "0274828024"
+    },
+    {
+        "id": "prod318",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10513,
+        "cost_price": 197390.73,
+        "selling_price": 294565.55,
+        "vendor_phone": "0864985864"
+    },
+    {
+        "id": "prod319",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11354,
+        "cost_price": 102798.63,
+        "selling_price": 146310.11,
+        "vendor_phone": "0114914395"
+    },
+    {
+        "id": "prod320",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 9962,
+        "cost_price": 75417.38,
+        "selling_price": 109511.95,
+        "vendor_phone": "0638060876"
+    },
+    {
+        "id": "prod321",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 9159,
+        "cost_price": 148073.44,
+        "selling_price": 188267.33,
+        "vendor_phone": "0497723401"
+    },
+    {
+        "id": "prod322",
+        "name": "Xe trượt scooter 3 bánh",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11030,
+        "cost_price": 57949.31,
+        "selling_price": 78388.31,
+        "vendor_phone": "0384169664"
+    },
+    {
+        "id": "prod323",
+        "name": "Bộ nhạc cụ 5 món cho bé",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 10452,
+        "cost_price": 53926.01,
+        "selling_price": 74925.07,
+        "vendor_phone": "0171428966"
+    },
+    {
+        "id": "prod324",
+        "name": "Máy bay trực thăng mini",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8907,
+        "cost_price": 85967.28,
+        "selling_price": 104916.15,
+        "vendor_phone": "0231146007"
+    },
+    {
+        "id": "prod325",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8273,
+        "cost_price": 187252.35,
+        "selling_price": 251380.26,
+        "vendor_phone": "0635679093"
+    },
+    {
+        "id": "prod326",
+        "name": "Bộ flashcard thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11372,
+        "cost_price": 178566.93,
+        "selling_price": 245542.36,
+        "vendor_phone": "0423097166"
+    },
+    {
+        "id": "prod327",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11529,
+        "cost_price": 75372.94,
+        "selling_price": 96347.25,
+        "vendor_phone": "0990160157"
+    },
+    {
+        "id": "prod328",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9075,
+        "cost_price": 112413.36,
+        "selling_price": 141741.28,
+        "vendor_phone": "0729229361"
+    },
+    {
+        "id": "prod329",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10585,
+        "cost_price": 128382.63,
+        "selling_price": 172420.01,
+        "vendor_phone": "0192395665"
+    },
+    {
+        "id": "prod330",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 11996,
+        "cost_price": 116621.52,
+        "selling_price": 157714.73,
+        "vendor_phone": "0276847245"
+    },
+    {
+        "id": "prod331",
+        "name": "Guitar gỗ trẻ em",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11344,
+        "cost_price": 50096.56,
+        "selling_price": 61032.48,
+        "vendor_phone": "0324017712"
+    },
+    {
+        "id": "prod332",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8697,
+        "cost_price": 155690.93,
+        "selling_price": 194977.11,
+        "vendor_phone": "0952366846"
+    },
+    {
+        "id": "prod333",
+        "name": "Bộ nhà banh mini",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 8502,
+        "cost_price": 199209.87,
+        "selling_price": 248935.32,
+        "vendor_phone": "0246179447"
+    },
+    {
+        "id": "prod334",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9020,
+        "cost_price": 66583.45,
+        "selling_price": 98234.63,
+        "vendor_phone": "0965497454"
+    },
+    {
+        "id": "prod335",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10844,
+        "cost_price": 124567.86,
+        "selling_price": 161437.1,
+        "vendor_phone": "0536168643"
+    },
+    {
+        "id": "prod336",
+        "name": "Bập bênh hình con thú",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10210,
+        "cost_price": 90449.43,
+        "selling_price": 114657.49,
+        "vendor_phone": "0655976301"
+    },
+    {
+        "id": "prod337",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8214,
+        "cost_price": 99555.84,
+        "selling_price": 121614.99,
+        "vendor_phone": "0572349479"
+    },
+    {
+        "id": "prod338",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11712,
+        "cost_price": 123039.78,
+        "selling_price": 150186.17,
+        "vendor_phone": "0460898283"
+    },
+    {
+        "id": "prod339",
+        "name": "Mô hình xe hơi tĩnh cao cấp",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 8812,
+        "cost_price": 144946.97,
+        "selling_price": 212189.34,
+        "vendor_phone": "0840408802"
+    },
+    {
+        "id": "prod340",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11275,
+        "cost_price": 148028.58,
+        "selling_price": 216007.8,
+        "vendor_phone": "0503471239"
+    },
+    {
+        "id": "prod341",
+        "name": "Bộ xếp hình sáng tạo 1000 chi tiết",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10272,
+        "cost_price": 97097.98,
+        "selling_price": 138870.72,
+        "vendor_phone": "0540272055"
+    },
+    {
+        "id": "prod342",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10825,
+        "cost_price": 127836.91,
+        "selling_price": 161167.09,
+        "vendor_phone": "0813958166"
+    },
+    {
+        "id": "prod343",
+        "name": "Búp bê công chúa phát nhạc",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9295,
+        "cost_price": 138420.78,
+        "selling_price": 197890.38,
+        "vendor_phone": "0819621949"
+    },
+    {
+        "id": "prod344",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10097,
+        "cost_price": 164906.75,
+        "selling_price": 225509.41,
+        "vendor_phone": "0607836352"
+    },
+    {
+        "id": "prod345",
+        "name": "Cầu trượt cho bé 2m",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10786,
+        "cost_price": 166564.19,
+        "selling_price": 241112.48,
+        "vendor_phone": "0521572191"
+    },
+    {
+        "id": "prod346",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8559,
+        "cost_price": 179990.73,
+        "selling_price": 230286.87,
+        "vendor_phone": "0332346699"
+    },
+    {
+        "id": "prod347",
+        "name": "Đàn organ phát sáng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8127,
+        "cost_price": 78230.49,
+        "selling_price": 101557.58,
+        "vendor_phone": "0824738820"
+    },
+    {
+        "id": "prod348",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10283,
+        "cost_price": 54988.74,
+        "selling_price": 74206.61,
+        "vendor_phone": "0665876859"
+    },
+    {
+        "id": "prod349",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9030,
+        "cost_price": 166982.48,
+        "selling_price": 242779.8,
+        "vendor_phone": "0516010146"
+    },
+    {
+        "id": "prod350",
+        "name": "Bộ toán học thông minh",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 11946,
+        "cost_price": 163135.52,
+        "selling_price": 196275.55,
+        "vendor_phone": "0577783163"
+    },
+    {
+        "id": "prod351",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 10667,
+        "cost_price": 140046.4,
+        "selling_price": 176216.72,
+        "vendor_phone": "0374234966"
+    },
+    {
+        "id": "prod352",
+        "name": "Bộ cắn răng an toàn",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 8888,
+        "cost_price": 68233.91,
+        "selling_price": 94315.79,
+        "vendor_phone": "0257702385"
+    },
+    {
+        "id": "prod353",
+        "name": "Xích đu lắp ghép",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 10637,
+        "cost_price": 155602.11,
+        "selling_price": 193164.7,
+        "vendor_phone": "0612208045"
+    },
+    {
+        "id": "prod354",
+        "name": "Thảm nằm chơi cho bé",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 11528,
+        "cost_price": 52136.16,
+        "selling_price": 76474.8,
+        "vendor_phone": "0132231913"
+    },
+    {
+        "id": "prod355",
+        "name": "Bộ đồ chơi nhà búp bê",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9242,
+        "cost_price": 138222.53,
+        "selling_price": 199607.0,
+        "vendor_phone": "0320527659"
+    },
+    {
+        "id": "prod356",
+        "name": "Cầu trượt cho bé 2m",
+        "category": "Đồ chơi ngoài trời",
+        "sub_category": "đcnt",
+        "quantity": 11703,
+        "cost_price": 72745.08,
+        "selling_price": 96350.14,
+        "vendor_phone": "0319073521"
+    },
+    {
+        "id": "prod357",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 8943,
+        "cost_price": 172564.31,
+        "selling_price": 229024.68,
+        "vendor_phone": "0149736706"
+    },
+    {
+        "id": "prod358",
+        "name": "Bộ mô hình siêu nhân",
+        "category": "Đồ chơi búp bê & mô hình",
+        "sub_category": "đcbb&mh",
+        "quantity": 9197,
+        "cost_price": 112874.16,
+        "selling_price": 152918.17,
+        "vendor_phone": "0157490869"
+    },
+    {
+        "id": "prod359",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 11158,
+        "cost_price": 84342.24,
+        "selling_price": 107185.03,
+        "vendor_phone": "0381752444"
+    },
+    {
+        "id": "prod360",
+        "name": "Trống điện tử đa năng",
+        "category": "Đồ chơi âm nhạc",
+        "sub_category": "đcân",
+        "quantity": 8423,
+        "cost_price": 184091.1,
+        "selling_price": 274695.32,
+        "vendor_phone": "0144211873"
+    },
+    {
+        "id": "prod361",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 10838,
+        "cost_price": 178580.09,
+        "selling_price": 217605.45,
+        "vendor_phone": "0996343184"
+    },
+    {
+        "id": "prod362",
+        "name": "Tàu thủy điều khiển từ xa",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 9613,
+        "cost_price": 186942.56,
+        "selling_price": 248297.33,
+        "vendor_phone": "0267367663"
+    },
+    {
+        "id": "prod363",
+        "name": "Robot chiến đấu AI",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 10071,
+        "cost_price": 175855.21,
+        "selling_price": 238138.76,
+        "vendor_phone": "0830889267"
+    },
+    {
+        "id": "prod364",
+        "name": "Lego kỹ thuật cao cấp",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 8261,
+        "cost_price": 113880.49,
+        "selling_price": 138778.53,
+        "vendor_phone": "0912803658"
+    },
+    {
+        "id": "prod365",
+        "name": "Bảng học vẽ cho bé",
+        "category": "Đồ chơi giáo dục",
+        "sub_category": "đcgd",
+        "quantity": 9140,
+        "cost_price": 172746.18,
+        "selling_price": 214364.83,
+        "vendor_phone": "0840507308"
+    },
+    {
+        "id": "prod366",
+        "name": "Bộ xếp hình lâu đài cổ tích",
+        "category": "Đồ chơi xếp hình",
+        "sub_category": "đcxh",
+        "quantity": 11813,
+        "cost_price": 193643.43,
+        "selling_price": 258403.63,
+        "vendor_phone": "0329529370"
+    },
+    {
+        "id": "prod367",
+        "name": "Lục lạc hình thú dễ thương",
+        "category": "Đồ chơi cho bé sơ sinh",
+        "sub_category": "đccbss",
+        "quantity": 10726,
+        "cost_price": 110742.62,
+        "selling_price": 160320.78,
+        "vendor_phone": "0315135586"
+    },
+    {
+        "id": "prod368",
+        "name": "Xe đua tốc độ cao",
+        "category": "Đồ chơi điều khiển từ xa",
+        "sub_category": "đcđktx",
+        "quantity": 11422,
+        "cost_price": 91759.81,
+        "selling_price": 111160.54,
+        "vendor_phone": "0639152171"
     }
 ]

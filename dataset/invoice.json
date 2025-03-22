@@ -1,349 +1,6689 @@
 [
     {
         "bill_no": "bill1",
-        "date": "13/03/2025",
-        "customer_name": "Nguyen Phuong Nhi",
-        "phone": "0348403449",
+        "date": "10/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0568199111",
         "list_product": [
             [
-                "prod1",
-                5
+                "prod269",
+                15
+            ],
+            [
+                "prod339",
+                9
+            ],
+            [
+                "prod362",
+                3
+            ],
+            [
+                "prod34",
+                18
+            ],
+            [
+                "prod228",
+                9
+            ],
+            [
+                "prod145",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill2",
+        "date": "01/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0887275207",
+        "list_product": [
+            [
+                "prod364",
+                9
+            ],
+            [
+                "prod107",
+                6
+            ],
+            [
+                "prod307",
+                12
+            ],
+            [
+                "prod265",
+                15
+            ],
+            [
+                "prod44",
+                17
+            ],
+            [
+                "prod295",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill3",
+        "date": "15/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0306492409",
+        "list_product": [
+            [
+                "prod222",
+                3
+            ],
+            [
+                "prod335",
+                7
+            ],
+            [
+                "prod69",
+                11
+            ],
+            [
+                "prod194",
+                20
+            ],
+            [
+                "prod3",
+                15
+            ],
+            [
+                "prod322",
+                15
+            ],
+            [
+                "prod180",
+                14
+            ],
+            [
+                "prod304",
+                3
             ]
         ]
     },
     {
         "bill_no": "bill4",
-        "date": "18/03/2025",
-        "customer_name": "Nguyen Phuong Nhi ",
-        "phone": "0231243134",
+        "date": "19/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0718765307",
         "list_product": [
             [
-                "prod5",
-                2
+                "prod92",
+                13
+            ],
+            [
+                "prod78",
+                5
+            ],
+            [
+                "prod143",
+                20
+            ],
+            [
+                "prod330",
+                16
+            ],
+            [
+                "prod86",
+                10
             ]
         ]
     },
     {
         "bill_no": "bill5",
-        "date": "18/03/2025",
-        "customer_name": "Nguyen Nhi ",
-        "phone": "0123213347",
+        "date": "07/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0931175243",
         "list_product": [
             [
-                "prod5",
-                2
+                "prod89",
+                5
+            ],
+            [
+                "prod311",
+                8
+            ],
+            [
+                "prod166",
+                14
+            ],
+            [
+                "prod77",
+                18
             ]
         ]
     },
     {
         "bill_no": "bill6",
-        "date": "18/03/2025",
-        "customer_name": "Punnie",
-        "phone": "025678912",
+        "date": "12/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0821339191",
         "list_product": [
             [
-                "prod5",
-                2
-            ],
-            [
-                "prod3",
+                "prod226",
                 10
             ],
             [
-                "prod3",
-                10
+                "prod295",
+                13
             ],
             [
-                "prod3",
-                10
-            ],
-            [
-                "prod3",
-                10
-            ],
-            [
-                "prod3",
-                10
+                "prod313",
+                20
             ]
         ]
     },
     {
         "bill_no": "bill7",
-        "date": "18/03/2025",
-        "customer_name": "Huy",
-        "phone": "0256123456",
+        "date": "26/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0653482058",
         "list_product": [
             [
-                "prod4",
-                2
+                "prod152",
+                15
             ],
             [
-                "prod2",
+                "prod96",
                 20
             ],
             [
-                "prod2",
-                30
+                "prod175",
+                8
+            ],
+            [
+                "prod128",
+                15
+            ],
+            [
+                "prod93",
+                18
             ]
         ]
     },
     {
         "bill_no": "bill8",
-        "date": "21/03/2025",
-        "customer_name": "Minh Nhi",
-        "phone": "02156897121",
+        "date": "12/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0377481494",
         "list_product": [
             [
-                "prod4",
-                2
+                "prod239",
+                17
             ],
             [
-                "prod2",
-                20
+                "prod193",
+                3
             ],
             [
-                "prod2",
-                30
+                "prod43",
+                13
             ],
             [
-                "prod1",
-                50
+                "prod130",
+                8
             ],
             [
-                "prod1",
-                50
+                "prod177",
+                7
             ],
             [
-                "prod1",
-                50
+                "prod269",
+                15
             ]
         ]
     },
     {
         "bill_no": "bill9",
-        "date": "21/03/2025",
-        "customer_name": "Kim Han",
-        "phone": "0989231123",
+        "date": "25/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0129019235",
         "list_product": [
             [
-                "prod4",
-                2
+                "prod352",
+                4
             ],
             [
-                "prod2",
+                "prod293",
+                8
+            ],
+            [
+                "prod162",
                 20
             ],
             [
-                "prod2",
-                30
+                "prod180",
+                1
             ],
             [
-                "prod1",
-                50
+                "prod10",
+                13
             ],
             [
-                "prod1",
-                50
+                "prod35",
+                7
             ],
             [
-                "prod1",
-                50
-            ],
-            [
-                "prod5",
-                66
-            ],
-            [
-                "prod3",
-                11
+                "prod323",
+                17
             ]
         ]
     },
     {
         "bill_no": "bill10",
-        "date": "21/03/2025",
-        "customer_name": "Bui Truong Linh",
-        "phone": "0775011155",
+        "date": "15/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0292108708",
         "list_product": [
             [
-                "prod4",
-                2
+                "prod276",
+                12
             ],
             [
-                "prod2",
-                20
-            ],
-            [
-                "prod2",
-                30
-            ],
-            [
-                "prod1",
-                50
-            ],
-            [
-                "prod1",
-                50
-            ],
-            [
-                "prod1",
-                50
-            ],
-            [
-                "prod2",
+                "prod107",
                 5
             ],
             [
-                "prod1",
-                20
+                "prod116",
+                16
+            ],
+            [
+                "prod50",
+                15
             ]
         ]
     },
     {
         "bill_no": "bill11",
-        "date": "21/03/2025",
-        "customer_name": "Ngoc Thuy",
-        "phone": "0256799222",
+        "date": "18/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0305803066",
         "list_product": [
             [
-                "prod4",
-                2
+                "prod173",
+                3
             ],
             [
-                "prod2",
+                "prod149",
                 20
             ],
             [
-                "prod2",
-                30
+                "prod17",
+                16
             ],
             [
-                "prod3",
-                10
+                "prod308",
+                15
+            ],
+            [
+                "prod222",
+                11
+            ],
+            [
+                "prod293",
+                15
+            ],
+            [
+                "prod191",
+                20
             ]
         ]
     },
     {
         "bill_no": "bill12",
-        "date": "21/03/2025",
-        "customer_name": "Kim Chau",
-        "phone": "0989256788",
+        "date": "26/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0979318161",
         "list_product": [
             [
-                "prod5",
-                16
+                "prod336",
+                3
             ],
             [
-                "prod4",
+                "prod52",
+                7
+            ],
+            [
+                "prod283",
                 7
             ]
         ]
     },
     {
         "bill_no": "bill13",
-        "date": "21/03/2025",
-        "customer_name": "Thao My",
-        "phone": "0222569789",
+        "date": "19/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0854724786",
         "list_product": [
             [
-                "prod4",
-                7
+                "prod86",
+                11
             ],
             [
-                "prod3",
+                "prod200",
+                14
+            ],
+            [
+                "prod201",
+                12
+            ],
+            [
+                "prod126",
+                1
+            ],
+            [
+                "prod157",
                 7
             ]
         ]
     },
     {
         "bill_no": "bill14",
-        "date": "21/03/2025",
-        "customer_name": "Kim Han",
-        "phone": "0222122222",
+        "date": "20/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0808906708",
         "list_product": [
             [
-                "prod5",
-                26
+                "prod265",
+                17
             ],
             [
-                "prod4",
-                10
+                "prod226",
+                19
+            ],
+            [
+                "prod312",
+                15
             ]
         ]
     },
     {
         "bill_no": "bill15",
-        "date": "21/03/2025",
-        "customer_name": "Kun Da",
-        "phone": "0222555666",
+        "date": "13/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0975023534",
         "list_product": [
             [
-                "prod4",
+                "prod23",
+                1
+            ],
+            [
+                "prod94",
+                14
+            ],
+            [
+                "prod198",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill16",
+        "date": "09/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0200073229",
+        "list_product": [
+            [
+                "prod240",
+                13
+            ],
+            [
+                "prod245",
+                2
+            ],
+            [
+                "prod178",
+                12
+            ],
+            [
+                "prod34",
+                4
+            ],
+            [
+                "prod323",
                 10
             ],
             [
-                "prod5",
+                "prod174",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill17",
+        "date": "14/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0117454462",
+        "list_product": [
+            [
+                "prod92",
+                2
+            ],
+            [
+                "prod221",
+                12
+            ],
+            [
+                "prod159",
+                15
+            ],
+            [
+                "prod183",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill18",
+        "date": "27/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0914345443",
+        "list_product": [
+            [
+                "prod6",
+                4
+            ],
+            [
+                "prod14",
+                11
+            ],
+            [
+                "prod342",
+                12
+            ],
+            [
+                "prod353",
+                1
+            ],
+            [
+                "prod191",
+                2
+            ],
+            [
+                "prod301",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill19",
+        "date": "12/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0213438892",
+        "list_product": [
+            [
+                "prod361",
+                18
+            ],
+            [
+                "prod21",
+                19
+            ],
+            [
+                "prod9",
+                15
+            ],
+            [
+                "prod256",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill20",
+        "date": "04/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0744529882",
+        "list_product": [
+            [
+                "prod192",
+                5
+            ],
+            [
+                "prod251",
+                11
+            ],
+            [
+                "prod258",
                 20
             ],
             [
+                "prod234",
+                19
+            ],
+            [
+                "prod163",
+                16
+            ],
+            [
+                "prod174",
+                17
+            ],
+            [
+                "prod111",
+                4
+            ],
+            [
+                "prod219",
+                7
+            ],
+            [
+                "prod11",
+                12
+            ],
+            [
+                "prod116",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill21",
+        "date": "27/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0855325024",
+        "list_product": [
+            [
+                "prod367",
+                9
+            ],
+            [
+                "prod297",
+                17
+            ],
+            [
+                "prod3",
+                19
+            ],
+            [
+                "prod226",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill22",
+        "date": "23/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0665603252",
+        "list_product": [
+            [
+                "prod81",
+                7
+            ],
+            [
+                "prod34",
+                20
+            ],
+            [
+                "prod119",
+                2
+            ],
+            [
+                "prod369",
+                2
+            ],
+            [
+                "prod222",
+                19
+            ],
+            [
+                "prod252",
+                6
+            ],
+            [
+                "prod7",
+                18
+            ],
+            [
+                "prod245",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill23",
+        "date": "26/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0330530575",
+        "list_product": [
+            [
+                "prod232",
+                17
+            ],
+            [
+                "prod22",
+                14
+            ],
+            [
+                "prod29",
+                17
+            ],
+            [
+                "prod342",
+                11
+            ],
+            [
+                "prod109",
+                13
+            ],
+            [
+                "prod191",
+                12
+            ],
+            [
+                "prod65",
+                10
+            ],
+            [
+                "prod181",
+                20
+            ],
+            [
+                "prod230",
+                13
+            ],
+            [
+                "prod210",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill24",
+        "date": "31/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0969771732",
+        "list_product": [
+            [
+                "prod20",
+                18
+            ],
+            [
+                "prod313",
+                15
+            ],
+            [
+                "prod256",
+                15
+            ],
+            [
+                "prod327",
+                14
+            ],
+            [
+                "prod82",
+                14
+            ],
+            [
+                "prod22",
+                17
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill25",
+        "date": "15/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0137530220",
+        "list_product": [
+            [
+                "prod180",
+                13
+            ],
+            [
+                "prod98",
+                3
+            ],
+            [
+                "prod133",
+                8
+            ],
+            [
+                "prod111",
+                18
+            ],
+            [
+                "prod206",
+                5
+            ],
+            [
+                "prod162",
+                20
+            ],
+            [
+                "prod287",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill26",
+        "date": "03/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0142037661",
+        "list_product": [
+            [
+                "prod220",
+                9
+            ],
+            [
+                "prod271",
+                9
+            ],
+            [
+                "prod265",
+                13
+            ],
+            [
+                "prod337",
+                11
+            ],
+            [
+                "prod156",
+                6
+            ],
+            [
+                "prod62",
+                3
+            ],
+            [
+                "prod290",
+                10
+            ],
+            [
+                "prod246",
+                15
+            ],
+            [
+                "prod254",
+                4
+            ],
+            [
+                "prod285",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill27",
+        "date": "19/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0380805254",
+        "list_product": [
+            [
+                "prod35",
+                13
+            ],
+            [
+                "prod309",
+                4
+            ],
+            [
+                "prod148",
+                9
+            ],
+            [
+                "prod135",
+                16
+            ],
+            [
+                "prod270",
+                19
+            ],
+            [
+                "prod282",
+                12
+            ],
+            [
+                "prod185",
+                6
+            ],
+            [
+                "prod207",
+                18
+            ],
+            [
+                "prod91",
+                14
+            ],
+            [
+                "prod88",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill28",
+        "date": "18/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0916600218",
+        "list_product": [
+            [
+                "prod49",
+                6
+            ],
+            [
+                "prod199",
+                14
+            ],
+            [
+                "prod177",
+                20
+            ],
+            [
+                "prod245",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill29",
+        "date": "22/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0231519341",
+        "list_product": [
+            [
+                "prod292",
+                17
+            ],
+            [
+                "prod248",
+                18
+            ],
+            [
+                "prod71",
+                14
+            ],
+            [
+                "prod264",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill30",
+        "date": "11/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0330984683",
+        "list_product": [
+            [
+                "prod359",
+                12
+            ],
+            [
+                "prod320",
+                17
+            ],
+            [
+                "prod195",
+                4
+            ],
+            [
+                "prod169",
+                19
+            ],
+            [
+                "prod267",
+                18
+            ],
+            [
+                "prod142",
+                6
+            ],
+            [
+                "prod39",
+                8
+            ],
+            [
+                "prod71",
+                3
+            ],
+            [
+                "prod82",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill31",
+        "date": "26/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0959216023",
+        "list_product": [
+            [
+                "prod111",
+                19
+            ],
+            [
+                "prod293",
+                9
+            ],
+            [
+                "prod239",
+                15
+            ],
+            [
+                "prod139",
+                1
+            ],
+            [
+                "prod245",
+                20
+            ],
+            [
+                "prod196",
+                11
+            ],
+            [
+                "prod134",
+                3
+            ],
+            [
+                "prod249",
+                20
+            ],
+            [
+                "prod166",
+                4
+            ],
+            [
+                "prod56",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill32",
+        "date": "08/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0578641422",
+        "list_product": [
+            [
+                "prod54",
+                11
+            ],
+            [
+                "prod46",
+                14
+            ],
+            [
+                "prod43",
+                13
+            ],
+            [
+                "prod190",
+                2
+            ],
+            [
+                "prod285",
+                16
+            ],
+            [
+                "prod15",
+                18
+            ],
+            [
+                "prod178",
+                10
+            ],
+            [
+                "prod234",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill33",
+        "date": "03/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0608388412",
+        "list_product": [
+            [
+                "prod305",
+                20
+            ],
+            [
+                "prod295",
+                8
+            ],
+            [
+                "prod279",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill34",
+        "date": "04/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0453152732",
+        "list_product": [
+            [
+                "prod87",
+                9
+            ],
+            [
+                "prod277",
+                19
+            ],
+            [
+                "prod285",
+                5
+            ],
+            [
+                "prod144",
+                16
+            ],
+            [
+                "prod8",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill35",
+        "date": "29/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0360557906",
+        "list_product": [
+            [
+                "prod65",
+                12
+            ],
+            [
+                "prod136",
+                9
+            ],
+            [
+                "prod298",
+                19
+            ],
+            [
+                "prod224",
+                18
+            ],
+            [
+                "prod353",
+                12
+            ],
+            [
+                "prod236",
+                20
+            ],
+            [
+                "prod84",
+                18
+            ],
+            [
+                "prod123",
+                19
+            ],
+            [
+                "prod105",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill36",
+        "date": "24/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0998627968",
+        "list_product": [
+            [
+                "prod190",
+                14
+            ],
+            [
+                "prod200",
+                3
+            ],
+            [
+                "prod18",
+                13
+            ],
+            [
+                "prod133",
+                10
+            ],
+            [
+                "prod299",
+                12
+            ],
+            [
+                "prod233",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill37",
+        "date": "26/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0170277914",
+        "list_product": [
+            [
+                "prod358",
+                12
+            ],
+            [
+                "prod159",
+                3
+            ],
+            [
+                "prod58",
+                10
+            ],
+            [
+                "prod272",
+                8
+            ],
+            [
+                "prod354",
+                1
+            ],
+            [
+                "prod28",
+                4
+            ],
+            [
+                "prod369",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill38",
+        "date": "11/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0175485060",
+        "list_product": [
+            [
+                "prod42",
+                4
+            ],
+            [
+                "prod327",
+                13
+            ],
+            [
+                "prod297",
+                6
+            ],
+            [
+                "prod283",
+                1
+            ],
+            [
+                "prod268",
+                18
+            ],
+            [
+                "prod80",
+                10
+            ],
+            [
+                "prod322",
+                18
+            ],
+            [
+                "prod316",
+                9
+            ],
+            [
+                "prod72",
+                5
+            ],
+            [
+                "prod48",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill39",
+        "date": "24/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0189162703",
+        "list_product": [
+            [
+                "prod228",
+                19
+            ],
+            [
+                "prod209",
+                4
+            ],
+            [
+                "prod343",
+                17
+            ],
+            [
+                "prod37",
+                18
+            ],
+            [
+                "prod104",
+                19
+            ],
+            [
+                "prod135",
+                3
+            ],
+            [
+                "prod85",
+                18
+            ],
+            [
+                "prod125",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill40",
+        "date": "04/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0838173158",
+        "list_product": [
+            [
+                "prod319",
+                6
+            ],
+            [
+                "prod54",
+                10
+            ],
+            [
+                "prod324",
+                4
+            ],
+            [
+                "prod158",
+                6
+            ],
+            [
+                "prod68",
+                6
+            ],
+            [
+                "prod154",
+                7
+            ],
+            [
+                "prod203",
+                2
+            ],
+            [
+                "prod40",
+                3
+            ],
+            [
+                "prod256",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill41",
+        "date": "20/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0967872205",
+        "list_product": [
+            [
+                "prod94",
+                8
+            ],
+            [
+                "prod270",
+                11
+            ],
+            [
+                "prod207",
+                3
+            ],
+            [
+                "prod67",
+                20
+            ],
+            [
+                "prod100",
+                5
+            ],
+            [
+                "prod68",
+                14
+            ],
+            [
+                "prod174",
+                7
+            ],
+            [
+                "prod237",
+                3
+            ],
+            [
+                "prod53",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill42",
+        "date": "04/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0512104817",
+        "list_product": [
+            [
+                "prod69",
+                7
+            ],
+            [
+                "prod358",
+                14
+            ],
+            [
+                "prod277",
+                12
+            ],
+            [
+                "prod109",
+                14
+            ],
+            [
+                "prod353",
+                13
+            ],
+            [
+                "prod357",
+                7
+            ],
+            [
+                "prod133",
+                9
+            ],
+            [
+                "prod186",
+                5
+            ],
+            [
+                "prod350",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill43",
+        "date": "22/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0338967815",
+        "list_product": [
+            [
+                "prod133",
+                7
+            ],
+            [
+                "prod18",
+                6
+            ],
+            [
+                "prod338",
+                19
+            ],
+            [
+                "prod251",
+                20
+            ],
+            [
+                "prod255",
+                20
+            ],
+            [
+                "prod100",
+                2
+            ],
+            [
+                "prod116",
+                8
+            ],
+            [
+                "prod72",
+                8
+            ],
+            [
+                "prod327",
+                20
+            ],
+            [
+                "prod39",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill44",
+        "date": "08/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0638811322",
+        "list_product": [
+            [
+                "prod159",
+                1
+            ],
+            [
+                "prod267",
+                5
+            ],
+            [
+                "prod361",
+                20
+            ],
+            [
+                "prod362",
+                8
+            ],
+            [
+                "prod160",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill45",
+        "date": "28/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0161963449",
+        "list_product": [
+            [
+                "prod318",
+                10
+            ],
+            [
+                "prod39",
+                15
+            ],
+            [
+                "prod75",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill46",
+        "date": "02/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0465050526",
+        "list_product": [
+            [
+                "prod193",
+                1
+            ],
+            [
+                "prod317",
+                10
+            ],
+            [
+                "prod183",
+                2
+            ],
+            [
+                "prod210",
+                10
+            ],
+            [
+                "prod325",
+                19
+            ],
+            [
+                "prod250",
+                6
+            ],
+            [
+                "prod21",
+                8
+            ],
+            [
+                "prod343",
+                20
+            ],
+            [
+                "prod20",
+                5
+            ],
+            [
+                "prod165",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill47",
+        "date": "10/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0480930672",
+        "list_product": [
+            [
+                "prod168",
+                1
+            ],
+            [
+                "prod303",
+                10
+            ],
+            [
+                "prod68",
+                5
+            ],
+            [
+                "prod82",
+                17
+            ],
+            [
+                "prod369",
+                3
+            ],
+            [
+                "prod255",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill48",
+        "date": "07/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0296058289",
+        "list_product": [
+            [
+                "prod345",
+                6
+            ],
+            [
+                "prod352",
+                5
+            ],
+            [
+                "prod25",
+                3
+            ],
+            [
+                "prod236",
+                16
+            ],
+            [
+                "prod52",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill49",
+        "date": "17/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0100369095",
+        "list_product": [
+            [
+                "prod319",
+                11
+            ],
+            [
+                "prod75",
+                14
+            ],
+            [
+                "prod67",
+                14
+            ],
+            [
+                "prod337",
+                17
+            ],
+            [
+                "prod56",
+                11
+            ],
+            [
+                "prod351",
+                20
+            ],
+            [
+                "prod297",
+                16
+            ],
+            [
+                "prod88",
+                17
+            ],
+            [
+                "prod258",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill50",
+        "date": "15/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0841700384",
+        "list_product": [
+            [
+                "prod150",
+                12
+            ],
+            [
+                "prod149",
+                20
+            ],
+            [
+                "prod285",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill51",
+        "date": "27/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0644725773",
+        "list_product": [
+            [
+                "prod236",
+                20
+            ],
+            [
+                "prod16",
+                3
+            ],
+            [
+                "prod213",
+                9
+            ],
+            [
+                "prod310",
+                2
+            ],
+            [
+                "prod327",
+                11
+            ],
+            [
+                "prod69",
+                3
+            ],
+            [
+                "prod232",
+                16
+            ],
+            [
+                "prod369",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill52",
+        "date": "13/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0811273291",
+        "list_product": [
+            [
+                "prod246",
+                19
+            ],
+            [
+                "prod362",
+                19
+            ],
+            [
+                "prod345",
+                14
+            ],
+            [
+                "prod127",
+                18
+            ],
+            [
+                "prod166",
+                3
+            ],
+            [
+                "prod181",
+                17
+            ],
+            [
+                "prod131",
+                14
+            ],
+            [
+                "prod163",
+                5
+            ],
+            [
+                "prod306",
+                1
+            ],
+            [
+                "prod79",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill53",
+        "date": "24/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0654803684",
+        "list_product": [
+            [
+                "prod11",
+                19
+            ],
+            [
+                "prod51",
+                16
+            ],
+            [
+                "prod187",
+                6
+            ],
+            [
+                "prod128",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill54",
+        "date": "15/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0587365040",
+        "list_product": [
+            [
+                "prod314",
+                9
+            ],
+            [
+                "prod145",
+                8
+            ],
+            [
+                "prod125",
+                6
+            ],
+            [
+                "prod346",
+                12
+            ],
+            [
+                "prod152",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill55",
+        "date": "21/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0245320325",
+        "list_product": [
+            [
+                "prod119",
+                19
+            ],
+            [
+                "prod249",
+                19
+            ],
+            [
+                "prod238",
+                2
+            ],
+            [
+                "prod252",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill56",
+        "date": "28/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0762618354",
+        "list_product": [
+            [
+                "prod73",
+                8
+            ],
+            [
+                "prod338",
+                1
+            ],
+            [
+                "prod269",
+                17
+            ],
+            [
+                "prod200",
+                19
+            ],
+            [
+                "prod18",
+                10
+            ],
+            [
+                "prod89",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill57",
+        "date": "07/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0333999681",
+        "list_product": [
+            [
+                "prod313",
+                2
+            ],
+            [
+                "prod115",
+                4
+            ],
+            [
+                "prod213",
+                12
+            ],
+            [
+                "prod126",
+                10
+            ],
+            [
+                "prod124",
+                20
+            ],
+            [
+                "prod170",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill58",
+        "date": "10/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0639273361",
+        "list_product": [
+            [
+                "prod238",
+                17
+            ],
+            [
+                "prod25",
+                9
+            ],
+            [
+                "prod83",
+                1
+            ],
+            [
+                "prod75",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill59",
+        "date": "02/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0735540145",
+        "list_product": [
+            [
+                "prod333",
+                10
+            ],
+            [
+                "prod285",
+                8
+            ],
+            [
+                "prod236",
+                9
+            ],
+            [
+                "prod217",
+                17
+            ],
+            [
+                "prod305",
+                3
+            ],
+            [
+                "prod72",
+                5
+            ],
+            [
+                "prod124",
+                16
+            ],
+            [
+                "prod4",
+                17
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill60",
+        "date": "31/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0820716220",
+        "list_product": [
+            [
+                "prod128",
+                20
+            ],
+            [
+                "prod107",
+                4
+            ],
+            [
+                "prod187",
+                1
+            ],
+            [
+                "prod116",
+                20
+            ],
+            [
+                "prod65",
+                2
+            ],
+            [
+                "prod198",
+                9
+            ],
+            [
+                "prod298",
+                16
+            ],
+            [
+                "prod129",
+                10
+            ],
+            [
+                "prod336",
+                9
+            ],
+            [
+                "prod181",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill61",
+        "date": "12/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0443878562",
+        "list_product": [
+            [
+                "prod348",
+                15
+            ],
+            [
+                "prod318",
+                13
+            ],
+            [
+                "prod224",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill62",
+        "date": "29/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0790605584",
+        "list_product": [
+            [
+                "prod252",
+                14
+            ],
+            [
+                "prod40",
+                5
+            ],
+            [
+                "prod96",
+                11
+            ],
+            [
+                "prod367",
+                1
+            ],
+            [
+                "prod354",
+                20
+            ],
+            [
+                "prod66",
+                4
+            ],
+            [
+                "prod84",
+                8
+            ],
+            [
+                "prod133",
+                19
+            ],
+            [
+                "prod72",
+                18
+            ],
+            [
+                "prod56",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill63",
+        "date": "23/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0337916852",
+        "list_product": [
+            [
+                "prod143",
+                11
+            ],
+            [
+                "prod104",
+                2
+            ],
+            [
+                "prod214",
+                4
+            ],
+            [
+                "prod136",
+                2
+            ],
+            [
+                "prod20",
+                4
+            ],
+            [
+                "prod288",
+                11
+            ],
+            [
+                "prod268",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill64",
+        "date": "21/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0486045142",
+        "list_product": [
+            [
+                "prod275",
+                20
+            ],
+            [
+                "prod44",
+                15
+            ],
+            [
+                "prod3",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill65",
+        "date": "18/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0565447559",
+        "list_product": [
+            [
+                "prod138",
+                17
+            ],
+            [
+                "prod72",
+                3
+            ],
+            [
+                "prod67",
+                19
+            ],
+            [
+                "prod232",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill66",
+        "date": "17/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0832468566",
+        "list_product": [
+            [
+                "prod85",
+                10
+            ],
+            [
+                "prod170",
+                8
+            ],
+            [
+                "prod329",
+                13
+            ],
+            [
+                "prod175",
+                8
+            ],
+            [
+                "prod111",
+                2
+            ],
+            [
+                "prod184",
+                11
+            ],
+            [
+                "prod217",
+                12
+            ],
+            [
+                "prod364",
+                5
+            ],
+            [
+                "prod180",
+                15
+            ],
+            [
+                "prod139",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill67",
+        "date": "19/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0518822079",
+        "list_product": [
+            [
+                "prod260",
+                2
+            ],
+            [
+                "prod220",
+                13
+            ],
+            [
+                "prod278",
+                5
+            ],
+            [
+                "prod73",
+                4
+            ],
+            [
+                "prod275",
+                14
+            ],
+            [
+                "prod365",
+                15
+            ],
+            [
+                "prod307",
+                16
+            ],
+            [
+                "prod299",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill68",
+        "date": "01/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0871410072",
+        "list_product": [
+            [
+                "prod284",
+                8
+            ],
+            [
+                "prod343",
+                5
+            ],
+            [
+                "prod214",
+                6
+            ],
+            [
+                "prod77",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill69",
+        "date": "18/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0248343567",
+        "list_product": [
+            [
+                "prod172",
+                2
+            ],
+            [
+                "prod234",
+                12
+            ],
+            [
+                "prod4",
+                5
+            ],
+            [
+                "prod326",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill70",
+        "date": "13/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0434730674",
+        "list_product": [
+            [
+                "prod117",
+                3
+            ],
+            [
+                "prod339",
+                7
+            ],
+            [
+                "prod162",
+                9
+            ],
+            [
+                "prod120",
+                4
+            ],
+            [
+                "prod322",
+                9
+            ],
+            [
+                "prod122",
+                3
+            ],
+            [
+                "prod26",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill71",
+        "date": "15/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0967984964",
+        "list_product": [
+            [
+                "prod111",
+                13
+            ],
+            [
+                "prod296",
+                14
+            ],
+            [
+                "prod362",
+                2
+            ],
+            [
+                "prod159",
+                19
+            ],
+            [
+                "prod306",
+                2
+            ],
+            [
+                "prod15",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill72",
+        "date": "21/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0668958812",
+        "list_product": [
+            [
+                "prod60",
+                13
+            ],
+            [
+                "prod59",
+                18
+            ],
+            [
+                "prod44",
+                19
+            ],
+            [
+                "prod333",
+                10
+            ],
+            [
+                "prod192",
+                19
+            ],
+            [
+                "prod65",
+                3
+            ],
+            [
+                "prod197",
+                18
+            ],
+            [
+                "prod271",
+                10
+            ],
+            [
+                "prod34",
+                3
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill73",
+        "date": "19/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0945220229",
+        "list_product": [
+            [
+                "prod324",
+                9
+            ],
+            [
+                "prod362",
+                10
+            ],
+            [
+                "prod309",
+                4
+            ],
+            [
+                "prod155",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill74",
+        "date": "18/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0697140479",
+        "list_product": [
+            [
+                "prod320",
+                8
+            ],
+            [
+                "prod62",
+                15
+            ],
+            [
+                "prod343",
+                17
+            ],
+            [
+                "prod102",
+                19
+            ],
+            [
+                "prod326",
+                17
+            ],
+            [
+                "prod84",
+                17
+            ],
+            [
+                "prod131",
+                12
+            ],
+            [
+                "prod324",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill75",
+        "date": "18/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0230407657",
+        "list_product": [
+            [
+                "prod293",
+                13
+            ],
+            [
+                "prod344",
+                5
+            ],
+            [
+                "prod141",
+                3
+            ],
+            [
+                "prod250",
+                5
+            ],
+            [
+                "prod20",
+                17
+            ],
+            [
+                "prod79",
+                16
+            ],
+            [
+                "prod64",
+                3
+            ],
+            [
+                "prod265",
+                4
+            ],
+            [
+                "prod248",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill76",
+        "date": "27/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0265589926",
+        "list_product": [
+            [
+                "prod24",
+                19
+            ],
+            [
+                "prod361",
+                18
+            ],
+            [
+                "prod71",
+                18
+            ],
+            [
+                "prod204",
+                15
+            ],
+            [
+                "prod217",
+                13
+            ],
+            [
+                "prod73",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill77",
+        "date": "15/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0712522056",
+        "list_product": [
+            [
+                "prod297",
+                11
+            ],
+            [
+                "prod130",
+                18
+            ],
+            [
+                "prod146",
+                11
+            ],
+            [
+                "prod32",
+                15
+            ],
+            [
+                "prod88",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill78",
+        "date": "16/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0852675714",
+        "list_product": [
+            [
+                "prod260",
+                1
+            ],
+            [
+                "prod44",
+                15
+            ],
+            [
+                "prod259",
+                9
+            ],
+            [
+                "prod86",
+                7
+            ],
+            [
+                "prod201",
+                13
+            ],
+            [
+                "prod321",
+                14
+            ],
+            [
+                "prod234",
+                10
+            ],
+            [
+                "prod35",
+                1
+            ],
+            [
+                "prod211",
+                20
+            ],
+            [
+                "prod254",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill79",
+        "date": "17/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0485455898",
+        "list_product": [
+            [
+                "prod69",
+                4
+            ],
+            [
+                "prod60",
+                1
+            ],
+            [
+                "prod316",
+                2
+            ],
+            [
+                "prod338",
+                11
+            ],
+            [
+                "prod201",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill80",
+        "date": "17/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0633017463",
+        "list_product": [
+            [
+                "prod48",
+                14
+            ],
+            [
+                "prod133",
+                10
+            ],
+            [
+                "prod160",
+                8
+            ],
+            [
+                "prod168",
+                19
+            ],
+            [
+                "prod296",
+                12
+            ],
+            [
+                "prod183",
+                20
+            ],
+            [
+                "prod215",
+                15
+            ],
+            [
+                "prod182",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill81",
+        "date": "04/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0128052969",
+        "list_product": [
+            [
+                "prod46",
+                17
+            ],
+            [
+                "prod128",
+                9
+            ],
+            [
+                "prod51",
+                3
+            ],
+            [
+                "prod199",
+                17
+            ],
+            [
+                "prod141",
+                5
+            ],
+            [
+                "prod60",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill82",
+        "date": "02/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0719498438",
+        "list_product": [
+            [
+                "prod207",
+                19
+            ],
+            [
+                "prod175",
+                8
+            ],
+            [
+                "prod98",
+                2
+            ],
+            [
+                "prod339",
+                17
+            ],
+            [
+                "prod111",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill83",
+        "date": "17/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0892883413",
+        "list_product": [
+            [
+                "prod223",
+                7
+            ],
+            [
+                "prod161",
+                17
+            ],
+            [
+                "prod101",
+                4
+            ],
+            [
+                "prod104",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill84",
+        "date": "25/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0428981349",
+        "list_product": [
+            [
+                "prod28",
+                20
+            ],
+            [
+                "prod237",
+                11
+            ],
+            [
+                "prod8",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill85",
+        "date": "21/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0660989295",
+        "list_product": [
+            [
+                "prod197",
+                4
+            ],
+            [
+                "prod359",
+                8
+            ],
+            [
+                "prod225",
+                2
+            ],
+            [
+                "prod131",
+                8
+            ],
+            [
+                "prod232",
+                8
+            ],
+            [
+                "prod337",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill86",
+        "date": "25/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0890946452",
+        "list_product": [
+            [
+                "prod263",
+                13
+            ],
+            [
+                "prod63",
+                19
+            ],
+            [
+                "prod65",
+                11
+            ],
+            [
+                "prod227",
+                9
+            ],
+            [
+                "prod92",
+                8
+            ],
+            [
+                "prod22",
+                9
+            ],
+            [
+                "prod299",
+                5
+            ],
+            [
+                "prod31",
+                5
+            ],
+            [
+                "prod113",
+                8
+            ],
+            [
+                "prod102",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill87",
+        "date": "25/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0487410877",
+        "list_product": [
+            [
+                "prod367",
+                11
+            ],
+            [
+                "prod262",
+                11
+            ],
+            [
+                "prod49",
+                5
+            ],
+            [
+                "prod206",
+                4
+            ],
+            [
+                "prod201",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill88",
+        "date": "06/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0970066054",
+        "list_product": [
+            [
+                "prod230",
+                13
+            ],
+            [
+                "prod76",
+                2
+            ],
+            [
+                "prod111",
+                6
+            ],
+            [
+                "prod254",
+                15
+            ],
+            [
+                "prod42",
+                13
+            ],
+            [
+                "prod124",
+                7
+            ],
+            [
+                "prod258",
+                4
+            ],
+            [
+                "prod114",
+                7
+            ],
+            [
+                "prod129",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill89",
+        "date": "09/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0834312835",
+        "list_product": [
+            [
+                "prod123",
+                4
+            ],
+            [
+                "prod45",
+                10
+            ],
+            [
+                "prod369",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill90",
+        "date": "06/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0369110373",
+        "list_product": [
+            [
+                "prod131",
+                15
+            ],
+            [
+                "prod32",
+                4
+            ],
+            [
+                "prod200",
+                8
+            ],
+            [
+                "prod245",
+                2
+            ],
+            [
+                "prod279",
+                14
+            ],
+            [
+                "prod199",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill91",
+        "date": "01/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0897604064",
+        "list_product": [
+            [
+                "prod113",
+                8
+            ],
+            [
+                "prod12",
+                8
+            ],
+            [
+                "prod367",
+                2
+            ],
+            [
+                "prod128",
+                14
+            ],
+            [
+                "prod325",
+                3
+            ],
+            [
+                "prod84",
+                19
+            ],
+            [
+                "prod278",
+                3
+            ],
+            [
+                "prod311",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill92",
+        "date": "26/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0555197756",
+        "list_product": [
+            [
+                "prod366",
+                14
+            ],
+            [
+                "prod146",
+                14
+            ],
+            [
+                "prod128",
+                10
+            ],
+            [
+                "prod340",
+                3
+            ],
+            [
+                "prod249",
+                5
+            ],
+            [
+                "prod46",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill93",
+        "date": "26/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0575134496",
+        "list_product": [
+            [
+                "prod356",
+                16
+            ],
+            [
+                "prod95",
+                8
+            ],
+            [
+                "prod324",
+                7
+            ],
+            [
+                "prod100",
+                2
+            ],
+            [
+                "prod333",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill94",
+        "date": "07/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0633048320",
+        "list_product": [
+            [
+                "prod282",
+                20
+            ],
+            [
+                "prod244",
+                6
+            ],
+            [
+                "prod178",
+                15
+            ],
+            [
+                "prod275",
+                1
+            ],
+            [
+                "prod319",
+                6
+            ],
+            [
+                "prod98",
+                11
+            ],
+            [
+                "prod164",
+                17
+            ],
+            [
+                "prod303",
+                13
+            ],
+            [
+                "prod362",
+                11
+            ],
+            [
+                "prod29",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill95",
+        "date": "24/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0339408079",
+        "list_product": [
+            [
+                "prod293",
+                12
+            ],
+            [
+                "prod168",
+                3
+            ],
+            [
+                "prod218",
+                8
+            ],
+            [
+                "prod198",
+                18
+            ],
+            [
+                "prod61",
+                10
+            ],
+            [
+                "prod225",
+                12
+            ],
+            [
+                "prod333",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill96",
+        "date": "17/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0768635692",
+        "list_product": [
+            [
+                "prod266",
+                6
+            ],
+            [
+                "prod181",
+                19
+            ],
+            [
+                "prod367",
+                1
+            ],
+            [
+                "prod246",
+                2
+            ],
+            [
+                "prod319",
+                8
+            ],
+            [
+                "prod260",
+                17
+            ],
+            [
+                "prod192",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill97",
+        "date": "02/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0681007784",
+        "list_product": [
+            [
+                "prod266",
+                9
+            ],
+            [
+                "prod126",
+                6
+            ],
+            [
+                "prod118",
+                12
+            ],
+            [
+                "prod72",
+                9
+            ],
+            [
+                "prod94",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill98",
+        "date": "13/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0333212398",
+        "list_product": [
+            [
+                "prod137",
+                12
+            ],
+            [
+                "prod28",
+                15
+            ],
+            [
+                "prod128",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill99",
+        "date": "02/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0815712955",
+        "list_product": [
+            [
+                "prod119",
+                8
+            ],
+            [
+                "prod325",
+                1
+            ],
+            [
+                "prod21",
+                2
+            ],
+            [
+                "prod316",
+                8
+            ],
+            [
+                "prod298",
+                6
+            ],
+            [
+                "prod88",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill100",
+        "date": "04/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0859832260",
+        "list_product": [
+            [
+                "prod328",
+                17
+            ],
+            [
+                "prod31",
+                12
+            ],
+            [
+                "prod70",
+                4
+            ],
+            [
+                "prod106",
+                16
+            ],
+            [
+                "prod181",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill101",
+        "date": "15/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0347832920",
+        "list_product": [
+            [
+                "prod113",
+                9
+            ],
+            [
+                "prod340",
+                9
+            ],
+            [
+                "prod141",
+                5
+            ],
+            [
+                "prod300",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill102",
+        "date": "14/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0481729114",
+        "list_product": [
+            [
+                "prod316",
+                6
+            ],
+            [
+                "prod141",
+                14
+            ],
+            [
+                "prod5",
+                4
+            ],
+            [
+                "prod139",
+                3
+            ],
+            [
+                "prod255",
+                18
+            ],
+            [
+                "prod116",
+                12
+            ],
+            [
+                "prod349",
+                4
+            ],
+            [
+                "prod211",
+                13
+            ],
+            [
+                "prod60",
+                12
+            ],
+            [
+                "prod260",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill103",
+        "date": "05/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0939763112",
+        "list_product": [
+            [
+                "prod159",
+                6
+            ],
+            [
+                "prod97",
+                4
+            ],
+            [
+                "prod249",
+                10
+            ],
+            [
+                "prod46",
+                20
+            ],
+            [
+                "prod5",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill104",
+        "date": "29/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0265631109",
+        "list_product": [
+            [
+                "prod94",
+                5
+            ],
+            [
+                "prod187",
+                19
+            ],
+            [
+                "prod273",
+                17
+            ],
+            [
+                "prod27",
+                8
+            ],
+            [
+                "prod125",
+                12
+            ],
+            [
+                "prod229",
+                20
+            ],
+            [
+                "prod51",
+                9
+            ],
+            [
+                "prod309",
+                19
+            ],
+            [
+                "prod46",
+                13
+            ],
+            [
+                "prod128",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill105",
+        "date": "19/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0609472537",
+        "list_product": [
+            [
+                "prod53",
+                12
+            ],
+            [
+                "prod113",
+                18
+            ],
+            [
+                "prod233",
+                9
+            ],
+            [
+                "prod135",
+                5
+            ],
+            [
+                "prod354",
+                13
+            ],
+            [
+                "prod3",
+                8
+            ],
+            [
+                "prod324",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill106",
+        "date": "16/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0738739790",
+        "list_product": [
+            [
+                "prod238",
+                1
+            ],
+            [
+                "prod178",
+                3
+            ],
+            [
+                "prod60",
+                19
+            ],
+            [
+                "prod239",
+                10
+            ],
+            [
+                "prod157",
+                13
+            ],
+            [
+                "prod123",
+                10
+            ],
+            [
                 "prod2",
                 10
             ]
         ]
     },
     {
-        "bill_no": "bill16",
-        "date": "21/03/2025",
-        "customer_name": "Ngoc Kem",
-        "phone": "0989111556",
+        "bill_no": "bill107",
+        "date": "11/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0642298722",
         "list_product": [
             [
-                "prod4",
+                "prod121",
+                16
+            ],
+            [
+                "prod275",
                 3
             ],
             [
-                "prod5",
-                30
+                "prod124",
+                7
             ],
             [
-                "prod3",
-                30
+                "prod180",
+                15
+            ],
+            [
+                "prod154",
+                12
             ]
         ]
     },
     {
-        "bill_no": "bill15",
-        "date": "22/03/2025",
-        "customer_name": "Ngoc Anh",
-        "phone": "0775123111",
+        "bill_no": "bill108",
+        "date": "02/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0461897393",
         "list_product": [
             [
-                "prod3",
-                100
+                "prod154",
+                11
             ],
             [
-                "prod2",
-                100
+                "prod266",
+                5
             ],
             [
-                "prod5",
-                100
+                "prod349",
+                7
+            ],
+            [
+                "prod221",
+                17
+            ],
+            [
+                "prod360",
+                4
+            ],
+            [
+                "prod53",
+                11
+            ],
+            [
+                "prod18",
+                15
+            ],
+            [
+                "prod131",
+                3
+            ],
+            [
+                "prod109",
+                13
+            ],
+            [
+                "prod259",
+                13
             ]
         ]
     },
     {
-        "bill_no": "bill16",
-        "date": "22/03/2025",
-        "customer_name": "Tuong Vy",
-        "phone": "0986011222",
+        "bill_no": "bill109",
+        "date": "25/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0594790346",
         "list_product": [
             [
-                "prod2",
-                50
+                "prod233",
+                10
+            ],
+            [
+                "prod5",
+                10
+            ],
+            [
+                "prod199",
+                19
+            ],
+            [
+                "prod359",
+                1
+            ],
+            [
+                "prod188",
+                18
+            ],
+            [
+                "prod320",
+                2
+            ],
+            [
+                "prod33",
+                3
+            ],
+            [
+                "prod60",
+                3
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill110",
+        "date": "26/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0234435065",
+        "list_product": [
+            [
+                "prod109",
+                3
+            ],
+            [
+                "prod150",
+                2
+            ],
+            [
+                "prod44",
+                10
+            ],
+            [
+                "prod89",
+                6
+            ],
+            [
+                "prod178",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill111",
+        "date": "18/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0684692824",
+        "list_product": [
+            [
+                "prod78",
+                10
+            ],
+            [
+                "prod26",
+                7
+            ],
+            [
+                "prod12",
+                4
+            ],
+            [
+                "prod118",
+                2
+            ],
+            [
+                "prod147",
+                9
+            ],
+            [
+                "prod333",
+                20
+            ],
+            [
+                "prod121",
+                20
+            ],
+            [
+                "prod316",
+                5
+            ],
+            [
+                "prod142",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill112",
+        "date": "03/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0569100495",
+        "list_product": [
+            [
+                "prod32",
+                8
+            ],
+            [
+                "prod163",
+                1
+            ],
+            [
+                "prod162",
+                12
+            ],
+            [
+                "prod96",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill113",
+        "date": "11/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0295530294",
+        "list_product": [
+            [
+                "prod157",
+                9
+            ],
+            [
+                "prod318",
+                18
+            ],
+            [
+                "prod364",
+                4
+            ],
+            [
+                "prod112",
+                10
+            ],
+            [
+                "prod117",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill114",
+        "date": "11/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0775077923",
+        "list_product": [
+            [
+                "prod282",
+                15
+            ],
+            [
+                "prod183",
+                15
+            ],
+            [
+                "prod80",
+                6
+            ],
+            [
+                "prod127",
+                17
+            ],
+            [
+                "prod17",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill115",
+        "date": "30/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0886759389",
+        "list_product": [
+            [
+                "prod86",
+                3
+            ],
+            [
+                "prod261",
+                17
+            ],
+            [
+                "prod39",
+                2
+            ],
+            [
+                "prod225",
+                11
+            ],
+            [
+                "prod139",
+                8
+            ],
+            [
+                "prod10",
+                1
+            ],
+            [
+                "prod264",
+                6
+            ],
+            [
+                "prod321",
+                15
+            ],
+            [
+                "prod301",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill116",
+        "date": "27/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0736473115",
+        "list_product": [
+            [
+                "prod50",
+                6
+            ],
+            [
+                "prod173",
+                5
+            ],
+            [
+                "prod101",
+                14
+            ],
+            [
+                "prod147",
+                3
+            ],
+            [
+                "prod47",
+                1
+            ],
+            [
+                "prod201",
+                15
+            ],
+            [
+                "prod82",
+                11
+            ],
+            [
+                "prod125",
+                15
+            ],
+            [
+                "prod170",
+                3
+            ],
+            [
+                "prod340",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill117",
+        "date": "09/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0700868098",
+        "list_product": [
+            [
+                "prod225",
+                1
+            ],
+            [
+                "prod260",
+                19
+            ],
+            [
+                "prod281",
+                12
+            ],
+            [
+                "prod271",
+                15
+            ],
+            [
+                "prod120",
+                10
+            ],
+            [
+                "prod65",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill118",
+        "date": "02/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0690720775",
+        "list_product": [
+            [
+                "prod4",
+                8
+            ],
+            [
+                "prod160",
+                5
+            ],
+            [
+                "prod69",
+                8
+            ],
+            [
+                "prod200",
+                6
+            ],
+            [
+                "prod177",
+                1
+            ],
+            [
+                "prod170",
+                9
+            ],
+            [
+                "prod282",
+                20
+            ],
+            [
+                "prod76",
+                7
+            ],
+            [
+                "prod223",
+                20
+            ],
+            [
+                "prod49",
+                17
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill119",
+        "date": "14/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0935992337",
+        "list_product": [
+            [
+                "prod135",
+                20
+            ],
+            [
+                "prod278",
+                6
+            ],
+            [
+                "prod353",
+                18
+            ],
+            [
+                "prod272",
+                17
+            ],
+            [
+                "prod143",
+                13
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill120",
+        "date": "22/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0461639835",
+        "list_product": [
+            [
+                "prod34",
+                11
+            ],
+            [
+                "prod228",
+                6
+            ],
+            [
+                "prod8",
+                14
+            ],
+            [
+                "prod256",
+                13
+            ],
+            [
+                "prod107",
+                3
+            ],
+            [
+                "prod21",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill121",
+        "date": "04/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0869119369",
+        "list_product": [
+            [
+                "prod1",
+                18
+            ],
+            [
+                "prod312",
+                4
+            ],
+            [
+                "prod305",
+                18
+            ],
+            [
+                "prod224",
+                4
+            ],
+            [
+                "prod102",
+                20
+            ],
+            [
+                "prod81",
+                19
+            ],
+            [
+                "prod24",
+                5
+            ],
+            [
+                "prod325",
+                16
+            ],
+            [
+                "prod36",
+                13
+            ],
+            [
+                "prod266",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill122",
+        "date": "09/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0339095884",
+        "list_product": [
+            [
+                "prod53",
+                5
+            ],
+            [
+                "prod11",
+                15
+            ],
+            [
+                "prod266",
+                15
+            ],
+            [
+                "prod117",
+                4
+            ],
+            [
+                "prod355",
+                6
+            ],
+            [
+                "prod96",
+                13
+            ],
+            [
+                "prod367",
+                14
+            ],
+            [
+                "prod204",
+                18
+            ],
+            [
+                "prod78",
+                11
+            ],
+            [
+                "prod163",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill123",
+        "date": "14/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0645589961",
+        "list_product": [
+            [
+                "prod361",
+                11
+            ],
+            [
+                "prod113",
+                15
+            ],
+            [
+                "prod65",
+                11
+            ],
+            [
+                "prod275",
+                17
+            ],
+            [
+                "prod144",
+                10
+            ],
+            [
+                "prod175",
+                16
+            ],
+            [
+                "prod14",
+                9
+            ],
+            [
+                "prod139",
+                13
+            ],
+            [
+                "prod336",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill124",
+        "date": "04/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0466612374",
+        "list_product": [
+            [
+                "prod236",
+                19
+            ],
+            [
+                "prod7",
+                5
+            ],
+            [
+                "prod327",
+                9
+            ],
+            [
+                "prod48",
+                13
+            ],
+            [
+                "prod316",
+                6
+            ],
+            [
+                "prod202",
+                1
+            ],
+            [
+                "prod337",
+                10
+            ],
+            [
+                "prod56",
+                18
+            ],
+            [
+                "prod289",
+                3
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill125",
+        "date": "08/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0345985218",
+        "list_product": [
+            [
+                "prod334",
+                14
+            ],
+            [
+                "prod88",
+                6
+            ],
+            [
+                "prod152",
+                7
+            ],
+            [
+                "prod138",
+                16
+            ],
+            [
+                "prod294",
+                14
+            ],
+            [
+                "prod219",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill126",
+        "date": "14/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0178340869",
+        "list_product": [
+            [
+                "prod113",
+                11
+            ],
+            [
+                "prod190",
+                13
+            ],
+            [
+                "prod209",
+                16
+            ],
+            [
+                "prod191",
+                3
+            ],
+            [
+                "prod158",
+                11
+            ],
+            [
+                "prod32",
+                14
+            ],
+            [
+                "prod226",
+                10
+            ],
+            [
+                "prod45",
+                2
+            ],
+            [
+                "prod311",
+                15
+            ],
+            [
+                "prod220",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill127",
+        "date": "03/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0472956279",
+        "list_product": [
+            [
+                "prod102",
+                15
+            ],
+            [
+                "prod194",
+                7
+            ],
+            [
+                "prod246",
+                7
+            ],
+            [
+                "prod145",
+                11
+            ],
+            [
+                "prod201",
+                17
+            ],
+            [
+                "prod110",
+                20
+            ],
+            [
+                "prod177",
+                8
+            ],
+            [
+                "prod287",
+                20
+            ],
+            [
+                "prod320",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill128",
+        "date": "03/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0693138670",
+        "list_product": [
+            [
+                "prod246",
+                8
+            ],
+            [
+                "prod251",
+                6
+            ],
+            [
+                "prod209",
+                6
+            ],
+            [
+                "prod264",
+                7
+            ],
+            [
+                "prod111",
+                13
+            ],
+            [
+                "prod286",
+                5
+            ],
+            [
+                "prod11",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill129",
+        "date": "28/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0760557568",
+        "list_product": [
+            [
+                "prod77",
+                10
+            ],
+            [
+                "prod102",
+                6
+            ],
+            [
+                "prod368",
+                2
+            ],
+            [
+                "prod11",
+                10
+            ],
+            [
+                "prod109",
+                2
+            ],
+            [
+                "prod356",
+                11
+            ],
+            [
+                "prod26",
+                20
+            ],
+            [
+                "prod7",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill130",
+        "date": "10/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0401158504",
+        "list_product": [
+            [
+                "prod268",
+                1
+            ],
+            [
+                "prod13",
+                13
+            ],
+            [
+                "prod334",
+                2
+            ],
+            [
+                "prod218",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill131",
+        "date": "13/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0127793950",
+        "list_product": [
+            [
+                "prod40",
+                5
+            ],
+            [
+                "prod350",
+                19
+            ],
+            [
+                "prod261",
+                19
+            ],
+            [
+                "prod53",
+                1
+            ],
+            [
+                "prod222",
+                15
+            ],
+            [
+                "prod206",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill132",
+        "date": "09/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0107712633",
+        "list_product": [
+            [
+                "prod149",
+                16
+            ],
+            [
+                "prod99",
+                4
+            ],
+            [
+                "prod234",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill133",
+        "date": "27/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0738907741",
+        "list_product": [
+            [
+                "prod325",
+                19
+            ],
+            [
+                "prod328",
+                16
+            ],
+            [
+                "prod231",
+                1
+            ],
+            [
+                "prod286",
+                18
+            ],
+            [
+                "prod237",
+                4
+            ],
+            [
+                "prod165",
+                19
+            ],
+            [
+                "prod324",
+                7
+            ],
+            [
+                "prod226",
+                4
+            ],
+            [
+                "prod12",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill134",
+        "date": "17/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0804228266",
+        "list_product": [
+            [
+                "prod64",
+                17
+            ],
+            [
+                "prod172",
+                11
+            ],
+            [
+                "prod28",
+                8
+            ],
+            [
+                "prod199",
+                17
+            ],
+            [
+                "prod50",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill135",
+        "date": "16/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0738992316",
+        "list_product": [
+            [
+                "prod277",
+                10
+            ],
+            [
+                "prod87",
+                11
+            ],
+            [
+                "prod298",
+                1
+            ],
+            [
+                "prod20",
+                19
+            ],
+            [
+                "prod234",
+                11
+            ],
+            [
+                "prod96",
+                16
+            ],
+            [
+                "prod60",
+                15
+            ],
+            [
+                "prod268",
+                20
+            ],
+            [
+                "prod302",
+                17
+            ],
+            [
+                "prod344",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill136",
+        "date": "03/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0211968539",
+        "list_product": [
+            [
+                "prod303",
+                3
+            ],
+            [
+                "prod196",
+                9
+            ],
+            [
+                "prod314",
+                13
+            ],
+            [
+                "prod50",
+                15
+            ],
+            [
+                "prod57",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill137",
+        "date": "22/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0846504877",
+        "list_product": [
+            [
+                "prod165",
+                19
+            ],
+            [
+                "prod344",
+                4
+            ],
+            [
+                "prod211",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill138",
+        "date": "23/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0573688321",
+        "list_product": [
+            [
+                "prod288",
+                20
+            ],
+            [
+                "prod174",
+                5
+            ],
+            [
+                "prod283",
+                16
+            ],
+            [
+                "prod205",
+                20
+            ],
+            [
+                "prod176",
+                17
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill139",
+        "date": "14/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0468646643",
+        "list_product": [
+            [
+                "prod311",
+                10
+            ],
+            [
+                "prod282",
+                13
+            ],
+            [
+                "prod351",
+                7
+            ],
+            [
+                "prod127",
+                13
+            ],
+            [
+                "prod218",
+                15
+            ],
+            [
+                "prod115",
+                10
+            ],
+            [
+                "prod26",
+                15
+            ],
+            [
+                "prod341",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill140",
+        "date": "01/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0878856170",
+        "list_product": [
+            [
+                "prod47",
+                20
+            ],
+            [
+                "prod71",
+                11
+            ],
+            [
+                "prod72",
+                2
+            ],
+            [
+                "prod229",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill141",
+        "date": "29/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0467893139",
+        "list_product": [
+            [
+                "prod79",
+                18
+            ],
+            [
+                "prod256",
+                14
+            ],
+            [
+                "prod223",
+                8
+            ],
+            [
+                "prod63",
+                17
+            ],
+            [
+                "prod42",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill142",
+        "date": "06/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0781328516",
+        "list_product": [
+            [
+                "prod326",
+                13
+            ],
+            [
+                "prod243",
+                11
+            ],
+            [
+                "prod231",
+                13
+            ],
+            [
+                "prod117",
+                6
+            ],
+            [
+                "prod242",
+                10
+            ],
+            [
+                "prod94",
+                3
+            ],
+            [
+                "prod77",
+                5
+            ],
+            [
+                "prod197",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill143",
+        "date": "20/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0244947455",
+        "list_product": [
+            [
+                "prod258",
+                11
+            ],
+            [
+                "prod303",
+                9
+            ],
+            [
+                "prod212",
+                15
+            ],
+            [
+                "prod189",
+                3
+            ],
+            [
+                "prod213",
+                13
+            ],
+            [
+                "prod176",
+                9
+            ],
+            [
+                "prod239",
+                8
+            ],
+            [
+                "prod47",
+                14
+            ],
+            [
+                "prod350",
+                4
+            ],
+            [
+                "prod97",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill144",
+        "date": "06/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0687812739",
+        "list_product": [
+            [
+                "prod358",
+                2
+            ],
+            [
+                "prod14",
+                17
+            ],
+            [
+                "prod205",
+                2
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill145",
+        "date": "02/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0571381260",
+        "list_product": [
+            [
+                "prod290",
+                15
+            ],
+            [
+                "prod132",
+                1
+            ],
+            [
+                "prod366",
+                19
+            ],
+            [
+                "prod130",
+                9
+            ],
+            [
+                "prod129",
+                4
+            ],
+            [
+                "prod105",
+                7
+            ],
+            [
+                "prod269",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill146",
+        "date": "22/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0475599556",
+        "list_product": [
+            [
+                "prod310",
+                16
+            ],
+            [
+                "prod153",
+                19
+            ],
+            [
+                "prod40",
+                17
+            ],
+            [
+                "prod182",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill147",
+        "date": "01/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0564941674",
+        "list_product": [
+            [
+                "prod14",
+                4
+            ],
+            [
+                "prod121",
+                15
+            ],
+            [
+                "prod89",
+                12
+            ],
+            [
+                "prod281",
+                18
+            ],
+            [
+                "prod265",
+                17
+            ],
+            [
+                "prod340",
+                19
+            ],
+            [
+                "prod76",
+                4
+            ],
+            [
+                "prod161",
+                17
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill148",
+        "date": "02/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0980949525",
+        "list_product": [
+            [
+                "prod83",
+                16
+            ],
+            [
+                "prod339",
+                12
+            ],
+            [
+                "prod150",
+                4
+            ],
+            [
+                "prod278",
+                17
+            ],
+            [
+                "prod183",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill149",
+        "date": "22/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0516855727",
+        "list_product": [
+            [
+                "prod122",
+                14
+            ],
+            [
+                "prod282",
+                9
+            ],
+            [
+                "prod146",
+                14
+            ],
+            [
+                "prod189",
+                1
+            ],
+            [
+                "prod158",
+                14
+            ],
+            [
+                "prod224",
+                19
+            ],
+            [
+                "prod251",
+                1
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill150",
+        "date": "19/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0119578433",
+        "list_product": [
+            [
+                "prod109",
+                3
+            ],
+            [
+                "prod69",
+                14
+            ],
+            [
+                "prod283",
+                20
+            ],
+            [
+                "prod255",
+                18
+            ],
+            [
+                "prod96",
+                12
+            ],
+            [
+                "prod174",
+                17
+            ],
+            [
+                "prod337",
+                16
+            ],
+            [
+                "prod264",
+                9
+            ],
+            [
+                "prod62",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill151",
+        "date": "22/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0949447770",
+        "list_product": [
+            [
+                "prod369",
+                2
+            ],
+            [
+                "prod106",
+                15
+            ],
+            [
+                "prod227",
+                9
+            ],
+            [
+                "prod297",
+                7
+            ],
+            [
+                "prod213",
+                7
+            ],
+            [
+                "prod251",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill152",
+        "date": "18/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0765765329",
+        "list_product": [
+            [
+                "prod331",
+                19
+            ],
+            [
+                "prod110",
+                14
+            ],
+            [
+                "prod285",
+                14
+            ],
+            [
+                "prod275",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill153",
+        "date": "31/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0372068900",
+        "list_product": [
+            [
+                "prod276",
+                13
+            ],
+            [
+                "prod109",
+                3
+            ],
+            [
+                "prod369",
+                3
+            ],
+            [
+                "prod133",
+                7
+            ],
+            [
+                "prod45",
+                15
+            ],
+            [
+                "prod261",
+                8
+            ],
+            [
+                "prod211",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill154",
+        "date": "30/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0736383594",
+        "list_product": [
+            [
+                "prod267",
+                16
+            ],
+            [
+                "prod228",
+                1
+            ],
+            [
+                "prod233",
+                8
+            ],
+            [
+                "prod338",
+                8
+            ],
+            [
+                "prod62",
+                8
+            ],
+            [
+                "prod213",
+                5
+            ],
+            [
+                "prod289",
+                8
+            ],
+            [
+                "prod117",
+                20
+            ],
+            [
+                "prod305",
+                3
+            ],
+            [
+                "prod25",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill155",
+        "date": "30/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0821117902",
+        "list_product": [
+            [
+                "prod107",
+                9
+            ],
+            [
+                "prod353",
+                19
+            ],
+            [
+                "prod185",
+                14
+            ],
+            [
+                "prod317",
+                2
+            ],
+            [
+                "prod286",
+                18
+            ],
+            [
+                "prod96",
+                10
+            ],
+            [
+                "prod166",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill156",
+        "date": "28/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0402407850",
+        "list_product": [
+            [
+                "prod153",
+                5
+            ],
+            [
+                "prod73",
+                13
+            ],
+            [
+                "prod171",
+                19
+            ],
+            [
+                "prod148",
+                19
+            ],
+            [
+                "prod301",
+                17
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill157",
+        "date": "14/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0807938947",
+        "list_product": [
+            [
+                "prod21",
+                5
+            ],
+            [
+                "prod274",
+                8
+            ],
+            [
+                "prod93",
+                11
+            ],
+            [
+                "prod177",
+                5
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill158",
+        "date": "13/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0698581526",
+        "list_product": [
+            [
+                "prod269",
+                1
+            ],
+            [
+                "prod175",
+                8
+            ],
+            [
+                "prod89",
+                17
+            ],
+            [
+                "prod145",
+                5
+            ],
+            [
+                "prod37",
+                7
+            ],
+            [
+                "prod46",
+                18
+            ],
+            [
+                "prod79",
+                3
+            ],
+            [
+                "prod94",
+                1
+            ],
+            [
+                "prod13",
+                9
+            ],
+            [
+                "prod26",
+                14
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill159",
+        "date": "25/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0890443052",
+        "list_product": [
+            [
+                "prod37",
+                13
+            ],
+            [
+                "prod105",
+                16
+            ],
+            [
+                "prod279",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill160",
+        "date": "23/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0812408841",
+        "list_product": [
+            [
+                "prod89",
+                15
+            ],
+            [
+                "prod41",
+                19
+            ],
+            [
+                "prod6",
+                3
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill161",
+        "date": "19/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0659921824",
+        "list_product": [
+            [
+                "prod123",
+                15
+            ],
+            [
+                "prod40",
+                10
+            ],
+            [
+                "prod140",
+                13
+            ],
+            [
+                "prod298",
+                10
+            ],
+            [
+                "prod37",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill162",
+        "date": "06/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0706723684",
+        "list_product": [
+            [
+                "prod235",
+                10
+            ],
+            [
+                "prod91",
+                19
+            ],
+            [
+                "prod137",
+                17
+            ],
+            [
+                "prod59",
+                4
+            ],
+            [
+                "prod359",
+                13
+            ],
+            [
+                "prod366",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill163",
+        "date": "13/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0380010355",
+        "list_product": [
+            [
+                "prod104",
+                17
+            ],
+            [
+                "prod325",
+                11
+            ],
+            [
+                "prod244",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill164",
+        "date": "04/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0862296008",
+        "list_product": [
+            [
+                "prod108",
+                20
+            ],
+            [
+                "prod106",
+                10
+            ],
+            [
+                "prod78",
+                19
+            ],
+            [
+                "prod71",
+                3
+            ],
+            [
+                "prod339",
+                17
+            ],
+            [
+                "prod66",
+                3
+            ],
+            [
+                "prod341",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill165",
+        "date": "11/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0336408753",
+        "list_product": [
+            [
+                "prod311",
+                12
+            ],
+            [
+                "prod143",
+                3
+            ],
+            [
+                "prod230",
+                20
+            ],
+            [
+                "prod103",
+                8
+            ],
+            [
+                "prod55",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill166",
+        "date": "19/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0160450560",
+        "list_product": [
+            [
+                "prod95",
+                15
+            ],
+            [
+                "prod219",
+                12
+            ],
+            [
+                "prod363",
+                6
+            ],
+            [
+                "prod323",
+                2
+            ],
+            [
+                "prod97",
+                19
+            ],
+            [
+                "prod43",
+                8
+            ],
+            [
+                "prod66",
+                3
+            ],
+            [
+                "prod257",
+                14
+            ],
+            [
+                "prod1",
+                3
+            ],
+            [
+                "prod276",
+                18
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill167",
+        "date": "31/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0142680715",
+        "list_product": [
+            [
+                "prod316",
+                15
+            ],
+            [
+                "prod172",
+                13
+            ],
+            [
+                "prod133",
+                20
+            ],
+            [
+                "prod233",
+                15
+            ],
+            [
+                "prod247",
+                19
+            ],
+            [
+                "prod42",
+                15
+            ],
+            [
+                "prod15",
+                20
+            ],
+            [
+                "prod45",
+                6
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill168",
+        "date": "27/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0592997408",
+        "list_product": [
+            [
+                "prod97",
+                9
+            ],
+            [
+                "prod295",
+                2
+            ],
+            [
+                "prod49",
+                6
+            ],
+            [
+                "prod310",
+                19
+            ],
+            [
+                "prod19",
+                18
+            ],
+            [
+                "prod263",
+                12
+            ],
+            [
+                "prod292",
+                10
+            ],
+            [
+                "prod257",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill169",
+        "date": "08/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0944157466",
+        "list_product": [
+            [
+                "prod104",
+                2
+            ],
+            [
+                "prod16",
+                3
+            ],
+            [
+                "prod251",
+                13
+            ],
+            [
+                "prod291",
+                11
+            ],
+            [
+                "prod283",
+                17
+            ],
+            [
+                "prod41",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill170",
+        "date": "15/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0593511492",
+        "list_product": [
+            [
+                "prod54",
+                19
+            ],
+            [
+                "prod220",
+                8
+            ],
+            [
+                "prod256",
+                2
+            ],
+            [
+                "prod263",
+                14
+            ],
+            [
+                "prod184",
+                13
+            ],
+            [
+                "prod235",
+                4
+            ],
+            [
+                "prod121",
+                12
+            ],
+            [
+                "prod345",
+                7
+            ],
+            [
+                "prod242",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill171",
+        "date": "04/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0938327187",
+        "list_product": [
+            [
+                "prod245",
+                11
+            ],
+            [
+                "prod31",
+                2
+            ],
+            [
+                "prod337",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill172",
+        "date": "22/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0365858674",
+        "list_product": [
+            [
+                "prod9",
+                12
+            ],
+            [
+                "prod170",
+                20
+            ],
+            [
+                "prod17",
+                1
+            ],
+            [
+                "prod103",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill173",
+        "date": "02/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0535959063",
+        "list_product": [
+            [
+                "prod79",
+                13
+            ],
+            [
+                "prod332",
+                8
+            ],
+            [
+                "prod100",
+                6
+            ],
+            [
+                "prod162",
+                10
+            ],
+            [
+                "prod27",
+                18
+            ],
+            [
+                "prod313",
+                5
+            ],
+            [
+                "prod88",
+                6
+            ],
+            [
+                "prod70",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill174",
+        "date": "06/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0334431814",
+        "list_product": [
+            [
+                "prod101",
+                18
+            ],
+            [
+                "prod345",
+                14
+            ],
+            [
+                "prod179",
+                10
+            ],
+            [
+                "prod117",
+                4
+            ],
+            [
+                "prod104",
+                19
+            ],
+            [
+                "prod311",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill175",
+        "date": "17/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0228068043",
+        "list_product": [
+            [
+                "prod204",
+                9
+            ],
+            [
+                "prod336",
+                16
+            ],
+            [
+                "prod96",
+                1
+            ],
+            [
+                "prod170",
+                4
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill176",
+        "date": "07/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0574379769",
+        "list_product": [
+            [
+                "prod77",
+                14
+            ],
+            [
+                "prod290",
+                18
+            ],
+            [
+                "prod41",
+                1
+            ],
+            [
+                "prod78",
+                20
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill177",
+        "date": "24/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0829402081",
+        "list_product": [
+            [
+                "prod142",
+                10
+            ],
+            [
+                "prod154",
+                8
+            ],
+            [
+                "prod79",
+                3
+            ],
+            [
+                "prod171",
+                12
+            ],
+            [
+                "prod224",
+                1
+            ],
+            [
+                "prod315",
+                5
+            ],
+            [
+                "prod99",
+                19
+            ],
+            [
+                "prod244",
+                18
+            ],
+            [
+                "prod134",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill178",
+        "date": "16/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0662098153",
+        "list_product": [
+            [
+                "prod287",
+                2
+            ],
+            [
+                "prod335",
+                11
+            ],
+            [
+                "prod145",
+                1
+            ],
+            [
+                "prod153",
+                3
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill179",
+        "date": "22/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0257364671",
+        "list_product": [
+            [
+                "prod366",
+                14
+            ],
+            [
+                "prod69",
+                13
+            ],
+            [
+                "prod127",
+                18
+            ],
+            [
+                "prod120",
+                10
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill180",
+        "date": "18/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0967097750",
+        "list_product": [
+            [
+                "prod281",
+                12
+            ],
+            [
+                "prod316",
+                11
+            ],
+            [
+                "prod32",
+                3
+            ],
+            [
+                "prod358",
+                10
+            ],
+            [
+                "prod200",
+                13
+            ],
+            [
+                "prod30",
+                1
+            ],
+            [
+                "prod113",
+                9
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill181",
+        "date": "25/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0801775480",
+        "list_product": [
+            [
+                "prod174",
+                10
+            ],
+            [
+                "prod245",
+                4
+            ],
+            [
+                "prod48",
+                13
+            ],
+            [
+                "prod134",
+                20
+            ],
+            [
+                "prod57",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill182",
+        "date": "25/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0949161090",
+        "list_product": [
+            [
+                "prod306",
+                19
+            ],
+            [
+                "prod214",
+                14
+            ],
+            [
+                "prod21",
+                19
+            ],
+            [
+                "prod323",
+                7
+            ],
+            [
+                "prod73",
+                14
+            ],
+            [
+                "prod57",
+                6
+            ],
+            [
+                "prod249",
+                3
+            ],
+            [
+                "prod105",
+                3
             ],
             [
                 "prod2",
-                50
+                16
+            ],
+            [
+                "prod235",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill183",
+        "date": "23/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0458326158",
+        "list_product": [
+            [
+                "prod201",
+                17
+            ],
+            [
+                "prod36",
+                6
+            ],
+            [
+                "prod162",
+                8
+            ],
+            [
+                "prod29",
+                17
+            ],
+            [
+                "prod338",
+                19
+            ],
+            [
+                "prod61",
+                11
+            ],
+            [
+                "prod32",
+                19
+            ],
+            [
+                "prod17",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill184",
+        "date": "28/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0412852746",
+        "list_product": [
+            [
+                "prod23",
+                9
+            ],
+            [
+                "prod162",
+                4
+            ],
+            [
+                "prod274",
+                1
+            ],
+            [
+                "prod92",
+                20
+            ],
+            [
+                "prod315",
+                8
+            ],
+            [
+                "prod263",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill185",
+        "date": "11/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0340502907",
+        "list_product": [
+            [
+                "prod36",
+                1
+            ],
+            [
+                "prod303",
+                11
+            ],
+            [
+                "prod98",
+                15
+            ],
+            [
+                "prod20",
+                14
+            ],
+            [
+                "prod356",
+                16
+            ],
+            [
+                "prod355",
+                1
+            ],
+            [
+                "prod2",
+                16
+            ],
+            [
+                "prod315",
+                1
+            ],
+            [
+                "prod16",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill186",
+        "date": "11/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0190137411",
+        "list_product": [
+            [
+                "prod265",
+                7
+            ],
+            [
+                "prod272",
+                20
+            ],
+            [
+                "prod312",
+                20
+            ],
+            [
+                "prod113",
+                2
+            ],
+            [
+                "prod21",
+                13
+            ],
+            [
+                "prod362",
+                18
+            ],
+            [
+                "prod228",
+                9
+            ],
+            [
+                "prod364",
+                7
+            ],
+            [
+                "prod268",
+                12
+            ],
+            [
+                "prod232",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill187",
+        "date": "06/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0760624081",
+        "list_product": [
+            [
+                "prod91",
+                5
+            ],
+            [
+                "prod194",
+                20
+            ],
+            [
+                "prod22",
+                19
+            ],
+            [
+                "prod260",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill188",
+        "date": "04/03/2025",
+        "customer_name": "Ngo Bao Khoa",
+        "phone": "0900944409",
+        "list_product": [
+            [
+                "prod191",
+                19
+            ],
+            [
+                "prod339",
+                20
+            ],
+            [
+                "prod347",
+                8
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill189",
+        "date": "17/03/2025",
+        "customer_name": "Vu Thi Trang",
+        "phone": "0841315412",
+        "list_product": [
+            [
+                "prod169",
+                4
+            ],
+            [
+                "prod367",
+                14
+            ],
+            [
+                "prod272",
+                3
+            ],
+            [
+                "prod36",
+                10
+            ],
+            [
+                "prod31",
+                19
+            ],
+            [
+                "prod177",
+                2
+            ],
+            [
+                "prod349",
+                13
+            ],
+            [
+                "prod121",
+                15
+            ],
+            [
+                "prod223",
+                18
+            ],
+            [
+                "prod279",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill190",
+        "date": "12/03/2025",
+        "customer_name": "Nguyen Van Sang",
+        "phone": "0104125511",
+        "list_product": [
+            [
+                "prod296",
+                4
+            ],
+            [
+                "prod41",
+                16
+            ],
+            [
+                "prod331",
+                6
+            ],
+            [
+                "prod257",
+                14
+            ],
+            [
+                "prod146",
+                6
+            ],
+            [
+                "prod285",
+                15
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill191",
+        "date": "17/03/2025",
+        "customer_name": "Tran Phuong Thao",
+        "phone": "0463122142",
+        "list_product": [
+            [
+                "prod138",
+                2
+            ],
+            [
+                "prod166",
+                7
+            ],
+            [
+                "prod114",
+                12
+            ],
+            [
+                "prod302",
+                8
+            ],
+            [
+                "prod176",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill192",
+        "date": "06/03/2025",
+        "customer_name": "Le Anh Tai",
+        "phone": "0420897477",
+        "list_product": [
+            [
+                "prod211",
+                2
+            ],
+            [
+                "prod230",
+                13
+            ],
+            [
+                "prod83",
+                6
+            ],
+            [
+                "prod91",
+                8
+            ],
+            [
+                "prod79",
+                16
+            ],
+            [
+                "prod74",
+                15
+            ],
+            [
+                "prod174",
+                18
+            ],
+            [
+                "prod306",
+                19
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill193",
+        "date": "07/03/2025",
+        "customer_name": "Pham Ngoc Thu",
+        "phone": "0267208006",
+        "list_product": [
+            [
+                "prod198",
+                2
+            ],
+            [
+                "prod64",
+                20
+            ],
+            [
+                "prod83",
+                8
+            ],
+            [
+                "prod352",
+                5
+            ],
+            [
+                "prod219",
+                17
+            ],
+            [
+                "prod344",
+                13
+            ],
+            [
+                "prod282",
+                8
+            ],
+            [
+                "prod179",
+                5
+            ],
+            [
+                "prod295",
+                11
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill194",
+        "date": "04/03/2025",
+        "customer_name": "Hoang Quoc Linh",
+        "phone": "0711133912",
+        "list_product": [
+            [
+                "prod37",
+                16
+            ],
+            [
+                "prod274",
+                10
+            ],
+            [
+                "prod316",
+                20
+            ],
+            [
+                "prod201",
+                5
+            ],
+            [
+                "prod97",
+                12
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill195",
+        "date": "17/03/2025",
+        "customer_name": "Bui Thanh Duc",
+        "phone": "0262371958",
+        "list_product": [
+            [
+                "prod96",
+                5
+            ],
+            [
+                "prod262",
+                9
+            ],
+            [
+                "prod149",
+                5
+            ],
+            [
+                "prod319",
+                6
+            ],
+            [
+                "prod211",
+                4
+            ],
+            [
+                "prod298",
+                4
+            ],
+            [
+                "prod367",
+                16
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill196",
+        "date": "18/03/2025",
+        "customer_name": "Dang Duy Hieu",
+        "phone": "0411716411",
+        "list_product": [
+            [
+                "prod164",
+                15
+            ],
+            [
+                "prod301",
+                3
+            ],
+            [
+                "prod173",
+                7
+            ]
+        ]
+    },
+    {
+        "bill_no": "bill197",
+        "date": "12/03/2025",
+        "customer_name": "Do Minh Nhi",
+        "phone": "0357873768",
+        "list_product": [
+            [
+                "prod114",
+                13
+            ],
+            [
+                "prod269",
+                4
+            ],
+            [
+                "prod247",
+                8
+            ],
+            [
+                "prod290",
+                4
+            ],
+            [
+                "prod72",
+                7
+            ],
+            [
+                "prod171",
+                18
+            ],
+            [
+                "prod82",
+                18
+            ],
+            [
+                "prod232",
+                18
+            ],
+            [
+                "prod1",
+                18
+            ],
+            [
+                "prod250",
+                15
             ]
         ]
     }

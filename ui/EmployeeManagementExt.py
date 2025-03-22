@@ -1,5 +1,5 @@
 import traceback
-
+from PyQt6.QtGui import QColor
 from PyQt6.QtWidgets import QTableWidgetItem, QMainWindow, QMessageBox
 
 from DAL.UserDAL import EmployeeDAL
@@ -29,12 +29,35 @@ class EmployeeManagement(Ui_MainWindow):
         self.pushButtonDeleteEmployee.clicked.connect(self.delete_emp)
         self.pushButtonExit.clicked.connect(self.exit)
         self.tableWidgetEmployee.itemSelectionChanged.connect(self.choose_emp)
+        self.pushButtonSearch.clicked.connect(self.search_emp)
+
     def choose_emp(self):
         if self.is_completed==False:
             return
         row = self.tableWidgetEmployee.currentRow()
         column_id = self.tableWidgetEmployee.item(row, 0)
         self.lineEditEmployeeID.setText(column_id.text())
+
+    def search_emp(self):
+        search_text = self.lineEditEmployeeID.text().strip().lower()
+
+        if not search_text:
+            return  # Nếu ô tìm kiếm rỗng, không làm gì cả
+
+        for row in range(self.tableWidgetEmployee.rowCount()):
+            match_found = False  # Đánh dấu nếu tìm thấy kết quả
+
+            item_id = self.tableWidgetEmployee.item(row, 0)  # Lấy cột Product ID
+            if item_id and search_text in item_id.text().strip().lower():
+                match_found = True
+
+            for col in range(self.tableWidgetEmployee.columnCount()):
+                item = self.tableWidgetEmployee.item(row, col)
+                if item:
+                    if match_found:
+                        item.setBackground(QColor(255, 200, 200))  # Đổi màu hồng nhạt
+                    else:
+                        item.setBackground(QColor(255, 255, 255))  # Trở lại màu trắng mặc định
     def add_emp(self):
         AddEmpWindow = QMainWindow()
         self.add_emp_window = AddEmployeeExt()
